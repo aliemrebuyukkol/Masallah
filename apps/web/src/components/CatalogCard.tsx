@@ -3,16 +3,23 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { CatalogItem, sanitizeExternalHref } from '@/lib/data';
+import { SOURCE_TR_DESCRIPTIONS, useI18n } from '@/lib/i18n';
 import { CopyPromptButton } from './CopyPromptButton';
 
 interface CatalogCardProps {
   item: CatalogItem;
   onOpenDemo?: (demoType: string) => void;
+  onPreviewModal?: (item: CatalogItem) => void;
 }
 
-export function CatalogCard({ item, onOpenDemo }: CatalogCardProps) {
+export function CatalogCard({ item, onOpenDemo, onPreviewModal }: CatalogCardProps) {
+  const { locale, t } = useI18n();
   const [inspectOpen, setInspectOpen] = useState(false);
   const [promptMode, setPromptMode] = useState<'optimized' | 'original' | 'code'>('optimized');
+
+  const trInfo = SOURCE_TR_DESCRIPTIONS[item.sourceId];
+  const displayCategory = locale === 'tr' && trInfo ? trInfo.categoryTr : item.category;
+  const displayDesc = locale === 'tr' && trInfo && item.kind !== 'prompt' ? trInfo.desc : item.description;
 
   const activePromptText =
     promptMode === 'original' && item.originalPrompt
@@ -21,19 +28,28 @@ export function CatalogCard({ item, onOpenDemo }: CatalogCardProps) {
 
   return (
     <article className="ms-card" data-testid={`catalog-card-${item.id}`}>
-      <div className="ms-card-preview">
+      {/* Visual-First Real Screenshot Preview */}
+      <div
+        className="ms-card-preview"
+        onClick={() => onPreviewModal && onPreviewModal(item)}
+        style={{ cursor: onPreviewModal ? 'zoom-in' : 'default' }}
+      >
         <img
           src={item.previewSvg}
           alt={`${item.title} preview`}
           loading="lazy"
           width={800}
           height={500}
+          style={{ transition: 'transform 280ms cubic-bezier(0.22, 1, 0.36, 1)' }}
         />
         <div className="ms-card-badges">
-          <span className="ms-badge">{item.category}</span>
+          <span className="ms-badge">{displayCategory}</span>
           <div style={{ display: 'flex', gap: 6 }}>
-            {item.hasDemo && <span className="ms-badge ms-badge-emerald">Live Demo</span>}
-            {item.hasPrompt && <span className="ms-badge ms-badge-accent">Prompt</span>}
+            {item.hasDemo && (
+              <span className="ms-badge ms-badge-emerald">
+                {t('Canlı Demo', 'Live Demo')}
+              </span>
+            )}
             {typeof item.stars === 'number' && item.stars > 0 && (
               <span className="ms-badge">★ {(item.stars / 1000).toFixed(1)}k</span>
             )}
@@ -43,47 +59,15 @@ export function CatalogCard({ item, onOpenDemo }: CatalogCardProps) {
 
       <div className="ms-card-body">
         <div className="ms-card-meta">
-          <span>
-            {item.kind.toUpperCase()} · {item.sourceName}
-          </span>
-          <span>{item.license.slice(0, 22)}</span>
+          <span style={{ color: '#ff9c85', fontWeight: 600 }}>{item.sourceName}</span>
+          <span>{item.technologies.slice(0, 2).join(' · ')}</span>
         </div>
 
         <h3 className="ms-card-title">
           <Link href={`/item/${item.slug}`}>{item.title}</Link>
         </h3>
 
-        <p className="ms-card-desc">{item.description}</p>
-
-        <div className="ms-tag-list" aria-label="Technologies and Tags">
-          {item.technologies.slice(0, 3).map((tech) => (
-            <span key={`tech-${tech}`} className="ms-tag" style={{ color: '#ff9c85' }}>
-              {tech}
-            </span>
-          ))}
-          {item.tags.slice(0, 3).map((tag) => (
-            <span key={`tag-${tag}`} className="ms-tag">
-              #{tag}
-            </span>
-          ))}
-        </div>
-
-        {/* Capability Indicators required by Section 17 */}
-        <div
-          style={{
-            display: 'flex',
-            gap: 10,
-            fontSize: 11.5,
-            fontFamily: 'var(--font-mono)',
-            color: 'var(--ink-muted)',
-          }}
-        >
-          <span>Prompt: {item.hasPrompt ? 'Yes' : 'No'}</span>
-          <span>·</span>
-          <span>Demo: {item.hasDemo ? 'Yes' : 'No'}</span>
-          <span>·</span>
-          <span>Code: {item.hasCode ? 'Yes' : 'No'}</span>
-        </div>
+        <p className="ms-card-desc">{displayDesc}</p>
 
         {inspectOpen && (
           <div
@@ -105,7 +89,7 @@ export function CatalogCard({ item, onOpenDemo }: CatalogCardProps) {
                   className="ms-pill"
                   onClick={() => setPromptMode('optimized')}
                 >
-                  Masallah Optimized Prompt
+                  {t('Masallah Optimized Prompt', 'Masallah Optimized Prompt')}
                 </button>
               )}
               {item.originalPrompt && (
@@ -116,7 +100,7 @@ export function CatalogCard({ item, onOpenDemo }: CatalogCardProps) {
                   className="ms-pill"
                   onClick={() => setPromptMode('original')}
                 >
-                  Original Prompt
+                  {t('Original Prompt', 'Original Prompt')}
                 </button>
               )}
               {item.codeSnippet && (
@@ -127,12 +111,12 @@ export function CatalogCard({ item, onOpenDemo }: CatalogCardProps) {
                   className="ms-pill"
                   onClick={() => setPromptMode('code')}
                 >
-                  Code / Spec
+                  {t('Kod', 'Code')}
                 </button>
               )}
             </div>
 
-            <pre className="ms-code-block" style={{ maxHeight: 210 }}>
+            <pre className="ms-code-block" style={{ maxHeight: 190 }}>
               {promptMode === 'code' ? item.codeSnippet : activePromptText}
             </pre>
 
@@ -140,18 +124,33 @@ export function CatalogCard({ item, onOpenDemo }: CatalogCardProps) {
               {promptMode !== 'code' && activePromptText && (
                 <CopyPromptButton
                   text={activePromptText}
-                  label={promptMode === 'original' ? 'Copy Original Prompt' : 'Copy Optimized Prompt'}
+                  label={t('Promptu Kopyala', 'Copy Prompt')}
+                  copiedLabel={t('Kopyalandı ✓', 'Copied ✓')}
                 />
               )}
               {promptMode === 'code' && item.codeSnippet && (
-                <CopyPromptButton text={item.codeSnippet} label="Copy Code Snippet" primary={false} />
+                <CopyPromptButton
+                  text={item.codeSnippet}
+                  label={t('Kodu Kopyala', 'Copy Code')}
+                  copiedLabel={t('Kopyalandı ✓', 'Copied ✓')}
+                  primary={false}
+                />
               )}
             </div>
           </div>
         )}
 
         <div className="ms-card-footer">
-          <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
+          <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
+            {onPreviewModal && (
+              <button
+                type="button"
+                className="ms-btn ms-btn-primary"
+                onClick={() => onPreviewModal(item)}
+              >
+                🔍 {t('Önizle & Prompt', 'Preview & Prompt')}
+              </button>
+            )}
             {(item.hasPrompt || item.hasCode) && (
               <button
                 type="button"
@@ -159,15 +158,8 @@ export function CatalogCard({ item, onOpenDemo }: CatalogCardProps) {
                 onClick={() => setInspectOpen((prev) => !prev)}
                 aria-expanded={inspectOpen}
               >
-                {inspectOpen ? 'Hide Prompt' : 'Inspect Prompt'}
+                {inspectOpen ? t('Gizle', 'Hide') : t('Inspect Prompt', 'Inspect Prompt')}
               </button>
-            )}
-            {item.hasPrompt && (item.optimizedPrompt || item.originalPrompt) && !inspectOpen && (
-              <CopyPromptButton
-                text={item.optimizedPrompt || item.originalPrompt}
-                label="Copy Prompt"
-                primary={false}
-              />
             )}
             {item.hasDemo && item.demoType && onOpenDemo && (
               <button
@@ -175,26 +167,23 @@ export function CatalogCard({ item, onOpenDemo }: CatalogCardProps) {
                 className="ms-btn"
                 onClick={() => onOpenDemo(item.demoType!)}
               >
-                Launch Demo
+                ▶ {t('Canlı Demo', 'Live Demo')}
               </button>
             )}
           </div>
 
-          <div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
+          <div style={{ display: 'flex', gap: 6, alignItems: 'center' }}>
             {item.sourceUrl && (
               <a
                 href={sanitizeExternalHref(item.sourceUrl)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="ms-btn"
-                title={`Open canonical source: ${item.sourceName}`}
+                title={item.sourceName}
               >
-                Source ↗
+                {t('Site ↗', 'Site ↗')}
               </a>
             )}
-            <Link href={`/item/${item.slug}`} className="ms-btn ms-btn-primary">
-              Details →
-            </Link>
           </div>
         </div>
       </div>

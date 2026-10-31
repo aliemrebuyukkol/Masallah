@@ -416,7 +416,7 @@ for (const d of designsCatalog) {
     originalPrompt: promptObj?.originalPrompt || '',
     optimizedPrompt: promptObj?.optimizedPrompt || d.generationPrompt,
     codeSnippet: exampleObj?.codeSnippet || JSON.stringify(d.visualAnalysis, null, 2),
-    previewSvg: `/masallahpub/previews/${d.sourceId}.svg`,
+    previewSvg: `/masallahpub/screenshots/${d.sourceId}.png`,
     featured: [1, 2, 4, 7, 10, 11, 13, 15, 16].includes(d.num)
   });
 }
@@ -452,7 +452,7 @@ for (const p of allPrompts) {
     exampleOutput: p.exampleOutput,
     model: p.model,
     codeSnippet: liveEx?.codeSnippet || '',
-    previewSvg: `/masallahpub/previews/${p.sourceId}.svg`,
+    previewSvg: `/masallahpub/screenshots/${p.sourceId}.png`,
     featured: PROMPTS_SEED.slice(0, 12).some((seed) => seed.id === p.id)
   });
 }
@@ -493,7 +493,7 @@ for (const r of reposCatalog) {
     originalPrompt: promptObj?.originalPrompt || '',
     optimizedPrompt: promptObj?.optimizedPrompt || '',
     codeSnippet: r.codeExample,
-    previewSvg: `/masallahpub/previews/${r.sourceId}.svg`,
+    previewSvg: `/masallahpub/screenshots/${r.sourceId}.png`,
     featured: r.stars > 25000 || ['pixelfx', 'three-gpu-pathtracer', 'postprocessing', 'three-quarks', 'tweakpane'].includes(r.sourceId)
   });
 }
@@ -526,7 +526,7 @@ for (const ex of EXAMPLES_SEED) {
     originalPrompt: promptObj?.originalPrompt || '',
     optimizedPrompt: promptObj?.optimizedPrompt || '',
     codeSnippet: ex.codeSnippet,
-    previewSvg: `/masallahpub/previews/${ex.sourceId}.svg`,
+    previewSvg: `/masallahpub/screenshots/${ex.sourceId}.png`,
     featured: true
   });
 }
@@ -559,7 +559,7 @@ for (const wf of WORKFLOWS_SEED) {
     optimizedPrompt: wf.orchestrationPrompt,
     stages: wf.stages,
     codeSnippet: JSON.stringify(wf.stages, null, 2),
-    previewSvg: `/masallahpub/previews/${wf.sourceIds[0]}.svg`,
+    previewSvg: `/masallahpub/screenshots/${wf.sourceIds[0]}.png`,
     featured: true
   });
 }

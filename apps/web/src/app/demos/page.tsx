@@ -36,21 +36,37 @@ export default function DemosPage() {
 
         <div className="ms-cards-grid" style={{ marginTop: 36 }}>
           {liveExamples.map((ex) => (
-            <article key={ex.id} className="ms-card" style={{ padding: 22 }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 10 }}>
-                <span className="ms-badge ms-badge-emerald">Interactive Sandbox</span>
-                <span className="ms-badge">{ex.category}</span>
-              </div>
-              <h2 style={{ fontSize: 19, fontWeight: 700, marginBottom: 8 }}>
-                <Link href={`/item/${ex.id}`}>{ex.title}</Link>
-              </h2>
-              <p style={{ fontSize: 13.5, color: 'var(--ink-secondary)', marginBottom: 14 }}>{ex.description}</p>
-              <pre className="ms-code-block" style={{ maxHeight: 200, marginBottom: 14 }}>{ex.codeSnippet}</pre>
-              <div className="ms-card-footer">
-                <CopyPromptButton text={ex.codeSnippet} label="Copy Code" primary={false} />
-                <Link href={`/item/${ex.id}`} className="ms-btn ms-btn-primary">
-                  Open Dedicated View →
-                </Link>
+            <article key={ex.id} className="ms-card" style={{ overflow: 'hidden' }}>
+              <Link href={`/item/${ex.id}`} className="ms-card-preview" style={{ display: 'block', position: 'relative' }}>
+                <img
+                  src={`/masallahpub/screenshots/${ex.sourceId}.png`}
+                  alt={ex.title}
+                  loading="lazy"
+                  width={640}
+                  height={400}
+                  style={{ objectFit: 'cover', objectPosition: 'top center', width: '100%', height: '100%' }}
+                />
+                <div style={{ position: 'absolute', top: 10, left: 10 }}>
+                  <span className="ms-badge ms-badge-emerald" style={{ background: 'rgba(10,11,14,0.88)' }}>
+                    ● Canlı Demo / Live Sandbox
+                  </span>
+                </div>
+                <div style={{ position: 'absolute', top: 10, right: 10 }}>
+                  <span className="ms-badge" style={{ background: 'rgba(10,11,14,0.88)' }}>{ex.category}</span>
+                </div>
+              </Link>
+              <div style={{ padding: 20, display: 'flex', flexDirection: 'column', flex: 1 }}>
+                <h2 style={{ fontSize: 19, fontWeight: 700, marginBottom: 8 }}>
+                  <Link href={`/item/${ex.id}`}>{ex.title}</Link>
+                </h2>
+                <p style={{ fontSize: 13.5, color: 'var(--ink-secondary)', marginBottom: 14 }}>{ex.description}</p>
+                <pre className="ms-code-block" style={{ maxHeight: 170, marginBottom: 14 }}>{ex.codeSnippet}</pre>
+                <div className="ms-card-footer">
+                  <CopyPromptButton text={ex.codeSnippet} label="Kodu Kopyala" primary={false} />
+                  <Link href={`/item/${ex.id}`} className="ms-btn ms-btn-primary">
+                    Tam Ekran Aç →
+                  </Link>
+                </div>
               </div>
             </article>
           ))}

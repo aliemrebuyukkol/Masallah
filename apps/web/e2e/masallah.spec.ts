@@ -4,7 +4,7 @@ import path from 'node:path';
 const PREVIEW_OUT_DIR = path.resolve(__dirname, '../../../assets/previews');
 
 test.describe('Masallah Archive E2E Verification (/masallahpub)', () => {
-  test('renders home page, live counters, search, filters, prompt copy, and captures desktop/mobile screenshots with 0 console errors', async ({ page }) => {
+  test('renders decluttered home page in TR, switches TR/EN, opens PreviewModal with real screenshot, filters & captures screenshots', async ({ page }) => {
     const errors: string[] = [];
     page.on('pageerror', (err) => errors.push(err.message));
 
@@ -14,8 +14,30 @@ test.describe('Masallah Archive E2E Verification (/masallahpub)', () => {
     await expect(page.locator('h1')).toContainText('Masallah');
     await expect(page.getByText('46', { exact: true }).first()).toBeVisible();
 
-    // Capture desktop preview screenshot
+    // Verify real screenshot images are rendered on the cards
+    const firstCardImg = page.locator('article.ms-card .ms-card-preview img').first();
+    await expect(firstCardImg).toBeVisible();
+    const imgSrc = await firstCardImg.getAttribute('src');
+    expect(imgSrc).toContain('/masallahpub/screenshots/');
+
+    // Capture desktop preview screenshot (in Turkish default)
     await page.screenshot({ path: path.join(PREVIEW_OUT_DIR, 'masallah-desktop-home.png'), fullPage: false });
+
+    // Test Quick Preview Modal (Lightbox)
+    await page.locator('article.ms-card .ms-card-preview').first().click();
+    const dialog = page.getByRole('dialog');
+    await expect(dialog).toBeVisible();
+    await page.keyboard.press('Escape');
+    await expect(dialog).toBeHidden();
+
+    // Test Language Switcher (TR -> EN -> TR)
+    const enBtn = page.getByRole('button', { name: 'EN', exact: true });
+    await enBtn.click();
+    await expect(page.getByText(/46 Sources Visual Showcase/i)).toBeVisible();
+
+    const trBtn = page.getByRole('button', { name: 'TR', exact: true });
+    await trBtn.click();
+    await expect(page.getByText(/46 Kaynak Vitrini/i)).toBeVisible();
 
     // Global search test
     const searchbox = page.getByRole('searchbox');
@@ -35,10 +57,10 @@ test.describe('Masallah Archive E2E Verification (/masallahpub)', () => {
     expect(errors).toEqual([]);
   });
 
-  test('navigates to /sources and verifies all 46 master sources in coverage table', async ({ page }) => {
+  test('navigates to /sources and verifies all 46 master sources with real screenshots and coverage table', async ({ page }) => {
     await page.setViewportSize({ width: 1440, height: 900 });
     await page.goto('/masallahpub/sources');
-    await expect(page.locator('h1')).toContainText('Source');
+    await expect(page.locator('h1')).toContainText(/Kaynak|Source/);
     const rows = page.locator('table.ms-table tbody tr');
     await expect(rows).toHaveCount(46);
     await page.screenshot({ path: path.join(PREVIEW_OUT_DIR, 'masallah-desktop-sources.png'), fullPage: false });

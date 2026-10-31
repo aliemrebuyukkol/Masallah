@@ -53,7 +53,7 @@
     "originalPrompt": "Create a modern editorial portfolio and design archive landing page with dark theme, serif typography, and grid borders.",
     "optimizedPrompt": "Act as a Principal Art Director and Creative Frontend Architect. Design and implement an editorial design archive landing page adhering to these abstracted visual systems (inspired by Inspora editorial patterns, without copying any third-party brand assets):\n\n1. GRID & SPATIAL RHYTHM:\n- 12-column CSS Grid (max-width: 1440px, 24px gap) with exposed 1px solid hairline borders (rgba(244, 243, 239, 0.08)).\n- Asymmetric 7:5 hero split: left column features oversized editorial headline (clamp(2.75rem, 5.5vw, 5.25rem), line-height 0.96, tracking -0.035em); right column houses an interactive live preview stage.\n- Maintain 96px–128px vertical section cadence and 8pt baseline alignment.\n\n2. TYPOGRAPHY & CHROMATIC SYSTEM:\n- Primary Surface: Obsidian (#0A0A0C); Elevated Card Surface: #111115; Primary Ink: Warm Alabaster (#F4F3EF); Muted Ink: #9A9890; Chromatic Signal Accent: Vermilion (#E85D3F).\n- Pair a high-contrast editorial serif for section titles with a geometric sans for UI controls and tabular-nums monospace for index numbers (01 // 46).\n\n3. INTERACTION & ACCESSIBILITY:\n- Cards reveal subtle radial spotlight border glow on pointer move and scale media by 1.02x using cubic-bezier(0.22, 1, 0.36, 1).\n- Honor @media (prefers-reduced-motion: reduce) by disabling parallax and transform scale.",
     "codeSnippet": "{\n  \"reference\": \"Inspora Editorial Monolith & Bento Showcase\",\n  \"layout\": \"12-column fluid editorial grid with asymmetric 7:5 hero split, 1px hairline structural dividers, and modular bento showcase cards.\",\n  \"typography\": \"High-contrast display serif paired with neo-grotesk body text (tight -0.03em tracking on headings, 1.65 line-height on copy) and tabular monospace metadata indices.\",\n  \"colors\": \"Warm obsidian canvas (#0A0A0C) with alabaster ink (#F4F3EF), muted stone borders (rgba(255,255,255,0.08)), and single chromatic accent (#E85D3F).\",\n  \"spacing\": \"Generous 8px baseline rhythm with 96px–144px vertical section breathing room and 24px internal card padding.\",\n  \"motion\": \"Subtle cubic-bezier(0.22, 1, 0.36, 1) image scale reveals on hover and staggered viewport entry transitions.\",\n  \"components\": [\n    \"Asymmetric Hero Header\",\n    \"Index Numbered Card Grid\",\n    \"Filter Pill Bar\",\n    \"Sticky Detail Drawer\"\n  ]\n}",
-    "previewSvg": "/masallahpub/previews/inspora.svg",
+    "previewSvg": "/masallahpub/screenshots/inspora.png",
     "featured": true
   },
   {
@@ -107,7 +107,7 @@
     "originalPrompt": "Build a clean landing page for a new developer tool launch with dark mode and feature cards.",
     "optimizedPrompt": "Design a contemporary product launch landing page inspired by Recent Design's modern launch showcases:\n- Hero Stage: Centered badge (\"v2.4 Live\"), 64px tight grotesk headline, dual CTAs (Primary high-contrast + interactive CLI copy pill `npx create-workspace@latest`), and a 16:10 interactive browser/terminal split frame below.\n- Bento Telemetry Grid: 3-column asymmetric bento layout where each card demonstrates a real interactive state (live latency graph, keyboard-navigable command list, diff viewer) rather than static decorative illustrations.\n- Visual Restraint: Monochrome slate surface (#090A0F) with 1px inner border highlights (inset 0 1px 0 rgba(255,255,255,0.1)) and semantic status indicators (#10B981 emerald for live metrics).",
     "codeSnippet": "{\n  \"reference\": \"Recent Design Ultra-Clean Product Launch Feed\",\n  \"layout\": \"Full-bleed multi-column gallery grid prioritizing large 16:10 viewport captures with minimal chrome.\",\n  \"typography\": \"Crisp geometric sans-serif at 13px–15px with uppercase tracking for timestamps and category badges.\",\n  \"colors\": \"Neutral monochrome surface allowing featured product screenshots to command 100% of chromatic hierarchy.\",\n  \"spacing\": \"Compact 16px grid gap with 32px outer container gutter for maximum visual density.\",\n  \"motion\": \"Instantaneous filter switching with zero-latency hover elevation.\",\n  \"components\": [\n    \"Viewport Preview Card\",\n    \"Live External Link Badge\",\n    \"Chronological Feed Scroller\"\n  ]\n}",
-    "previewSvg": "/masallahpub/previews/recent-design.svg",
+    "previewSvg": "/masallahpub/screenshots/recent-design.png",
     "featured": true
   },
   {
@@ -163,7 +163,7 @@
     "originalPrompt": "Create a high-converting SaaS landing page with hero, features, pricing, and FAQ sections.",
     "optimizedPrompt": "Architect an 8-section conversion-engineered landing page following Lapa Ninja structural patterns:\n1. Above-the-Fold Hero: Specific outcome-driven headline + quantifiable subheadline + primary action CTA + instant interactive sandbox (no signup wall).\n2. Trust Bar: Quantified engineering metrics (e.g. \"99.99% uptime\", \"<12ms p99\") rather than generic unverified logos.\n3. Problem → Mechanism Shift: Side-by-side \"Legacy Workflow vs. Automated Pipeline\" visual comparison.\n4. Interactive Feature Triad: 3 tabbed deep-dives linked to live UI state previews.\n5. Technical Integration Proof: 12-line copyable SDK snippet with language tabs (TypeScript, Python, Go, cURL).\n6. Transparent Pricing Matrix: Monthly/Annual toggle with clear usage unit calculator.\n7. Objection-Handling FAQ: Accessible WAI-ARIA accordion addressing security, self-hosting, and migration.\n8. Final Conversion Terminal: High-contrast bottom CTA with keyboard shortcut hint.",
     "codeSnippet": "{\n  \"reference\": \"High-Conversion SaaS & Developer Tool Landing Page Architecture\",\n  \"layout\": \"Vertical story arc: Value-Proposition Hero → Interactive Product Stage → Social Proof Ticker → 3-Card Feature Bento → Technical Comparison Table → Interactive Pricing → FAQ Accordion → High-Contrast CTA Footer.\",\n  \"typography\": \"Bold 56px–72px hero headline with 60ch max-width lead paragraph and scannable 14px micro-copy.\",\n  \"colors\": \"Deep slate surface (#090D16) with subtle radial top-spotlight gradient and high-contrast primary CTA button.\",\n  \"spacing\": \"120px section cadence with 64px internal feature block separation.\",\n  \"motion\": \"Scroll-linked product mockup perspective tilt and interactive tab switching.\",\n  \"components\": [\n    \"Hero Command Preview\",\n    \"Logo Marquee\",\n    \"Bento Feature Grid\",\n    \"Tiered Pricing Switcher\"\n  ]\n}",
-    "previewSvg": "/masallahpub/previews/lapa-ninja.svg",
+    "previewSvg": "/masallahpub/screenshots/lapa-ninja.png",
     "featured": false
   },
   {
@@ -217,7 +217,7 @@
     "originalPrompt": "Design a minimalist website using Swiss grid layout and clean typography.",
     "optimizedPrompt": "Build a Swiss-grid minimalist web interface inspired by Minimal Gallery editorial principles:\n- Strictly prohibit decorative gradients, drop shadows, blurred glassmorphism, or stock icons.\n- Construct the layout using an exposed 8-column CSS Grid where every cell is separated by a 1px solid rule.\n- Use a strict bichromatic palette: Warm Paper (#F6F5F0) and Carbon Ink (#121212) in light mode, inverting to #0C0C0D and #ECEBE6 in dark mode.\n- Establish hierarchy purely through typographic scale (64px / 28px / 16px / 12px uppercase tracked labels) and 50%+ negative whitespace.\n- Include an interactive tabular index view that toggles seamlessly between \"Grid View\" and \"Specification Index Table\".",
     "codeSnippet": "{\n  \"reference\": \"Swiss Neo-Brutalist & Editorial Minimalist System\",\n  \"layout\": \"Exposed 4-column and 8-column Swiss architectural grid with strict baseline alignment and 45%+ negative whitespace.\",\n  \"typography\": \"Neo-grotesk sans (Helvetica Now / Inter Tight) paired with raw tabular numerals; zero decorative shadows.\",\n  \"colors\": \"Strict bichromatic palette: Warm Paper (#F7F6F2) and Carbon Ink (#111111) or inverted Obsidian (#0B0B0C) and Chalk (#EDEDEA).\",\n  \"spacing\": \"Mathematical 8pt/16pt/32pt/64pt modular scale with exposed 1px solid hairline borders.\",\n  \"motion\": \"Micro-opacity shifts (1 → 0.65) and crisp 150ms border color transitions.\",\n  \"components\": [\n    \"Swiss Index Table\",\n    \"Editorial Spec Sheet\",\n    \"Monochrome Aspect-Ratio Frame\"\n  ]\n}",
-    "previewSvg": "/masallahpub/previews/minimal-gallery.svg",
+    "previewSvg": "/masallahpub/screenshots/minimal-gallery.png",
     "featured": true
   },
   {
@@ -273,7 +273,7 @@
     "originalPrompt": "Create a dashboard UI component with loading and empty states.",
     "optimizedPrompt": "Design and implement a production SaaS workspace view that explicitly models all 5 UI states (inspired by UI Guana interface state completeness):\n1. Loading State: Layout-matched shimmer skeleton that preserves exact bounding boxes (zero CLS).\n2. Empty State: Actionable onboarding card explaining *why* the view is empty, offering a 1-click \"Load Sample Dataset\" button and a primary creation CTA.\n3. Error / Degraded State: Non-destructive inline banner with diagnostic code, timestamp, and an idempotent \"Retry Request\" button with exponential backoff indicator.\n4. Filtered-Zero State: Distinct from initial empty state; displays active filter pills and a \"Reset All Filters\" action.\n5. Populated State: High-density keyboard-navigable table/grid with optimistic row actions and a live state switcher toolbar so reviewers can inspect all 5 states interactively.",
     "codeSnippet": "{\n  \"reference\": \"SaaS Product Workspace & Multi-State UI Pattern\",\n  \"layout\": \"240px collapsible command sidebar + sticky 56px breadcrumb header + fluid data workspace with contextual inspector drawer.\",\n  \"typography\": \"14px dense UI body copy, 12px medium-weight form labels, and 11px monospace keyboard shortcut badges.\",\n  \"colors\": \"Semantic surface tokens (bg-base, bg-elevated, bg-overlay) with dedicated status tokens for info, warning, danger, and success.\",\n  \"spacing\": \"4px/8px/12px/16px high-density application spacing scale.\",\n  \"motion\": \"180ms drawer slide-overs and optimistic skeleton shimmer loaders.\",\n  \"components\": [\n    \"Command Palette (Cmd+K)\",\n    \"Empty State Action Card\",\n    \"Inline Validation Form\",\n    \"Multi-Step Onboarding Checklist\"\n  ]\n}",
-    "previewSvg": "/masallahpub/previews/uiguana.svg",
+    "previewSvg": "/masallahpub/screenshots/uiguana.png",
     "featured": false
   },
   {
@@ -330,7 +330,7 @@
     "originalPrompt": "Review this UI for usability issues using Nielsen Norman Group heuristics.",
     "optimizedPrompt": "Act as a Principal UX Researcher trained in Nielsen Norman Group (NN/g) methodology. Evaluate the provided UI code or user flow against all 10 Usability Heuristics:\n1. Visibility of System Status (immediate feedback within 100ms–400ms)\n2. Match Between System and the Real World (user mental models vs. internal jargon)\n3. User Control and Freedom (explicit Undo, Cancel, Escape key exit)\n4. Consistency and Standards (platform conventions & internal token parity)\n5. Error Prevention (constraints, confirmation on destructive actions, smart defaults)\n6. Recognition Rather Than Recall (visible filters, recent searches, contextual hints)\n7. Flexibility and Efficiency of Use (keyboard shortcuts, bulk actions)\n8. Aesthetic and Minimalist Design (signal-to-noise ratio)\n9. Help Users Recognize, Diagnose, and Recover from Errors (human-readable cause + fix)\n10. Help and Documentation (inline contextual micro-copy).\n\nFor each finding, output:\n- Heuristic # & Name\n- NN/g Severity Rating (0 = Not a problem, 1 = Cosmetic, 2 = Minor, 3 = Major, 4 = Usability Catastrophe)\n- Exact DOM/Component location\n- Concrete code remediation.",
     "codeSnippet": "{\n  \"reference\": \"Nielsen Norman Group Interface & System Architecture\",\n  \"layout\": \"Structured modular grid optimized for UX scannability and progressive disclosure.\",\n  \"typography\": \"High-legibility system pairing clear hierarchical headings with monospace code/token identifiers.\",\n  \"colors\": \"High-contrast accessible surface tokens meeting WCAG AA/AAA contrast ratios.\",\n  \"spacing\": \"Consistent 4px/8px spatial cadence with generous section separation.\",\n  \"motion\": \"Purposeful, low-latency transitions honoring prefers-reduced-motion.\",\n  \"components\": [\n    \"UX Module\",\n    \"Usability Module\",\n    \"Heuristics Module\",\n    \"Information Architecture Module\"\n  ]\n}",
-    "previewSvg": "/masallahpub/previews/nngroup.svg",
+    "previewSvg": "/masallahpub/screenshots/nngroup.png",
     "featured": false
   },
   {
@@ -386,7 +386,7 @@
     "originalPrompt": "Improve this interface using Fitts Law and Hick Law from lawsofux.com.",
     "optimizedPrompt": "Refactor the target interface component by applying 5 quantitative laws from Laws of UX (lawsofux.com):\n1. Fitts’s Law ($T = a + b \\log_2(2D/W)$): Enforce minimum 44x44px touch targets (48x48px on mobile), eliminate dead gaps between adjacent clickable filter pills, and place primary actions along natural thumb/cursor vectors.\n2. Hick’s Law ($RT = a + b \\log_2(n)$): Reduce top-level simultaneous choices to $\\le 7$ grouped categories; move secondary parameters into progressive disclosure drawers.\n3. Doherty Threshold (<400ms): Ensure every filter, search, or copy action yields visual feedback in <100ms via optimistic UI or instant local state transitions.\n4. Jakob’s Law: Preserve standard keyboard conventions (`/` or `Cmd+K` for search, `Escape` to close, URL query sync for filters).\n5. Von Restorff Effect: Visually isolate at most ONE primary CTA per viewport region.",
     "codeSnippet": "// Quantitative Fitts's Law Index of Difficulty (bits) & Hick's Law Reaction Time (ms)\nexport function computeErgonomicMetrics(distancePx: number, widthPx: number, choiceCount: number) {\n  const indexOfDifficultyBits = Math.log2((2 * Math.max(1, distancePx)) / Math.max(1, widthPx));\n  const movementTimeMs = Math.round(120 + 145 * indexOfDifficultyBits);\n  const decisionTimeMs = Math.round(180 + 155 * Math.log2(Math.max(1, choiceCount) + 1));\n  return { indexOfDifficultyBits: Number(indexOfDifficultyBits.toFixed(2)), movementTimeMs, decisionTimeMs };\n}",
-    "previewSvg": "/masallahpub/previews/laws-of-ux.svg",
+    "previewSvg": "/masallahpub/screenshots/laws-of-ux.png",
     "featured": true
   },
   {
@@ -443,7 +443,7 @@
     "originalPrompt": "Create a button with a nice copy confirmation micro-interaction.",
     "optimizedPrompt": "Create a tactile micro-interaction component inspired by Design Spells:\n- Idle → Hover: Subtle magnetic pull toward cursor within a 12px radius (clamped to max 4px translation) and border luminance shift.\n- Active Press: Instant scale(0.96) compression with 80ms spring response.\n- Success State (e.g., \"Prompt Copied\"): Smoothly morph the clipboard icon into a stroke-animated checkmark (`stroke-dashoffset` transition over 220ms), crossfade label width without layout jump, and emit 6 lightweight CSS-variable particles that fade in 450ms.\n- Accessibility: Announce status change via an `aria-live=\"polite\"` region and skip particle motion when `prefers-reduced-motion: reduce` is active.",
     "codeSnippet": "{\n  \"reference\": \"Design Spells Interface & System Architecture\",\n  \"layout\": \"Structured modular grid optimized for Motion scannability and progressive disclosure.\",\n  \"typography\": \"High-legibility system pairing clear hierarchical headings with monospace code/token identifiers.\",\n  \"colors\": \"High-contrast accessible surface tokens meeting WCAG AA/AAA contrast ratios.\",\n  \"spacing\": \"Consistent 4px/8px spatial cadence with generous section separation.\",\n  \"motion\": \"Purposeful, low-latency transitions honoring prefers-reduced-motion.\",\n  \"components\": [\n    \"Motion Module\",\n    \"Interaction Module\",\n    \"Micro-Interaction Module\",\n    \"UI Module\"\n  ]\n}",
-    "previewSvg": "/masallahpub/previews/design-spells.svg",
+    "previewSvg": "/masallahpub/screenshots/design-spells.png",
     "featured": false
   },
   {
@@ -502,7 +502,7 @@
     "originalPrompt": "Animate a filterable card grid and detail modal using Motion layoutId and AnimatePresence.",
     "optimizedPrompt": "Using the current `motion/react` SDK (from `motion.dev` / `motiondivision/motion`), implement a filterable archive grid with shared layout projection:\n1. Wrap the card collection in `<LayoutGroup>` and `<AnimatePresence mode=\"popLayout\">`.\n2. Assign deterministic `layoutId={`card-container-${item.id}`}` and `layoutId={`card-title-${item.id}`}` between the grid card and the expanded detail drawer/modal.\n3. Configure physically tuned spring physics: `transition={{ type: \"spring\", stiffness: 380, damping: 32, mass: 0.8 }}`.\n4. Respect accessibility by checking `useReducedMotion()`; when true, set `layout={false}` and use a 120ms opacity crossfade.",
     "codeSnippet": "import { motion, AnimatePresence, useReducedMotion } from \"motion/react\";\n\nexport function SharedLayoutCards({ items, activeId, onSelect, springConfig }) {\n  const prefersReduced = useReducedMotion();\n  const transition = prefersReduced\n    ? { duration: 0.12 }\n    : { type: \"spring\", stiffness: springConfig.stiffness, damping: springConfig.damping, mass: springConfig.mass };\n\n  return (\n    <div className=\"grid grid-cols-3 gap-4\">\n      <AnimatePresence mode=\"popLayout\">\n        {items.map((item) => (\n          <motion.button\n            key={item.id}\n            layout={!prefersReduced}\n            layoutId={`card-${item.id}`}\n            transition={transition}\n            whileHover={prefersReduced ? {} : { y: -3, scale: 1.015 }}\n            whileTap={prefersReduced ? {} : { scale: 0.97 }}\n            onClick={() => onSelect(item.id)}\n          >\n            <motion.span layoutId={`title-${item.id}`}>{item.title}</motion.span>\n          </motion.button>\n        ))}\n      </AnimatePresence>\n    </div>\n  );\n}",
-    "previewSvg": "/masallahpub/previews/motion-dev.svg",
+    "previewSvg": "/masallahpub/screenshots/motion-dev.png",
     "featured": true
   },
   {
@@ -560,7 +560,7 @@
     "originalPrompt": "Create a SpotlightCard and SplitText animation component like React Bits.",
     "optimizedPrompt": "Create two composable, zero-bloat React components inspired by React Bits (`reactbits.dev`):\n1. `<SpotlightCard>`: Tracks relative pointer coordinates `(x, y)` via a single `onPointerMove` handler and updates CSS custom properties `--spot-x` and `--spot-y` directly on the DOM ref (zero React re-renders on mouse move). Renders a `radial-gradient(420px circle at var(--spot-x) var(--spot-y), rgba(232,93,63,0.18), transparent 70%)` overlay.\n2. `<KineticHeading>`: Splits text by word and character while keeping a full `aria-label` on the parent heading for screen readers (`aria-hidden=\"true\"` on split spans), staggering each character upward with `cubic-bezier(0.16, 1, 0.3, 1)`.",
     "codeSnippet": "export function handleSpotlightPointerMove(e: React.PointerEvent<HTMLElement>) {\n  const rect = e.currentTarget.getBoundingClientRect();\n  e.currentTarget.style.setProperty(\"--spot-x\", `${e.clientX - rect.left}px`);\n  e.currentTarget.style.setProperty(\"--spot-y\", `${e.clientY - rect.top}px`);\n}",
-    "previewSvg": "/masallahpub/previews/react-bits.svg",
+    "previewSvg": "/masallahpub/screenshots/react-bits.png",
     "featured": true
   },
   {
@@ -615,7 +615,7 @@
     "originalPrompt": "Create a motion-rich hero section with animated text, glowing background, and smooth scroll.",
     "optimizedPrompt": "Design a motion-first hero section following Motion Sites (`motionsites.ai`) choreography principles without blocking time-to-interactive:\n- 0ms–150ms: Canvas background shader initializes at 0.5x DPR and fades in opacity (0 → 1) so first contentful paint (FCP) is never blocked.\n- 100ms–450ms: Category eyebrow badge and headline words reveal with a 35ms stagger (`translateY(18px) -> 0`, `opacity: 0 -> 1`).\n- 300ms–650ms: Search bar and live counter pills scale from 0.98 → 1.0 with spring damping.\n- Scroll Choreography: As the user scrolls the first 300px, interpolate hero canvas opacity from 1 → 0.25 and scale to 0.97 while pinning the sticky filter bar.",
     "codeSnippet": "{\n  \"reference\": \"Motion Sites Kinetic Hero & Prompt Blueprint\",\n  \"layout\": \"Full-viewport video/canvas stage with floating glassmorphic control pill and prompt inspection drawer.\",\n  \"typography\": \"Tight display grotesk with animated character stagger (25ms per glyph) and monospace prompt blocks.\",\n  \"colors\": \"Deep carbon background (#070709) with electric cyan and violet shader highlights.\",\n  \"spacing\": \"Edge-to-edge media frames with 24px floating HUD margins.\",\n  \"motion\": \"Continuous 60fps canvas background loop + spring-driven prompt drawer.\",\n  \"components\": [\n    \"Kinetic Hero Stage\",\n    \"Copyable Prompt Drawer\",\n    \"Live Video Preview Card\"\n  ]\n}",
-    "previewSvg": "/masallahpub/previews/motion-sites.svg",
+    "previewSvg": "/masallahpub/screenshots/motion-sites.png",
     "featured": false
   },
   {
@@ -672,7 +672,7 @@
     "originalPrompt": "Specify a reusable Combobox / Command Palette component with props and accessibility rules.",
     "optimizedPrompt": "Using the cross-system analysis methodology of The Component Gallery (`component.gallery`), produce a complete Component Anatomy & API Specification for the requested UI component:\n1. Canonical Naming & Aliases across major systems (e.g., Polaris, Carbon, Radix, Primer, Material).\n2. Structural Anatomy Diagram (Root, Trigger, Input, Listbox, Group, Item, Empty, Separator, Badge).\n3. Prop & State Matrix (controlled vs. uncontrolled, async loading, disabled, readOnly, invalid).\n4. WAI-ARIA 1.2 Contract (`role`, `aria-expanded`, `aria-activedescendant`, `aria-controls`) and complete Keyboard Map (`ArrowDown`, `ArrowUp`, `Home`, `End`, `Enter`, `Escape`).\n5. Semantic Design Token Contract (surface, border, focus-ring, active-item).",
     "codeSnippet": "{\n  \"reference\": \"Component Gallery Interface & System Architecture\",\n  \"layout\": \"Structured modular grid optimized for Design System scannability and progressive disclosure.\",\n  \"typography\": \"High-legibility system pairing clear hierarchical headings with monospace code/token identifiers.\",\n  \"colors\": \"High-contrast accessible surface tokens meeting WCAG AA/AAA contrast ratios.\",\n  \"spacing\": \"Consistent 4px/8px spatial cadence with generous section separation.\",\n  \"motion\": \"Purposeful, low-latency transitions honoring prefers-reduced-motion.\",\n  \"components\": [\n    \"Design System Module\",\n    \"Component Module\",\n    \"UI Module\",\n    \"UX Module\"\n  ]\n}",
-    "previewSvg": "/masallahpub/previews/component-gallery.svg",
+    "previewSvg": "/masallahpub/screenshots/component-gallery.png",
     "featured": true
   },
   {
@@ -728,7 +728,7 @@
     "originalPrompt": "Create a design token system with colors, spacing, and typography in CSS variables.",
     "optimizedPrompt": "Architect a 3-tier Design Token system following DesignSystems.one and W3C Design Tokens Community Group (DTCG) best practices:\n- Tier 1 (Primitive / Option Tokens): Raw palette values (`--primitive-obsidian-950: #09090B`, `--primitive-vermilion-500: #E85D3F`), modular spacing scale (4px base), and fluid `clamp()` type steps. Never referenced directly by components.\n- Tier 2 (Semantic / Alias Tokens): Intent-driven aliases (`--surface-canvas`, `--surface-elevated`, `--surface-interactive-hover`, `--ink-primary`, `--ink-muted`, `--border-subtle`, `--focus-ring`) that automatically adapt across `[data-theme=\"dark\"]`, `[data-theme=\"light\"]`, and `@media (prefers-contrast: more)`.\n- Tier 3 (Component Tokens): Scoped overrides (`--card-radius`, `--card-padding`, `--badge-bg`).",
     "codeSnippet": "{\n  \"reference\": \"Design Systems One Interface & System Architecture\",\n  \"layout\": \"Structured modular grid optimized for Design System scannability and progressive disclosure.\",\n  \"typography\": \"High-legibility system pairing clear hierarchical headings with monospace code/token identifiers.\",\n  \"colors\": \"High-contrast accessible surface tokens meeting WCAG AA/AAA contrast ratios.\",\n  \"spacing\": \"Consistent 4px/8px spatial cadence with generous section separation.\",\n  \"motion\": \"Purposeful, low-latency transitions honoring prefers-reduced-motion.\",\n  \"components\": [\n    \"Design System Module\",\n    \"Design Tokens Module\",\n    \"Architecture Module\",\n    \"Component Module\"\n  ]\n}",
-    "previewSvg": "/masallahpub/previews/design-systems-one.svg",
+    "previewSvg": "/masallahpub/screenshots/design-systems-one.png",
     "featured": false
   },
   {
@@ -786,7 +786,7 @@
     "originalPrompt": "Build a reusable Tabs and Dialog component in the style of shadcn/ui.",
     "optimizedPrompt": "Write a production-grade, open-code React compound component following shadcn/ui architectural conventions:\n- Export granular subcomponents (`Root`, `Trigger`, `Content`, `Header`, `Footer`) with clean `data-slot` attributes for predictable styling.\n- Define deterministic visual variants (`variant`, `size`) with type-safe variant inference.\n- Support controlled (`value` / `onValueChange`) and uncontrolled (`defaultValue`) usage patterns seamlessly.\n- Ensure 100% keyboard navigability (roving tabindex for tabs, focus restoration on dialog close) without external bloated dependencies.",
     "codeSnippet": "{\n  \"reference\": \"shadcn/ui Interface & System Architecture\",\n  \"layout\": \"Structured modular grid optimized for Component scannability and progressive disclosure.\",\n  \"typography\": \"High-legibility system pairing clear hierarchical headings with monospace code/token identifiers.\",\n  \"colors\": \"High-contrast accessible surface tokens meeting WCAG AA/AAA contrast ratios.\",\n  \"spacing\": \"Consistent 4px/8px spatial cadence with generous section separation.\",\n  \"motion\": \"Purposeful, low-latency transitions honoring prefers-reduced-motion.\",\n  \"components\": [\n    \"Component Module\",\n    \"Design System Module\",\n    \"React Module\",\n    \"Tailwind CSS Module\"\n  ]\n}",
-    "previewSvg": "/masallahpub/previews/shadcn-ui.svg",
+    "previewSvg": "/masallahpub/screenshots/shadcn-ui.png",
     "featured": true
   },
   {
@@ -843,7 +843,7 @@
     "originalPrompt": "Create an accessible modal dialog and toolbar with keyboard navigation like Radix UI.",
     "optimizedPrompt": "Implement a headless, WAI-ARIA compliant UI primitive inspired by Radix UI (`radix-ui/primitives`):\n1. Roving Tabindex Toolbar: Maintain a single tab stop (`tabIndex={0}` on active item, `tabIndex={-1}` on peers). ArrowLeft/ArrowRight (or ArrowUp/ArrowDown) moves focus cyclically with `Home` and `End` support.\n2. Modal Dialog Focus Management: Record `document.activeElement` on open, trap `Tab` / `Shift+Tab` inside the dialog boundary, lock background document scroll, dismiss on `Escape`, and restore focus to the trigger element on unmount.\n3. Expose data attributes (`data-state=\"open\" | \"closed\"`, `data-highlighted`, `data-disabled`) for zero-JS-overhead CSS styling.",
     "codeSnippet": "export function handleRovingKeyDown(\n  e: React.KeyboardEvent,\n  currentIndex: number,\n  itemCount: number,\n  onSelectIndex: (next: number) => void\n) {\n  if (e.key === \"ArrowRight\" || e.key === \"ArrowDown\") {\n    e.preventDefault();\n    onSelectIndex((currentIndex + 1) % itemCount);\n  } else if (e.key === \"ArrowLeft\" || e.key === \"ArrowUp\") {\n    e.preventDefault();\n    onSelectIndex((currentIndex - 1 + itemCount) % itemCount);\n  } else if (e.key === \"Home\") {\n    e.preventDefault();\n    onSelectIndex(0);\n  } else if (e.key === \"End\") {\n    e.preventDefault();\n    onSelectIndex(itemCount - 1);\n  }\n}",
-    "previewSvg": "/masallahpub/previews/radix-ui.svg",
+    "previewSvg": "/masallahpub/screenshots/radix-ui.png",
     "featured": true
   },
   {
@@ -901,7 +901,7 @@
     "originalPrompt": "Create a staggered grid wave animation and SVG line drawing using Anime.js.",
     "optimizedPrompt": "Build an interactive motion study using Anime.js (`github.com/juliangarnier/anime`):\n1. 2D Spatial Stagger: Arrange a 12x6 matrix of kinetic cells and compute radial propagation delays from the clicked cell index:\n   `delay: anime.stagger(45, { grid: [12, 6], from: activeIndex })`\n   `scale: [1, 1.35, 1]`, `rotateZ: anime.stagger([-15, 15], { grid: [12, 6], from: activeIndex, axis: 'x' })`.\n2. Multi-Track Timeline: Synchronize an SVG circuit path stroke reveal (`strokeDashoffset: [anime.setDashoffset, 0]`) with numeric counter keyframes and elastic spring easing (`spring(1, 80, 12, 0)`).\n3. Expose interactive Play, Pause, Reverse, Seek scrubber, and Stagger Origin controls.",
     "codeSnippet": "// Euclidean 2D grid stagger calculation inspired by anime.stagger(val, { grid: [cols, rows], from: index })\nexport function computeRadialStagger(index, targetIndex, cols = 10, staggerMs = 38) {\n  const x1 = index % cols;\n  const y1 = Math.floor(index / cols);\n  const x2 = targetIndex % cols;\n  const y2 = Math.floor(targetIndex / cols);\n  const distance = Math.hypot(x2 - x1, y2 - y1);\n  return {\n    delayMs: Math.round(distance * staggerMs),\n    distance,\n    scalePeak: Math.max(1.05, 1.45 - distance * 0.06),\n  };\n}",
-    "previewSvg": "/masallahpub/previews/animejs.svg",
+    "previewSvg": "/masallahpub/screenshots/animejs.png",
     "featured": false
   },
   {
@@ -958,7 +958,7 @@
     "originalPrompt": "Create an implementation using Motion (GitHub Repository) (TypeScript, React, Web Animations API) following official documentation patterns.",
     "optimizedPrompt": "Act as a Principal Specialist in Motion (GitHub Repository) (https://github.com/motiondivision/motion). Implement a production-ready module adhering to these verified constraints:\n1. Core Stack & Standards: Use TypeScript, React, Web Animations API, Spring Physics with strict type safety and clean resource lifecycle management.\n2. Pattern Fidelity: Apply Motion (GitHub Repository)'s canonical architecture (Open-source repository for Motion (formerly Framer Motion)—implementing hardware-accelerated hybrid WAAPI + JS spring animations, FLIP layout projection, and gesture recognizers.) without copying proprietary third-party brand assets.\n3. Accessibility & Performance: Maintain 60fps interaction budgets, keyboard navigability, and deterministic error handling.",
     "codeSnippet": "{\n  \"reference\": \"Motion (GitHub Repository) Interface & System Architecture\",\n  \"layout\": \"Structured modular grid optimized for Motion scannability and progressive disclosure.\",\n  \"typography\": \"High-legibility system pairing clear hierarchical headings with monospace code/token identifiers.\",\n  \"colors\": \"High-contrast accessible surface tokens meeting WCAG AA/AAA contrast ratios.\",\n  \"spacing\": \"Consistent 4px/8px spatial cadence with generous section separation.\",\n  \"motion\": \"Purposeful, low-latency transitions honoring prefers-reduced-motion.\",\n  \"components\": [\n    \"Motion Module\",\n    \"Repository Module\",\n    \"React Module\",\n    \"JavaScript Module\"\n  ]\n}",
-    "previewSvg": "/masallahpub/previews/motion-repo.svg",
+    "previewSvg": "/masallahpub/screenshots/motion-repo.png",
     "featured": false
   },
   {
@@ -1015,7 +1015,7 @@
     "originalPrompt": "Load a Lottie JSON animation in React and scrub frames on scroll.",
     "optimizedPrompt": "Implement a performance-hardened `lottie-web` (`github.com/airbnb/lottie-web`) React controller:\n1. Lifecycle & Memory Safety: Instantiate via `lottie.loadAnimation({ container, renderer: 'svg' | 'canvas', loop: false, autoplay: false, animationData })` and guarantee `anim.destroy()` on unmount.\n2. Viewport Gating: Attach an `IntersectionObserver` so offscreen Lottie instances never consume CPU/GPU frame budget.\n3. Frame-Accurate Scrubbing: Map normalized scroll or slider progress `p in [0, 1]` to `anim.goToAndStop(p * anim.totalFrames, true)` inside a single `requestAnimationFrame` tick.\n4. Reduced Motion: Jump directly to the key illustrative poster frame (`totalFrames * 0.65`) when `prefers-reduced-motion: reduce` is active.",
     "codeSnippet": "{\n  \"reference\": \"Lottie Web Interface & System Architecture\",\n  \"layout\": \"Structured modular grid optimized for Motion scannability and progressive disclosure.\",\n  \"typography\": \"High-legibility system pairing clear hierarchical headings with monospace code/token identifiers.\",\n  \"colors\": \"High-contrast accessible surface tokens meeting WCAG AA/AAA contrast ratios.\",\n  \"spacing\": \"Consistent 4px/8px spatial cadence with generous section separation.\",\n  \"motion\": \"Purposeful, low-latency transitions honoring prefers-reduced-motion.\",\n  \"components\": [\n    \"Motion Module\",\n    \"Vector Animation Module\",\n    \"SVG Module\",\n    \"Canvas Module\"\n  ]\n}",
-    "previewSvg": "/masallahpub/previews/lottie-web.svg",
+    "previewSvg": "/masallahpub/screenshots/lottie-web.png",
     "featured": false
   },
   {
@@ -1059,7 +1059,7 @@
     "exampleOutput": "Full Next.js + CSS Grid component featuring numbered index rail (01–18), asymmetric hero with interactive spec sheet toggle, and filterable bento archive grid.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro / GPT-4o",
     "codeSnippet": "{\n  \"reference\": \"Inspora Editorial Monolith & Bento Showcase\",\n  \"layout\": \"12-column fluid editorial grid with asymmetric 7:5 hero split, 1px hairline structural dividers, and modular bento showcase cards.\",\n  \"typography\": \"High-contrast display serif paired with neo-grotesk body text (tight -0.03em tracking on headings, 1.65 line-height on copy) and tabular monospace metadata indices.\",\n  \"colors\": \"Warm obsidian canvas (#0A0A0C) with alabaster ink (#F4F3EF), muted stone borders (rgba(255,255,255,0.08)), and single chromatic accent (#E85D3F).\",\n  \"spacing\": \"Generous 8px baseline rhythm with 96px–144px vertical section breathing room and 24px internal card padding.\",\n  \"motion\": \"Subtle cubic-bezier(0.22, 1, 0.36, 1) image scale reveals on hover and staggered viewport entry transitions.\",\n  \"components\": [\n    \"Asymmetric Hero Header\",\n    \"Index Numbered Card Grid\",\n    \"Filter Pill Bar\",\n    \"Sticky Detail Drawer\"\n  ]\n}",
-    "previewSvg": "/masallahpub/previews/inspora.svg",
+    "previewSvg": "/masallahpub/screenshots/inspora.png",
     "featured": true
   },
   {
@@ -1103,7 +1103,7 @@
     "exampleOutput": "Responsive React landing page with interactive trace waterfall preview, copyable CLI installer with toast feedback, and 3-tier transparent pricing table.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro",
     "codeSnippet": "{\n  \"reference\": \"Recent Design Ultra-Clean Product Launch Feed\",\n  \"layout\": \"Full-bleed multi-column gallery grid prioritizing large 16:10 viewport captures with minimal chrome.\",\n  \"typography\": \"Crisp geometric sans-serif at 13px–15px with uppercase tracking for timestamps and category badges.\",\n  \"colors\": \"Neutral monochrome surface allowing featured product screenshots to command 100% of chromatic hierarchy.\",\n  \"spacing\": \"Compact 16px grid gap with 32px outer container gutter for maximum visual density.\",\n  \"motion\": \"Instantaneous filter switching with zero-latency hover elevation.\",\n  \"components\": [\n    \"Viewport Preview Card\",\n    \"Live External Link Badge\",\n    \"Chronological Feed Scroller\"\n  ]\n}",
-    "previewSvg": "/masallahpub/previews/recent-design.svg",
+    "previewSvg": "/masallahpub/screenshots/recent-design.png",
     "featured": true
   },
   {
@@ -1147,7 +1147,7 @@
     "exampleOutput": "Complete 8-section semantic HTML/React architecture with interactive PR diff simulator and ROI slider.",
     "model": "Gemini 2.5 Pro / Claude 3.7 Sonnet",
     "codeSnippet": "{\n  \"reference\": \"High-Conversion SaaS & Developer Tool Landing Page Architecture\",\n  \"layout\": \"Vertical story arc: Value-Proposition Hero → Interactive Product Stage → Social Proof Ticker → 3-Card Feature Bento → Technical Comparison Table → Interactive Pricing → FAQ Accordion → High-Contrast CTA Footer.\",\n  \"typography\": \"Bold 56px–72px hero headline with 60ch max-width lead paragraph and scannable 14px micro-copy.\",\n  \"colors\": \"Deep slate surface (#090D16) with subtle radial top-spotlight gradient and high-contrast primary CTA button.\",\n  \"spacing\": \"120px section cadence with 64px internal feature block separation.\",\n  \"motion\": \"Scroll-linked product mockup perspective tilt and interactive tab switching.\",\n  \"components\": [\n    \"Hero Command Preview\",\n    \"Logo Marquee\",\n    \"Bento Feature Grid\",\n    \"Tiered Pricing Switcher\"\n  ]\n}",
-    "previewSvg": "/masallahpub/previews/lapa-ninja.svg",
+    "previewSvg": "/masallahpub/screenshots/lapa-ninja.png",
     "featured": true
   },
   {
@@ -1190,7 +1190,7 @@
     "exampleOutput": "Bichromatic Swiss grid interface with live variable font weight/width axes sliders and tabular specification index.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro",
     "codeSnippet": "{\n  \"reference\": \"Swiss Neo-Brutalist & Editorial Minimalist System\",\n  \"layout\": \"Exposed 4-column and 8-column Swiss architectural grid with strict baseline alignment and 45%+ negative whitespace.\",\n  \"typography\": \"Neo-grotesk sans (Helvetica Now / Inter Tight) paired with raw tabular numerals; zero decorative shadows.\",\n  \"colors\": \"Strict bichromatic palette: Warm Paper (#F7F6F2) and Carbon Ink (#111111) or inverted Obsidian (#0B0B0C) and Chalk (#EDEDEA).\",\n  \"spacing\": \"Mathematical 8pt/16pt/32pt/64pt modular scale with exposed 1px solid hairline borders.\",\n  \"motion\": \"Micro-opacity shifts (1 → 0.65) and crisp 150ms border color transitions.\",\n  \"components\": [\n    \"Swiss Index Table\",\n    \"Editorial Spec Sheet\",\n    \"Monochrome Aspect-Ratio Frame\"\n  ]\n}",
-    "previewSvg": "/masallahpub/previews/minimal-gallery.svg",
+    "previewSvg": "/masallahpub/screenshots/minimal-gallery.png",
     "featured": true
   },
   {
@@ -1233,7 +1233,7 @@
     "exampleOutput": "TypeScript React component with discriminated union state machine (`status: \"loading\" | \"empty\" | \"filtered-empty\" | \"error\" | \"ready\"`) and zero layout shift.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro",
     "codeSnippet": "{\n  \"reference\": \"SaaS Product Workspace & Multi-State UI Pattern\",\n  \"layout\": \"240px collapsible command sidebar + sticky 56px breadcrumb header + fluid data workspace with contextual inspector drawer.\",\n  \"typography\": \"14px dense UI body copy, 12px medium-weight form labels, and 11px monospace keyboard shortcut badges.\",\n  \"colors\": \"Semantic surface tokens (bg-base, bg-elevated, bg-overlay) with dedicated status tokens for info, warning, danger, and success.\",\n  \"spacing\": \"4px/8px/12px/16px high-density application spacing scale.\",\n  \"motion\": \"180ms drawer slide-overs and optimistic skeleton shimmer loaders.\",\n  \"components\": [\n    \"Command Palette (Cmd+K)\",\n    \"Empty State Action Card\",\n    \"Inline Validation Form\",\n    \"Multi-Step Onboarding Checklist\"\n  ]\n}",
-    "previewSvg": "/masallahpub/previews/uiguana.svg",
+    "previewSvg": "/masallahpub/screenshots/uiguana.png",
     "featured": true
   },
   {
@@ -1277,7 +1277,7 @@
     "exampleOutput": "Structured heuristic audit identifying Severity 4 Error Recovery failure and Severity 3 User Control violation, plus patched React Hook Form + Radix Dialog implementation.",
     "model": "Gemini 2.5 Pro / Claude 3.7 Sonnet",
     "codeSnippet": "",
-    "previewSvg": "/masallahpub/previews/nngroup.svg",
+    "previewSvg": "/masallahpub/screenshots/nngroup.png",
     "featured": true
   },
   {
@@ -1321,7 +1321,7 @@
     "exampleOutput": "Refactored 6-category segmented toolbar with 44px hit areas, instant client-side memoized filtering (<16ms), and progressive \"More Filters\" popover.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro",
     "codeSnippet": "// Quantitative Fitts's Law Index of Difficulty (bits) & Hick's Law Reaction Time (ms)\nexport function computeErgonomicMetrics(distancePx: number, widthPx: number, choiceCount: number) {\n  const indexOfDifficultyBits = Math.log2((2 * Math.max(1, distancePx)) / Math.max(1, widthPx));\n  const movementTimeMs = Math.round(120 + 145 * indexOfDifficultyBits);\n  const decisionTimeMs = Math.round(180 + 155 * Math.log2(Math.max(1, choiceCount) + 1));\n  return { indexOfDifficultyBits: Number(indexOfDifficultyBits.toFixed(2)), movementTimeMs, decisionTimeMs };\n}",
-    "previewSvg": "/masallahpub/previews/laws-of-ux.svg",
+    "previewSvg": "/masallahpub/screenshots/laws-of-ux.png",
     "featured": true
   },
   {
@@ -1365,7 +1365,7 @@
     "exampleOutput": "Self-contained React + CSS spring micro-interaction component with keyboard Enter/Space support and reduced-motion fallback.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro",
     "codeSnippet": "// Design Spells (https://designspells.com)\n// Technologies: CSS Transitions, Spring Physics, Framer Motion, SVG Animation\n// Category: Motion",
-    "previewSvg": "/masallahpub/previews/design-spells.svg",
+    "previewSvg": "/masallahpub/screenshots/design-spells.png",
     "featured": true
   },
   {
@@ -1412,7 +1412,7 @@
     "exampleOutput": "React component with quadrant entry-angle detection, smooth damped velocity uniforms, and reduced-motion toggle.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro",
     "codeSnippet": "// Tympanus / Codrops (https://tympanus.net/codrops/)\n// Technologies: WebGL, GLSL, Three.js, GSAP, CSS 3D Transforms, Lenis\n// Category: Creative Coding",
-    "previewSvg": "/masallahpub/previews/tympanus-codrops.svg",
+    "previewSvg": "/masallahpub/screenshots/tympanus-codrops.png",
     "featured": true
   },
   {
@@ -1457,7 +1457,7 @@
     "exampleOutput": "TypeScript React implementation using `motion/react` with FLIP layout projection and keyboard Escape dismissal.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro",
     "codeSnippet": "import { motion, AnimatePresence, useReducedMotion } from \"motion/react\";\n\nexport function SharedLayoutCards({ items, activeId, onSelect, springConfig }) {\n  const prefersReduced = useReducedMotion();\n  const transition = prefersReduced\n    ? { duration: 0.12 }\n    : { type: \"spring\", stiffness: springConfig.stiffness, damping: springConfig.damping, mass: springConfig.mass };\n\n  return (\n    <div className=\"grid grid-cols-3 gap-4\">\n      <AnimatePresence mode=\"popLayout\">\n        {items.map((item) => (\n          <motion.button\n            key={item.id}\n            layout={!prefersReduced}\n            layoutId={`card-${item.id}`}\n            transition={transition}\n            whileHover={prefersReduced ? {} : { y: -3, scale: 1.015 }}\n            whileTap={prefersReduced ? {} : { scale: 0.97 }}\n            onClick={() => onSelect(item.id)}\n          >\n            <motion.span layoutId={`title-${item.id}`}>{item.title}</motion.span>\n          </motion.button>\n        ))}\n      </AnimatePresence>\n    </div>\n  );\n}",
-    "previewSvg": "/masallahpub/previews/motion-dev.svg",
+    "previewSvg": "/masallahpub/screenshots/motion-dev.png",
     "featured": true
   },
   {
@@ -1502,7 +1502,7 @@
     "exampleOutput": "Two modular TypeScript React components (`SpotlightCard.tsx` and `KineticHeading.tsx`) with 60fps pointer tracking.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro",
     "codeSnippet": "export function handleSpotlightPointerMove(e: React.PointerEvent<HTMLElement>) {\n  const rect = e.currentTarget.getBoundingClientRect();\n  e.currentTarget.style.setProperty(\"--spot-x\", `${e.clientX - rect.left}px`);\n  e.currentTarget.style.setProperty(\"--spot-y\", `${e.clientY - rect.top}px`);\n}",
-    "previewSvg": "/masallahpub/previews/react-bits.svg",
+    "previewSvg": "/masallahpub/screenshots/react-bits.png",
     "featured": true
   },
   {
@@ -1546,7 +1546,7 @@
     "exampleOutput": "Complete React hero section with timed CSS/Motion orchestration and live FPS-friendly background canvas.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro",
     "codeSnippet": "{\n  \"reference\": \"Motion Sites Kinetic Hero & Prompt Blueprint\",\n  \"layout\": \"Full-viewport video/canvas stage with floating glassmorphic control pill and prompt inspection drawer.\",\n  \"typography\": \"Tight display grotesk with animated character stagger (25ms per glyph) and monospace prompt blocks.\",\n  \"colors\": \"Deep carbon background (#070709) with electric cyan and violet shader highlights.\",\n  \"spacing\": \"Edge-to-edge media frames with 24px floating HUD margins.\",\n  \"motion\": \"Continuous 60fps canvas background loop + spring-driven prompt drawer.\",\n  \"components\": [\n    \"Kinetic Hero Stage\",\n    \"Copyable Prompt Drawer\",\n    \"Live Video Preview Card\"\n  ]\n}",
-    "previewSvg": "/masallahpub/previews/motion-sites.svg",
+    "previewSvg": "/masallahpub/screenshots/motion-sites.png",
     "featured": true
   },
   {
@@ -1590,7 +1590,7 @@
     "exampleOutput": "Comprehensive Markdown + TypeScript interface specification and accessible React implementation.",
     "model": "Gemini 2.5 Pro / Claude 3.7 Sonnet",
     "codeSnippet": "",
-    "previewSvg": "/masallahpub/previews/component-gallery.svg",
+    "previewSvg": "/masallahpub/screenshots/component-gallery.png",
     "featured": false
   },
   {
@@ -1634,7 +1634,7 @@
     "exampleOutput": "Complete `tokens.json` (DTCG format) + `tokens.css` with fluid typography and semantic surface tokens.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro",
     "codeSnippet": "// Design Systems One (https://designsystems.one)\n// Technologies: Style Dictionary, CSS Custom Properties, W3C Design Tokens, Figma Tokens\n// Category: Design System",
-    "previewSvg": "/masallahpub/previews/design-systems-one.svg",
+    "previewSvg": "/masallahpub/screenshots/design-systems-one.png",
     "featured": false
   },
   {
@@ -1679,7 +1679,7 @@
     "exampleOutput": "TypeScript compound component with keyboard arrow navigation and one-click clipboard copy integration.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro",
     "codeSnippet": "",
-    "previewSvg": "/masallahpub/previews/shadcn-ui.svg",
+    "previewSvg": "/masallahpub/screenshots/shadcn-ui.png",
     "featured": false
   },
   {
@@ -1723,7 +1723,7 @@
     "exampleOutput": "Zero-dependency accessible React hooks (`useRovingFocus`, `useDialogFocusTrap`) + unit test suite.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro",
     "codeSnippet": "export function handleRovingKeyDown(\n  e: React.KeyboardEvent,\n  currentIndex: number,\n  itemCount: number,\n  onSelectIndex: (next: number) => void\n) {\n  if (e.key === \"ArrowRight\" || e.key === \"ArrowDown\") {\n    e.preventDefault();\n    onSelectIndex((currentIndex + 1) % itemCount);\n  } else if (e.key === \"ArrowLeft\" || e.key === \"ArrowUp\") {\n    e.preventDefault();\n    onSelectIndex((currentIndex - 1 + itemCount) % itemCount);\n  } else if (e.key === \"Home\") {\n    e.preventDefault();\n    onSelectIndex(0);\n  } else if (e.key === \"End\") {\n    e.preventDefault();\n    onSelectIndex(itemCount - 1);\n  }\n}",
-    "previewSvg": "/masallahpub/previews/radix-ui.svg",
+    "previewSvg": "/masallahpub/screenshots/radix-ui.png",
     "featured": false
   },
   {
@@ -1769,7 +1769,7 @@
     "exampleOutput": "TypeScript hook synchronizing URL query params, history state, and View Transitions.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro",
     "codeSnippet": "// MDN Web Docs (https://developer.mozilla.org)\n// Technologies: HTML5, CSS3, JavaScript, Web APIs, WebGL, Service Workers\n// Category: Frontend",
-    "previewSvg": "/masallahpub/previews/mdn-web-docs.svg",
+    "previewSvg": "/masallahpub/screenshots/mdn-web-docs.png",
     "featured": false
   },
   {
@@ -1814,7 +1814,7 @@
     "exampleOutput": "Production CSS module with `@container`, `:has()`, and defensive text/flex guards.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro",
     "codeSnippet": "// Ahmad Shadeed (https://ishadeed.com)\n// Technologies: CSS Grid, Container Queries, CSS :has(), Fluid Clamp(), Flexbox\n// Category: Frontend",
-    "previewSvg": "/masallahpub/previews/ishadeed.svg",
+    "previewSvg": "/masallahpub/screenshots/ishadeed.png",
     "featured": false
   },
   {
@@ -1858,7 +1858,7 @@
     "exampleOutput": "Architectural blueprint and React island loader with `useDeferredValue` full-text search.",
     "model": "Gemini 2.5 Pro / Claude 3.7 Sonnet",
     "codeSnippet": "// Patterns.dev (https://www.patterns.dev)\n// Technologies: JavaScript, React, Next.js, Web Vitals, Bundle Splitting\n// Category: Architecture",
-    "previewSvg": "/masallahpub/previews/patterns-dev.svg",
+    "previewSvg": "/masallahpub/screenshots/patterns-dev.png",
     "featured": false
   },
   {
@@ -1902,7 +1902,7 @@
     "exampleOutput": "Complete `types/catalog.ts` + runtime validator module with zero `any` types.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro",
     "codeSnippet": "// TypeScript (https://www.typescriptlang.org)\n// Technologies: TypeScript, AST, Static Analysis, ECMAScript\n// Category: Architecture",
-    "previewSvg": "/masallahpub/previews/typescript.svg",
+    "previewSvg": "/masallahpub/screenshots/typescript.png",
     "featured": false
   },
   {
@@ -1947,7 +1947,7 @@
     "exampleOutput": "Complete Vitest / Testing Library test file (`catalog-behavior.test.tsx`) with 100% accessible role queries.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro",
     "codeSnippet": "// Testing Library (https://testing-library.com)\n// Technologies: Testing Library, Vitest, Jest, React, DOM\n// Category: Testing",
-    "previewSvg": "/masallahpub/previews/testing-library.svg",
+    "previewSvg": "/masallahpub/screenshots/testing-library.png",
     "featured": false
   },
   {
@@ -1992,7 +1992,7 @@
     "exampleOutput": "Executable Playwright E2E specification (`e2e/masallah.spec.ts`) and preview generator script.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro",
     "codeSnippet": "// Playwright (https://playwright.dev)\n// Technologies: Playwright, TypeScript, Node.js, Chromium, WebKit\n// Category: Testing",
-    "previewSvg": "/masallahpub/previews/playwright.svg",
+    "previewSvg": "/masallahpub/screenshots/playwright.png",
     "featured": false
   },
   {
@@ -2037,7 +2037,7 @@
     "exampleOutput": "Complete `CatalogCard.stories.tsx` in CSF3 format with `play()` test function.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro",
     "codeSnippet": "// Storybook (https://storybook.js.org)\n// Technologies: Storybook, CSF3, React, Playwright, Addon A11y\n// Category: Testing",
-    "previewSvg": "/masallahpub/previews/storybook.svg",
+    "previewSvg": "/masallahpub/screenshots/storybook.png",
     "featured": false
   },
   {
@@ -2083,7 +2083,7 @@
     "exampleOutput": "Executable secret/XSS scanner (`scripts/collect/security-scan.mjs`) + OWASP compliance report.",
     "model": "Gemini 2.5 Pro / Claude 3.7 Sonnet",
     "codeSnippet": "const ALLOWED_PROTOCOLS = new Set([\"https:\", \"http:\"]);\n\nexport function sanitizeExternalUrl(rawUrl: string): { safe: boolean; href: string; reason: string } {\n  try {\n    const parsed = new URL(rawUrl.trim());\n    if (!ALLOWED_PROTOCOLS.has(parsed.protocol)) {\n      return { safe: false, href: \"#blocked-unsafe-protocol\", reason: `Blocked protocol: ${parsed.protocol}` };\n    }\n    return { safe: true, href: parsed.toString(), reason: \"Verified HTTPS/HTTP origin\" };\n  } catch {\n    return { safe: false, href: \"#invalid-url\", reason: \"Malformed URL rejected\" };\n  }\n}",
-    "previewSvg": "/masallahpub/previews/owasp-cheatsheets.svg",
+    "previewSvg": "/masallahpub/screenshots/owasp-cheatsheets.png",
     "featured": false
   },
   {
@@ -2129,7 +2129,7 @@
     "exampleOutput": "Zero-dependency HTML5 Canvas dual-buffer pixel VFX simulator with live palette switcher (Frost, Fire, Arcane, Cyber, Holy) and frame scrubber.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro",
     "codeSnippet": "// PixelFX dual-buffer composite pattern: color buffer + additive light glow\nexport function compositeDualBuffer(colorBuf, lightBuf, outRgba, paletteHex, glowStrength = 1.0) {\n  for (let i = 0; i < colorBuf.length; i++) {\n    const palIndex = colorBuf[i];\n    const baseRgb = paletteHex[palIndex] ?? [10, 10, 14];\n    const glow = lightBuf[i] * glowStrength;\n    const offset = i * 4;\n    outRgba[offset]     = Math.min(255, baseRgb[0] + glow * 220);\n    outRgba[offset + 1] = Math.min(255, baseRgb[1] + glow * 180);\n    outRgba[offset + 2] = Math.min(255, baseRgb[2] + glow * 255);\n    outRgba[offset + 3] = 255;\n  }\n}",
-    "previewSvg": "/masallahpub/previews/pixelfx.svg",
+    "previewSvg": "/masallahpub/screenshots/pixelfx.png",
     "featured": false
   },
   {
@@ -2174,7 +2174,7 @@
     "exampleOutput": "Complete Remotion `<Composition>` + interactive web timeline player preview.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro",
     "codeSnippet": "import { AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig } from \"remotion\";\n\nexport const SyncedCaptionComposition: React.FC<{ words: AlignedWord[]; beats: number[] }> = ({ words, beats }) => {\n  const frame = useCurrentFrame();\n  const { fps } = useVideoConfig();\n  const currentTimeMs = (frame / fps) * 1000;\n  const energy = beats[frame % beats.length] ?? 0.25;\n\n  return (\n    <AbsoluteFill style={{ backgroundColor: \"#090A0F\", justifyContent: \"center\", alignItems: \"center\" }}>\n      <div style={{ display: \"flex\", gap: 12, transform: `scale(${1 + energy * 0.08})` }}>\n        {words.map((w, i) => {\n          const active = currentTimeMs >= w.startMs && currentTimeMs <= w.endMs;\n          return (\n            <span key={i} style={{ color: active ? \"#E85D3F\" : \"#F4F3EF\", fontWeight: active ? 700 : 400 }}>\n              {w.text}\n            </span>\n          );\n        })}\n      </div>\n    </AbsoluteFill>\n  );\n};",
-    "previewSvg": "/masallahpub/previews/remotion.svg",
+    "previewSvg": "/masallahpub/screenshots/remotion.png",
     "featured": false
   },
   {
@@ -2218,7 +2218,7 @@
     "exampleOutput": "Multi-sequence Remotion composition with `@remotion/captions` active-word highlighter and Studio schema.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro / Cursor Agent",
     "codeSnippet": "",
-    "previewSvg": "/masallahpub/previews/remotion-skills.svg",
+    "previewSvg": "/masallahpub/screenshots/remotion-skills.png",
     "featured": false
   },
   {
@@ -2263,7 +2263,7 @@
     "exampleOutput": "Live interactive Anime.js 2D grid visualizer with clickable wave origin and timeline controls.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro",
     "codeSnippet": "// Euclidean 2D grid stagger calculation inspired by anime.stagger(val, { grid: [cols, rows], from: index })\nexport function computeRadialStagger(index, targetIndex, cols = 10, staggerMs = 38) {\n  const x1 = index % cols;\n  const y1 = Math.floor(index / cols);\n  const x2 = targetIndex % cols;\n  const y2 = Math.floor(targetIndex / cols);\n  const distance = Math.hypot(x2 - x1, y2 - y1);\n  return {\n    delayMs: Math.round(distance * staggerMs),\n    distance,\n    scalePeak: Math.max(1.05, 1.45 - distance * 0.06),\n  };\n}",
-    "previewSvg": "/masallahpub/previews/animejs.svg",
+    "previewSvg": "/masallahpub/screenshots/animejs.png",
     "featured": false
   },
   {
@@ -2309,7 +2309,7 @@
     "exampleOutput": "Complete Manim `Scene` Python script + interactive browser Fourier epicycle & tangent visualizer.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro",
     "codeSnippet": "from manim import *\nimport numpy as np\n\nclass FourierEpicycleExplainer(Scene):\n    def construct(self):\n        axes = Axes(x_range=[0, 2 * PI, PI / 2], y_range=[-1.5, 1.5, 0.5], x_length=7, y_length=3.5)\n        formula = MathTex(r\"f(t) = \\sum_{k=1}^{N} \\frac{4}{\\pi(2k-1)} \\sin((2k-1)\\omega t)\").to_edge(UP)\n        tracker = ValueTracker(0.0)\n        wave = always_redraw(lambda: axes.plot(\n            lambda x: sum((4 / ( np.pi * (2*k - 1))) * np.sin((2*k - 1) * (x + tracker.get_value())) for k in range(1, 6)),\n            color=TEAL_C\n        ))\n        self.play(Write(formula), Create(axes), Create(wave))\n        self.play(tracker.animate.set_value(2 * PI), run_time=6, rate_func=linear)",
-    "previewSvg": "/masallahpub/previews/manim.svg",
+    "previewSvg": "/masallahpub/screenshots/manim.png",
     "featured": false
   },
   {
@@ -2353,7 +2353,7 @@
     "exampleOutput": "TypeScript `<LottieScrubber />` component with live frame counter and renderer benchmark toggle.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro",
     "codeSnippet": "import lottie from \"lottie-web\";\n\nconst anim = lottie.loadAnimation({\n  container: document.getElementById(\"lottie-stage\")!,\n  renderer: \"svg\",\n  loop: false,\n  autoplay: false,\n  path: \"/animations/vector-rig.json\",\n});\nanim.goToAndStop(45, true);",
-    "previewSvg": "/masallahpub/previews/lottie-web.svg",
+    "previewSvg": "/masallahpub/screenshots/lottie-web.png",
     "featured": false
   },
   {
@@ -2398,7 +2398,7 @@
     "exampleOutput": "Complete `bpy` Python execution script + MCP tool call sequence producing a Cycles-ready `.blend` scene.",
     "model": "Claude 3.7 Sonnet / Cursor + Blender MCP Server",
     "codeSnippet": "// Claude Desktop / Cursor MCP configuration for Blender\n{\n  \"mcpServers\": {\n    \"blender\": {\n      \"command\": \"uvx\",\n      \"args\": [\"blender-mcp\"]\n    }\n  }\n}",
-    "previewSvg": "/masallahpub/previews/mcp-for-blender.svg",
+    "previewSvg": "/masallahpub/screenshots/mcp-for-blender.png",
     "featured": false
   },
   {
@@ -2445,7 +2445,7 @@
     "exampleOutput": "Complete Three.js / WebGL module + interactive 3D viewport in the Masallah live demo studio.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro",
     "codeSnippet": "import * as THREE from \"three\";\nimport { EffectComposer, EffectPass, RenderPass, SelectiveBloomEffect } from \"postprocessing\";\n\nexport function createPostProcessedScene(canvas: HTMLCanvasElement) {\n  const renderer = new THREE.WebGLRenderer({ canvas, powerPreference: \"high-performance\", antialias: false });\n  renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));\n  renderer.toneMapping = THREE.ACESFilmicToneMapping;\n\n  const scene = new THREE.Scene();\n  const camera = new THREE.PerspectiveCamera(45, canvas.clientWidth / canvas.clientHeight, 0.1, 100);\n  camera.position.set(0, 1.5, 5.5);\n\n  const composer = new EffectComposer(renderer, { frameBufferType: THREE.HalfFloatType });\n  composer.addPass(new RenderPass(scene, camera));\n  const bloom = new SelectiveBloomEffect(scene, camera, { intensity: 1.6, mipmapBlur: true, luminanceThreshold: 0.7 });\n  composer.addPass(new EffectPass(camera, bloom));\n\n  return { renderer, scene, camera, composer, bloom };\n}",
-    "previewSvg": "/masallahpub/previews/threejs.svg",
+    "previewSvg": "/masallahpub/screenshots/threejs.png",
     "featured": false
   },
   {
@@ -2492,7 +2492,7 @@
     "exampleOutput": "Unified WebGL + Tweakpane interactive sandbox with live bloom, particle trail, and physics controls.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro",
     "codeSnippet": "import * as THREE from \"three\";\nimport { EffectComposer, EffectPass, RenderPass, SelectiveBloomEffect } from \"postprocessing\";\n\nexport function createPostProcessedScene(canvas: HTMLCanvasElement) {\n  const renderer = new THREE.WebGLRenderer({ canvas, powerPreference: \"high-performance\", antialias: false });\n  renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));\n  renderer.toneMapping = THREE.ACESFilmicToneMapping;\n\n  const scene = new THREE.Scene();\n  const camera = new THREE.PerspectiveCamera(45, canvas.clientWidth / canvas.clientHeight, 0.1, 100);\n  camera.position.set(0, 1.5, 5.5);\n\n  const composer = new EffectComposer(renderer, { frameBufferType: THREE.HalfFloatType });\n  composer.addPass(new RenderPass(scene, camera));\n  const bloom = new SelectiveBloomEffect(scene, camera, { intensity: 1.6, mipmapBlur: true, luminanceThreshold: 0.7 });\n  composer.addPass(new EffectPass(camera, bloom));\n\n  return { renderer, scene, camera, composer, bloom };\n}",
-    "previewSvg": "/masallahpub/previews/postprocessing.svg",
+    "previewSvg": "/masallahpub/screenshots/postprocessing.png",
     "featured": false
   },
   {
@@ -2536,7 +2536,7 @@
     "exampleOutput": "Parameterized `comfyui-depth-keyframe-workflow.json` + headless WebSocket execution script.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro",
     "codeSnippet": "# Submit a deterministic API graph to local ComfyUI server (no model weights in git)\ncurl -X POST http://127.0.0.1:8188/prompt \\\n  -H \"Content-Type: application/json\" \\\n  -d @workflow_api.json",
-    "previewSvg": "/masallahpub/previews/comfyui.svg",
+    "previewSvg": "/masallahpub/screenshots/comfyui.png",
     "featured": false
   },
   {
@@ -2580,7 +2580,7 @@
     "exampleOutput": "End-to-end Python pipeline (`narrate_and_align.py`) outputting `narration.wav`, `subtitles.srt`, and `remotion-captions.json`.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro",
     "codeSnippet": "",
-    "previewSvg": "/masallahpub/previews/cosyvoice.svg",
+    "previewSvg": "/masallahpub/screenshots/cosyvoice.png",
     "featured": false
   },
   {
@@ -2626,7 +2626,7 @@
     "exampleOutput": "Python analyzer (`extract_audio_sync.py`) + 60fps `audio-frames.json` schema and live visualizer demo.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro",
     "codeSnippet": "",
-    "previewSvg": "/masallahpub/previews/librosa.svg",
+    "previewSvg": "/masallahpub/screenshots/librosa.png",
     "featured": false
   },
   {
@@ -2673,7 +2673,7 @@
     "exampleOutput": "Annotated shell pipeline (`master-media.sh`) with input validation and bitrate verification.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro",
     "codeSnippet": "# Faststart H.264 + EBU R128 (-14 LUFS) audio normalization for web delivery\nffmpeg -i input.mp4 \\\n  -af \"loudnorm=I=-14:TP=-1.0:LRA=11\" \\\n  -c:v libx264 -preset slow -crf 20 -pix_fmt yuv420p \\\n  -movflags +faststart output_web.mp4",
-    "previewSvg": "/masallahpub/previews/ffmpeg.svg",
+    "previewSvg": "/masallahpub/screenshots/ffmpeg.png",
     "featured": false
   },
   {
@@ -2720,7 +2720,7 @@
     "exampleOutput": "Complete `timeline-manifest.json` schema, Remotion + Three.js composition, and FFmpeg mastering pipeline.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro",
     "codeSnippet": "import { AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig } from \"remotion\";\n\nexport const SyncedCaptionComposition: React.FC<{ words: AlignedWord[]; beats: number[] }> = ({ words, beats }) => {\n  const frame = useCurrentFrame();\n  const { fps } = useVideoConfig();\n  const currentTimeMs = (frame / fps) * 1000;\n  const energy = beats[frame % beats.length] ?? 0.25;\n\n  return (\n    <AbsoluteFill style={{ backgroundColor: \"#090A0F\", justifyContent: \"center\", alignItems: \"center\" }}>\n      <div style={{ display: \"flex\", gap: 12, transform: `scale(${1 + energy * 0.08})` }}>\n        {words.map((w, i) => {\n          const active = currentTimeMs >= w.startMs && currentTimeMs <= w.endMs;\n          return (\n            <span key={i} style={{ color: active ? \"#E85D3F\" : \"#F4F3EF\", fontWeight: active ? 700 : 400 }}>\n              {w.text}\n            </span>\n          );\n        })}\n      </div>\n    </AbsoluteFill>\n  );\n};",
-    "previewSvg": "/masallahpub/previews/remotion.svg",
+    "previewSvg": "/masallahpub/screenshots/remotion.png",
     "featured": false
   },
   {
@@ -2765,7 +2765,7 @@
     "exampleOutput": "Self-contained TypeScript implementation + integration test and usage documentation.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro",
     "codeSnippet": "// Google GitHub Pages (https://google.github.io/styleguide/)\n// Technologies: TypeScript, JavaScript, HTML/CSS, C++, Engineering Standards\n// Category: Architecture",
-    "previewSvg": "/masallahpub/previews/google-github-io.svg",
+    "previewSvg": "/masallahpub/screenshots/google-github-io.png",
     "featured": false
   },
   {
@@ -2809,7 +2809,7 @@
     "exampleOutput": "Self-contained TypeScript implementation + integration test and usage documentation.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro",
     "codeSnippet": "",
-    "previewSvg": "/masallahpub/previews/motion-repo.svg",
+    "previewSvg": "/masallahpub/screenshots/motion-repo.png",
     "featured": false
   },
   {
@@ -2853,7 +2853,7 @@
     "exampleOutput": "Self-contained Three.js implementation + integration test and usage documentation.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro",
     "codeSnippet": "",
-    "previewSvg": "/masallahpub/previews/three-gpu-pathtracer.svg",
+    "previewSvg": "/masallahpub/screenshots/three-gpu-pathtracer.png",
     "featured": false
   },
   {
@@ -2898,7 +2898,7 @@
     "exampleOutput": "Self-contained C++ implementation + integration test and usage documentation.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro",
     "codeSnippet": "",
-    "previewSvg": "/masallahpub/previews/jolt-physics.svg",
+    "previewSvg": "/masallahpub/screenshots/jolt-physics.png",
     "featured": false
   },
   {
@@ -2942,7 +2942,7 @@
     "exampleOutput": "Self-contained Three.js implementation + integration test and usage documentation.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro",
     "codeSnippet": "",
-    "previewSvg": "/masallahpub/previews/three-quarks.svg",
+    "previewSvg": "/masallahpub/screenshots/three-quarks.png",
     "featured": false
   },
   {
@@ -2986,7 +2986,7 @@
     "exampleOutput": "Self-contained TypeScript implementation + integration test and usage documentation.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro",
     "codeSnippet": "",
-    "previewSvg": "/masallahpub/previews/tweakpane.svg",
+    "previewSvg": "/masallahpub/screenshots/tweakpane.png",
     "featured": false
   },
   {
@@ -3031,7 +3031,7 @@
     "exampleOutput": "Self-contained Python implementation + integration test and usage documentation.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro",
     "codeSnippet": "",
-    "previewSvg": "/masallahpub/previews/whisperx.svg",
+    "previewSvg": "/masallahpub/screenshots/whisperx.png",
     "featured": false
   },
   {
@@ -3075,7 +3075,7 @@
     "exampleOutput": "Self-contained C/C++ implementation + integration test and usage documentation.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro",
     "codeSnippet": "# Record lossless MKV segment & trigger scene switch via obs-websocket CLI\nobs-cmd --websocket obsws://localhost:4455 scene switch \"3D_WebGL_Capture\"\nobs-cmd --websocket obsws://localhost:4455 recording start",
-    "previewSvg": "/masallahpub/previews/obs-studio.svg",
+    "previewSvg": "/masallahpub/screenshots/obs-studio.png",
     "featured": false
   },
   {
@@ -3119,7 +3119,7 @@
     "exampleOutput": "Self-contained Electron implementation + integration test and usage documentation.",
     "model": "Claude 3.7 Sonnet / Gemini 2.5 Pro",
     "codeSnippet": "# Lossless keyframe stream copy using FFmpeg / LosslessCut project workflow\nffmpeg -ss 00:00:08.000 -to 00:00:26.000 -i raw_capture.mkv -c copy -map 0 clip_lossless.mp4",
-    "previewSvg": "/masallahpub/previews/lossless-cut.svg",
+    "previewSvg": "/masallahpub/screenshots/lossless-cut.png",
     "featured": false
   },
   {
@@ -3177,7 +3177,7 @@
     "originalPrompt": "Improve this interface using Fitts Law and Hick Law from lawsofux.com.",
     "optimizedPrompt": "Refactor the target interface component by applying 5 quantitative laws from Laws of UX (lawsofux.com):\n1. Fitts’s Law ($T = a + b \\log_2(2D/W)$): Enforce minimum 44x44px touch targets (48x48px on mobile), eliminate dead gaps between adjacent clickable filter pills, and place primary actions along natural thumb/cursor vectors.\n2. Hick’s Law ($RT = a + b \\log_2(n)$): Reduce top-level simultaneous choices to $\\le 7$ grouped categories; move secondary parameters into progressive disclosure drawers.\n3. Doherty Threshold (<400ms): Ensure every filter, search, or copy action yields visual feedback in <100ms via optimistic UI or instant local state transitions.\n4. Jakob’s Law: Preserve standard keyboard conventions (`/` or `Cmd+K` for search, `Escape` to close, URL query sync for filters).\n5. Von Restorff Effect: Visually isolate at most ONE primary CTA per viewport region.",
     "codeSnippet": "// Minimal Laws of UX usage pattern\n// See: https://lawsofux.com/articles/",
-    "previewSvg": "/masallahpub/previews/laws-of-ux.svg",
+    "previewSvg": "/masallahpub/screenshots/laws-of-ux.png",
     "featured": false
   },
   {
@@ -3239,7 +3239,7 @@
     "originalPrompt": "Create a Codrops style image grid hover effect using WebGL and shaders.",
     "optimizedPrompt": "Implement an experimental interactive showcase grid inspired by Tympanus / Codrops (specifically LookbookHoverEffects and ImageGridMotionEffect):\n- Track normalized pointer position `(uMouse)` and damped pointer velocity `(uVelocity)` using linear interpolation (`lerp = 0.12`).\n- Detecting entry vector: Compute which edge (top, right, bottom, left) the pointer crossed using `atan2(dy, dx)` so the card overlay sweeps in along the exact entry vector.\n- Fragment Shader: Apply subtle barrel distortion and RGB channel split proportional to `length(uVelocity)` while keeping text crisp in a DOM overlay layer above the canvas.\n- Graceful Degradation: Fall back to hardware-accelerated CSS 3D perspective tilt if WebGL context creation is unavailable or `prefers-reduced-motion` is enabled.",
     "codeSnippet": "// Minimal Tympanus / Codrops usage pattern\n// See: https://tympanus.net/codrops/",
-    "previewSvg": "/masallahpub/previews/tympanus-codrops.svg",
+    "previewSvg": "/masallahpub/screenshots/tympanus-codrops.png",
     "featured": false
   },
   {
@@ -3299,7 +3299,7 @@
     "originalPrompt": "Animate a filterable card grid and detail modal using Motion layoutId and AnimatePresence.",
     "optimizedPrompt": "Using the current `motion/react` SDK (from `motion.dev` / `motiondivision/motion`), implement a filterable archive grid with shared layout projection:\n1. Wrap the card collection in `<LayoutGroup>` and `<AnimatePresence mode=\"popLayout\">`.\n2. Assign deterministic `layoutId={`card-container-${item.id}`}` and `layoutId={`card-title-${item.id}`}` between the grid card and the expanded detail drawer/modal.\n3. Configure physically tuned spring physics: `transition={{ type: \"spring\", stiffness: 380, damping: 32, mass: 0.8 }}`.\n4. Respect accessibility by checking `useReducedMotion()`; when true, set `layout={false}` and use a 120ms opacity crossfade.",
     "codeSnippet": "// Minimal Motion (motion.dev) usage pattern\n// See: https://motion.dev/docs",
-    "previewSvg": "/masallahpub/previews/motion-dev.svg",
+    "previewSvg": "/masallahpub/screenshots/motion-dev.png",
     "featured": true
   },
   {
@@ -3360,7 +3360,7 @@
     "originalPrompt": "Create a SpotlightCard and SplitText animation component like React Bits.",
     "optimizedPrompt": "Create two composable, zero-bloat React components inspired by React Bits (`reactbits.dev`):\n1. `<SpotlightCard>`: Tracks relative pointer coordinates `(x, y)` via a single `onPointerMove` handler and updates CSS custom properties `--spot-x` and `--spot-y` directly on the DOM ref (zero React re-renders on mouse move). Renders a `radial-gradient(420px circle at var(--spot-x) var(--spot-y), rgba(232,93,63,0.18), transparent 70%)` overlay.\n2. `<KineticHeading>`: Splits text by word and character while keeping a full `aria-label` on the parent heading for screen readers (`aria-hidden=\"true\"` on split spans), staggering each character upward with `cubic-bezier(0.16, 1, 0.3, 1)`.",
     "codeSnippet": "// Minimal React Bits usage pattern\n// See: https://reactbits.dev/text-animations/split-text",
-    "previewSvg": "/masallahpub/previews/react-bits.svg",
+    "previewSvg": "/masallahpub/screenshots/react-bits.png",
     "featured": true
   },
   {
@@ -3420,7 +3420,7 @@
     "originalPrompt": "Build a reusable Tabs and Dialog component in the style of shadcn/ui.",
     "optimizedPrompt": "Write a production-grade, open-code React compound component following shadcn/ui architectural conventions:\n- Export granular subcomponents (`Root`, `Trigger`, `Content`, `Header`, `Footer`) with clean `data-slot` attributes for predictable styling.\n- Define deterministic visual variants (`variant`, `size`) with type-safe variant inference.\n- Support controlled (`value` / `onValueChange`) and uncontrolled (`defaultValue`) usage patterns seamlessly.\n- Ensure 100% keyboard navigability (roving tabindex for tabs, focus restoration on dialog close) without external bloated dependencies.",
     "codeSnippet": "// Minimal shadcn/ui usage pattern\n// See: https://ui.shadcn.com/docs",
-    "previewSvg": "/masallahpub/previews/shadcn-ui.svg",
+    "previewSvg": "/masallahpub/screenshots/shadcn-ui.png",
     "featured": true
   },
   {
@@ -3480,7 +3480,7 @@
     "originalPrompt": "Create an accessible modal dialog and toolbar with keyboard navigation like Radix UI.",
     "optimizedPrompt": "Implement a headless, WAI-ARIA compliant UI primitive inspired by Radix UI (`radix-ui/primitives`):\n1. Roving Tabindex Toolbar: Maintain a single tab stop (`tabIndex={0}` on active item, `tabIndex={-1}` on peers). ArrowLeft/ArrowRight (or ArrowUp/ArrowDown) moves focus cyclically with `Home` and `End` support.\n2. Modal Dialog Focus Management: Record `document.activeElement` on open, trap `Tab` / `Shift+Tab` inside the dialog boundary, lock background document scroll, dismiss on `Escape`, and restore focus to the trigger element on unmount.\n3. Expose data attributes (`data-state=\"open\" | \"closed\"`, `data-highlighted`, `data-disabled`) for zero-JS-overhead CSS styling.",
     "codeSnippet": "// Minimal Radix UI usage pattern\n// See: https://www.radix-ui.com/primitives/docs/overview/introduction",
-    "previewSvg": "/masallahpub/previews/radix-ui.svg",
+    "previewSvg": "/masallahpub/screenshots/radix-ui.png",
     "featured": false
   },
   {
@@ -3540,7 +3540,7 @@
     "originalPrompt": "Use the View Transitions API and URLSearchParams to filter a list smoothly.",
     "optimizedPrompt": "Implement a standards-compliant, progressively enhanced frontend interaction using native Web APIs documented on MDN Web Docs:\n1. View Transitions API: Wrap filter and route state updates in `document.startViewTransition(() => updateState())` with a safe fallback when `!('startViewTransition' in document)` or when `window.matchMedia('(prefers-reduced-motion: reduce)').matches` is true.\n2. Shareable URL State: Synchronize active filter parameters (`?category=Motion&q=shader&type=Prompt`) bidirectionally with `URLSearchParams` and `window.history.replaceState` so deep links and browser refreshes restore exact UI state.\n3. Resilient Clipboard API: Use `navigator.clipboard.writeText()` with permission error handling and visual confirmation.",
     "codeSnippet": "// Minimal MDN Web Docs usage pattern\n// See: https://developer.mozilla.org/en-US/docs/Web",
-    "previewSvg": "/masallahpub/previews/mdn-web-docs.svg",
+    "previewSvg": "/masallahpub/screenshots/mdn-web-docs.png",
     "featured": false
   },
   {
@@ -3594,7 +3594,7 @@
     "originalPrompt": "Design a performant Next.js architecture using patterns from patterns.dev.",
     "optimizedPrompt": "Architect a high-performance web application applying rendering and bundle patterns from Patterns.dev:\n1. Build-Time Static Generation (SSG): Pre-render all catalog routes, source pages, and metadata at build time (`output: 'export'`) for instant TTFB from CDN edge.\n2. Selective Client Islands: Keep documentation, tables, and cards as lightweight zero-state markup; hydrate interactive sandboxes (Three.js, Anime.js, Tweakpane) lazily on viewport entry or user tab activation.\n3. Inverted Index Search Memoization: Pre-normalize search tokens at module load and filter with `useDeferredValue` so typing in the global search input remains locked at 60fps even across hundreds of catalog entries.",
     "codeSnippet": "// Minimal Patterns.dev usage pattern\n// See: https://www.patterns.dev",
-    "previewSvg": "/masallahpub/previews/patterns-dev.svg",
+    "previewSvg": "/masallahpub/screenshots/patterns-dev.png",
     "featured": false
   },
   {
@@ -3648,7 +3648,7 @@
     "originalPrompt": "Create an implementation using Google GitHub Pages (TypeScript, JavaScript, HTML/CSS) following official documentation patterns.",
     "optimizedPrompt": "Act as a Principal Specialist in Google GitHub Pages (https://google.github.io/styleguide/). Implement a production-ready module adhering to these verified constraints:\n1. Core Stack & Standards: Use TypeScript, JavaScript, HTML/CSS, C++, Engineering Standards with strict type safety and clean resource lifecycle management.\n2. Pattern Fidelity: Apply Google GitHub Pages's canonical architecture (Curated engineering style guides, architectural specifications, and open-source technical references maintained by Google engineering teams.) without copying proprietary third-party brand assets.\n3. Accessibility & Performance: Maintain 60fps interaction budgets, keyboard navigability, and deterministic error handling.",
     "codeSnippet": "// Minimal Google GitHub Pages usage pattern\n// See: https://google.github.io/styleguide/",
-    "previewSvg": "/masallahpub/previews/google-github-io.svg",
+    "previewSvg": "/masallahpub/screenshots/google-github-io.png",
     "featured": true
   },
   {
@@ -3704,7 +3704,7 @@
     "originalPrompt": "Create TypeScript interfaces and validation functions for a content catalog.",
     "optimizedPrompt": "Following the Google TypeScript Style Guide (`google.github.io/styleguide/tsguide.html`) and official TypeScript handbook best practices (`typescriptlang.org`):\n1. Define literal union types for all 28 `ContentType` classifications and 6 `SourceCoverageStatus` states (`'Indexed' | 'Partially Indexed' | 'Link Only' | 'License Restricted' | 'Access Restricted' | 'Unavailable'`).\n2. Model catalog items using discriminated unions so items with `hasLiveDemo: true` strictly require a typed `demoConfig` payload.\n3. Enable `strict: true`, `noUncheckedIndexedAccess: true`, and `exactOptionalPropertyTypes: true`-compatible type guards that validate JSON files at build time and test time.",
     "codeSnippet": "// Minimal TypeScript usage pattern\n// See: https://www.typescriptlang.org/docs/handbook/intro.html",
-    "previewSvg": "/masallahpub/previews/typescript.svg",
+    "previewSvg": "/masallahpub/screenshots/typescript.png",
     "featured": true
   },
   {
@@ -3759,7 +3759,7 @@
     "originalPrompt": "Write React Testing Library tests for search, filter buttons, and copy prompt.",
     "optimizedPrompt": "Write a comprehensive component test suite following Testing Library (`testing-library.com`) guiding principles:\n- Strictly query elements the way an assistive technology user perceives them: `screen.getByRole('searchbox')`, `screen.getByRole('button', { name: /copy optimized prompt/i })`, `screen.getByRole('tab', { name: /original prompt/i })`.\n- Avoid querying internal CSS class names or component state.\n- Verify real user flows: typing a query filters displayed cards, clicking category pills updates active pressed state (`aria-pressed=\"true\"`), and clicking \"Copy Prompt\" invokes `navigator.clipboard.writeText` with the exact prompt text and announces \"Copied to clipboard\".",
     "codeSnippet": "// Minimal Testing Library usage pattern\n// See: https://testing-library.com/docs/queries/about",
-    "previewSvg": "/masallahpub/previews/testing-library.svg",
+    "previewSvg": "/masallahpub/screenshots/testing-library.png",
     "featured": false
   },
   {
@@ -3821,7 +3821,7 @@
     "originalPrompt": "Write Playwright E2E tests for navigation, search, filters, mobile responsiveness, and screenshots.",
     "optimizedPrompt": "Create a Playwright E2E verification suite (`playwright.dev`) specifically engineered for a subpath-deployed web archive (`/masallahpub`):\n1. Zero Console/Page Error Gate: Attach `page.on('pageerror')` and `page.on('console')` listeners to fail on any unhandled runtime exception or broken asset 404.\n2. Subpath & Deep-Link Integrity: Verify navigation across `/masallahpub`, `/masallahpub/sources`, `/masallahpub/prompts`, `/masallahpub/workflows`, and deep-linked query URLs (`/masallahpub?category=3D&q=Three.js`).\n3. Interactive Feature Verification: Test global search filtering, prompt clipboard copy, live demo controls, and keyboard Escape handling.\n4. Automated Viewport Preview Capture: Capture deterministic 1440x900 desktop and 390x844 mobile screenshots while respecting `robots.txt` and public-only routes.",
     "codeSnippet": "// Minimal Playwright usage pattern\n// See: https://playwright.dev/docs/intro",
-    "previewSvg": "/masallahpub/previews/playwright.svg",
+    "previewSvg": "/masallahpub/screenshots/playwright.png",
     "featured": true
   },
   {
@@ -3883,7 +3883,7 @@
     "originalPrompt": "Write Storybook CSF3 stories for a CatalogCard component with different variants.",
     "optimizedPrompt": "Write a Storybook Component Story Format 3 (CSF3) specification (`storybook.js.org`) for the Masallah `CatalogCard` and `LiveDemoStage` components:\n- Define typed `Meta<typeof CatalogCard>` with interactive `argTypes` for category, contentTypes, hasPrompt, hasDemo, and status.\n- Export stories covering edge cases: `DefaultIndexed`, `WithOriginalAndOptimizedPrompt`, `WithInteractiveLiveDemo`, `ExtremeLongTitleAndTags`, and `AccessRestrictedLinkOnly`.\n- Include a `play` function using `@storybook/test` (`within`, `userEvent`, `expect`) that exercises tab switching and prompt copy inside the story canvas.",
     "codeSnippet": "// Minimal Storybook usage pattern\n// See: https://storybook.js.org/docs",
-    "previewSvg": "/masallahpub/previews/storybook.svg",
+    "previewSvg": "/masallahpub/screenshots/storybook.png",
     "featured": true
   },
   {
@@ -3942,7 +3942,7 @@
     "originalPrompt": "Audit this web application for security vulnerabilities using OWASP Cheat Sheets.",
     "optimizedPrompt": "Conduct a comprehensive security audit and remediation pass modeled on the OWASP Cheat Sheet Series (`cheatsheetseries.owasp.org`):\n1. DOM-Based XSS Prevention: Verify zero unvalidated usage of `dangerouslySetInnerHTML`, `eval()`, or `javascript:` URLs. Enforce strict URL protocol allowlisting (`https:` / `http:` only) on all external source/demo/repo links.\n2. Safe External Navigation: Ensure every external `<a target=\"_blank\">` includes `rel=\"noopener noreferrer\"`.\n3. HTTP Security Headers & CSP: Configure `X-Content-Type-Options: nosniff`, `Referrer-Policy: strict-origin-when-cross-origin`, `Permissions-Policy: camera=(), microphone=(), geolocation=()`, and `X-Frame-Options: SAMEORIGIN`.\n4. Pre-Commit Secret Scanning: Scan all tracked files against high-entropy patterns (API keys, `ghp_`, `gho_`, `sk-`, `AIza`, private keys, `.env` files) and block commit if any match is found.",
     "codeSnippet": "// Minimal OWASP Cheat Sheet Series usage pattern\n// See: https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html",
-    "previewSvg": "/masallahpub/previews/owasp-cheatsheets.svg",
+    "previewSvg": "/masallahpub/screenshots/owasp-cheatsheets.png",
     "featured": true
   },
   {
@@ -4003,7 +4003,7 @@
     "originalPrompt": "Make pixel art effects and sprite animations in code with the pixelfx library, which has 244 ready-made ones, acted out by a character who winds up, freezes on contact and recovers... The method is Hugo Duprez's: code is clay, trust your eyes, feed your references. One-shot prompts make mediocre effects. Drafts you render, look at and refine make good ones.",
     "optimizedPrompt": "Act as a Procedural Pixel Art VFX Technical Artist using the PixelFX (`github.com/patch-gg/pixelfx`) dual-buffer architecture and \"draft, render, look, refine\" loop:\n1. Dual-Buffer Rendering: Draw every frame at low native pixel resolution (e.g., 160x90 or 320x180 with `image-rendering: pixelated`) into two buffers:\n   - `color` buffer: indexed palette ramp (darkest shadow to brightest highlight, with 2x2 Bayer dither for transitions).\n   - `light` buffer: additive radial glow composited on top of background and characters.\n2. Acted-Out Timing Curve: Structure the effect across 4 distinct phases:\n   - Wind-up / Anticipation (frames 0–4: inward particle gather & palette warm-up)\n   - Impact / Contact Freeze (frames 5–7: 2-frame hit-stop flash + radial shockwave ring)\n   - Dissipation / Secondary Debris (frames 8–18: rising dithered embers & gravity-affected sparks)\n   - Recovery (frames 19–24: clean fade to transparent).\n3. Expose deterministic runtime knobs: `palette` (5-stop hex ramp), `seed` (PRNG), `light` (0.0–1.5 glow multiplier), and `flip`.",
     "codeSnippet": "import { createFrame, clearFrame, createFx, composite } from \"pixelfx\";\nimport * as frostNova from \"pixelfx/fx/ice/frost-nova\";\n\nconst frame = createFrame(320, 180);\nconst fx = createFx(frostNova, { x: 160, y: 140, light: 1.1 });\nfx.update(1 / 60);\nclearFrame(frame);\nfx.draw(frame, \"front\");",
-    "previewSvg": "/masallahpub/previews/pixelfx.svg",
+    "previewSvg": "/masallahpub/screenshots/pixelfx.png",
     "featured": true
   },
   {
@@ -4059,7 +4059,7 @@
     "originalPrompt": "Create a Remotion video composition with animated text and spring transitions.",
     "optimizedPrompt": "Create a deterministic 60fps programmatic video composition using Remotion (`github.com/remotion-dev/remotion`):\n1. Strict Frame Determinism: Drive EVERY animation exclusively from `const frame = useCurrentFrame()` and `const { fps, width, height } = useVideoConfig()`. Never use CSS `transition` or `requestAnimationFrame`, which cause non-deterministic frame flicker during headless rendering.\n2. Choreography via `<Series>` and `<Sequence>`:\n   - Frames 0–45: Kinetic brand intro using `spring({ frame, fps, config: { damping: 14, stiffness: 160 } })`.\n   - Frames 35–120: 3-card feature showcase staggered by 12 frames each (`frame - index * 12`).\n   - Frames 110–180: Audio-synced waveform + call-to-action outro using `interpolate(frame, [110, 140], [0, 1], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' })`.\n3. Define a Zod schema for `defaultProps` so titles, theme colors, and metrics can be customized live in Remotion Studio or rendered via CLI.",
     "codeSnippet": "import { AbsoluteFill, spring, useCurrentFrame, useVideoConfig } from \"remotion\";\n\nexport const IntroCard: React.FC<{ title: string }> = ({ title }) => {\n  const frame = useCurrentFrame();\n  const { fps } = useVideoConfig();\n  const scale = spring({ frame, fps, config: { damping: 14, stiffness: 160 } });\n  return <AbsoluteFill style={{ transform: `scale(${scale})` }}>{title}</AbsoluteFill>;\n};",
-    "previewSvg": "/masallahpub/previews/remotion.svg",
+    "previewSvg": "/masallahpub/screenshots/remotion.png",
     "featured": true
   },
   {
@@ -4118,7 +4118,7 @@
     "originalPrompt": "/remotion-create Make a promo video for a record store\n/remotion-markup Create an animated title card using Inter.\n/remotion-maps Animate a route from Los Angeles to New York and make the camera follow it.",
     "optimizedPrompt": "Execute a multi-stage programmatic video build following the official Remotion Agent Skills (`github.com/remotion-dev/skills`) protocol:\n1. Skill Routing (`/remotion-best-practices`): Preserve existing user composition edits; launch Remotion Studio preview early so visual feedback guides iteration before full MP4 rendering.\n2. Markup & Layout (`/remotion-markup`): Use `<AbsoluteFill>` layers, preload fonts deterministically via `@remotion/google-fonts`, and structure inline controls so parameters remain editable in Studio.\n3. Word-Level Captions (`/remotion-captions`): Ingest millisecond-aligned word timestamps (from WhisperX or `@remotion/captions`), group into TikTok/Reel-style 4-word pages with `createTikTokStyleCaptions()`, and highlight the active spoken word at `currentTimeMs = (frame / fps) * 1000`.\n4. Geospatial Flyover (`/remotion-maps`): Interpolate camera bearing, pitch, and GeoJSON polyline progress deterministically per frame.",
     "codeSnippet": "# Install official Remotion coding agent skills into your workspace\nnpx skills add remotion-dev/skills\n# Available slash skills:\n# /remotion-best-practices | /remotion-create | /remotion-markup | /remotion-captions | /remotion-maps",
-    "previewSvg": "/masallahpub/previews/remotion-skills.svg",
+    "previewSvg": "/masallahpub/screenshots/remotion-skills.png",
     "featured": false
   },
   {
@@ -4177,7 +4177,7 @@
     "originalPrompt": "Create a staggered grid wave animation and SVG line drawing using Anime.js.",
     "optimizedPrompt": "Build an interactive motion study using Anime.js (`github.com/juliangarnier/anime`):\n1. 2D Spatial Stagger: Arrange a 12x6 matrix of kinetic cells and compute radial propagation delays from the clicked cell index:\n   `delay: anime.stagger(45, { grid: [12, 6], from: activeIndex })`\n   `scale: [1, 1.35, 1]`, `rotateZ: anime.stagger([-15, 15], { grid: [12, 6], from: activeIndex, axis: 'x' })`.\n2. Multi-Track Timeline: Synchronize an SVG circuit path stroke reveal (`strokeDashoffset: [anime.setDashoffset, 0]`) with numeric counter keyframes and elastic spring easing (`spring(1, 80, 12, 0)`).\n3. Expose interactive Play, Pause, Reverse, Seek scrubber, and Stagger Origin controls.",
     "codeSnippet": "import anime from \"animejs\";\n\nanime.timeline({ easing: \"spring(1, 80, 12, 0)\" })\n  .add({\n    targets: \".grid-cell\",\n    scale: [0.85, 1],\n    delay: anime.stagger(35, { grid: [10, 5], from: \"center\" }),\n  });",
-    "previewSvg": "/masallahpub/previews/animejs.svg",
+    "previewSvg": "/masallahpub/screenshots/animejs.png",
     "featured": true
   },
   {
@@ -4234,7 +4234,7 @@
     "originalPrompt": "Create an implementation using Motion (GitHub Repository) (TypeScript, React, Web Animations API) following official documentation patterns.",
     "optimizedPrompt": "Act as a Principal Specialist in Motion (GitHub Repository) (https://github.com/motiondivision/motion). Implement a production-ready module adhering to these verified constraints:\n1. Core Stack & Standards: Use TypeScript, React, Web Animations API, Spring Physics with strict type safety and clean resource lifecycle management.\n2. Pattern Fidelity: Apply Motion (GitHub Repository)'s canonical architecture (Open-source repository for Motion (formerly Framer Motion)—implementing hardware-accelerated hybrid WAAPI + JS spring animations, FLIP layout projection, and gesture recognizers.) without copying proprietary third-party brand assets.\n3. Accessibility & Performance: Maintain 60fps interaction budgets, keyboard navigability, and deterministic error handling.",
     "codeSnippet": "import { motion, AnimatePresence } from \"motion/react\";\n\nexport const AnimatedPill = ({ label }: { label: string }) => (\n  <motion.div layout initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ type: \"spring\", stiffness: 400, damping: 30 }}>\n    {label}\n  </motion.div>\n);",
-    "previewSvg": "/masallahpub/previews/motion-repo.svg",
+    "previewSvg": "/masallahpub/screenshots/motion-repo.png",
     "featured": true
   },
   {
@@ -4292,7 +4292,7 @@
     "originalPrompt": "Write a Manim Python script that animates a Fourier series or calculus derivative graph with LaTeX equations.",
     "optimizedPrompt": "Write a production-ready Manim Community (`github.com/ManimCommunity/manim`) Python script covering four educational explainer patterns:\n1. Equation Morphing: Use `MathTex` with explicit double-brace token isolation and `TransformMatchingTex` to smoothly morph the Fourier series / Euler identity step by step without jarring alpha fades.\n2. Dynamic ValueTracker Graph: Construct `Axes`, plot $f(x) = \\sin(x) \\cdot e^{-0.2x}$, attach a `ValueTracker(t)`, and use `always_redraw` to render the moving secant/tangent line and area Riemann rectangles in real time.\n3. System Architecture Diagram: Animate directed data flow packets along `CurvedArrow` edges between labeled rounded nodes.\n4. Output both the executable `manim -pqh explainer.py ExplainerScene` Python code and a synchronized browser Canvas preview of the exact mathematical curve and tangent animation.",
     "codeSnippet": "from manim import *\n\nclass EulerIdentityScene(Scene):\n    def construct(self):\n        eq = MathTex(r\"e^{i\\pi} + 1 = 0\", font_size=72)\n        self.play(Write(eq), run_time=2)\n        self.wait(1)",
-    "previewSvg": "/masallahpub/previews/manim.svg",
+    "previewSvg": "/masallahpub/screenshots/manim.png",
     "featured": true
   },
   {
@@ -4348,7 +4348,7 @@
     "originalPrompt": "Load a Lottie JSON animation in React and scrub frames on scroll.",
     "optimizedPrompt": "Implement a performance-hardened `lottie-web` (`github.com/airbnb/lottie-web`) React controller:\n1. Lifecycle & Memory Safety: Instantiate via `lottie.loadAnimation({ container, renderer: 'svg' | 'canvas', loop: false, autoplay: false, animationData })` and guarantee `anim.destroy()` on unmount.\n2. Viewport Gating: Attach an `IntersectionObserver` so offscreen Lottie instances never consume CPU/GPU frame budget.\n3. Frame-Accurate Scrubbing: Map normalized scroll or slider progress `p in [0, 1]` to `anim.goToAndStop(p * anim.totalFrames, true)` inside a single `requestAnimationFrame` tick.\n4. Reduced Motion: Jump directly to the key illustrative poster frame (`totalFrames * 0.65`) when `prefers-reduced-motion: reduce` is active.",
     "codeSnippet": "import lottie from \"lottie-web\";\n\nconst anim = lottie.loadAnimation({\n  container: document.getElementById(\"lottie-stage\")!,\n  renderer: \"svg\",\n  loop: false,\n  autoplay: false,\n  path: \"/animations/vector-rig.json\",\n});\nanim.goToAndStop(45, true);",
-    "previewSvg": "/masallahpub/previews/lottie-web.svg",
+    "previewSvg": "/masallahpub/screenshots/lottie-web.png",
     "featured": true
   },
   {
@@ -4408,7 +4408,7 @@
     "originalPrompt": "Create a 3D isometric room in Blender with warm lighting and materials using Blender MCP.",
     "optimizedPrompt": "Using the Model Context Protocol tools provided by `mcp-for-blender` (`github.com/ahujasid/mcp-for-blender`), execute a structured 5-step 3D scene construction pipeline in Blender:\n1. Scene Hygiene & Camera: Inspect current scene via `get_scene_info`, clear default cube, and create an Orthographic Camera (`ortho_scale = 8.5`) at `location=(7.5, -7.5, 6.2)`, `rotation=(58deg, 0, 45deg)` parented to an Empty turntable rig at the origin.\n2. Procedural Geometry (`execute_blender_code`): Generate a modular architectural diorama with Bevel modifiers (`width=0.02, segments=3`) so edges catch specular highlights realistically.\n3. Principled BSDF Node Graph: Construct brushed anodized aluminum (`Metallic=0.92, Roughness=0.24`), warm alabaster ceramic (`Subsurface Weight=0.15`), and emissive neon accents (`Emission Strength=8.0`).\n4. Three-Point Studio Lighting: Key Area Light (`500W, 3800K warm`), Rim Area Light (`350W, 7500K cool cyan`), and Fill Top Softbox (`150W`).\n5. Verification: Configure Cycles GPU rendering (`samples=128`, AgX color management, High Contrast look) and capture viewport preview to verify silhouette readability.",
     "codeSnippet": "// Claude Desktop / Cursor MCP configuration for Blender\n{\n  \"mcpServers\": {\n    \"blender\": {\n      \"command\": \"uvx\",\n      \"args\": [\"blender-mcp\"]\n    }\n  }\n}",
-    "previewSvg": "/masallahpub/previews/mcp-for-blender.svg",
+    "previewSvg": "/masallahpub/screenshots/mcp-for-blender.png",
     "featured": true
   },
   {
@@ -4471,7 +4471,7 @@
     "originalPrompt": "Create an interactive 3D scene in Three.js with instanced meshes, lights, and custom shaders.",
     "optimizedPrompt": "Build a high-performance 3D scene combining `three` (`mrdoob/three.js`) and `three-gpu-pathtracer` (`gkjohnson/three-gpu-pathtracer`):\n1. Scene & Camera: Initialize `WebGLRenderer({ antialias: true, powerPreference: 'high-performance' })` with `ACESFilmicToneMapping` and clamped `devicePixelRatio (<= 2)`.\n2. Instanced Geometry: Render 120 kinetic crystalline forms via a single `THREE.InstancedMesh` draw call, updating each instance matrix along a curl-noise orbital path in the animation loop.\n3. Realistic Lighting & Path Tracer Mode: Provide a toggle between real-time 60fps PBR (`MeshPhysicalMaterial` with `transmission: 0.92, ior: 1.52, roughness: 0.08, thickness: 1.5`) and progressive BVH GPU Path Tracing (`WebGLPathTracer`) that accumulates global illumination and caustics when the camera is stationary.\n4. Resource Cleanup: Dispose geometries, materials, textures, and renderer context on component unmount.",
     "codeSnippet": "import * as THREE from \"three\";\n\nconst scene = new THREE.Scene();\nconst camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.1, 100);\nconst mesh = new THREE.Mesh(\n  new THREE.IcosahedronGeometry(1.2, 3),\n  new THREE.MeshPhysicalMaterial({ roughness: 0.1, transmission: 0.9, thickness: 1.2 })\n);\nscene.add(mesh);",
-    "previewSvg": "/masallahpub/previews/threejs.svg",
+    "previewSvg": "/masallahpub/screenshots/threejs.png",
     "featured": true
   },
   {
@@ -4531,7 +4531,7 @@
     "originalPrompt": "Create an implementation using Three GPU Pathtracer (Three.js, WebGL2, BVH) following official documentation patterns.",
     "optimizedPrompt": "Act as a Principal Specialist in Three GPU Pathtracer (https://github.com/gkjohnson/three-gpu-pathtracer). Implement a production-ready module adhering to these verified constraints:\n1. Core Stack & Standards: Use Three.js, WebGL2, BVH, GLSL Path Tracing with strict type safety and clean resource lifecycle management.\n2. Pattern Fidelity: Apply Three GPU Pathtracer's canonical architecture (Real-time and progressive GPU path tracer for Three.js built on `three-mesh-bvh`—delivering physically accurate global illumination, soft area shadows, dispersion, and mirror/dielectric reflections in the browser.) without copying proprietary third-party brand assets.\n3. Accessibility & Performance: Maintain 60fps interaction budgets, keyboard navigability, and deterministic error handling.",
     "codeSnippet": "import { WebGLPathTracer } from \"three-gpu-pathtracer\";\n\nconst pathTracer = new WebGLPathTracer(renderer);\npathTracer.setScene(scene, camera);\n// In render loop:\npathTracer.renderSample();",
-    "previewSvg": "/masallahpub/previews/three-gpu-pathtracer.svg",
+    "previewSvg": "/masallahpub/screenshots/three-gpu-pathtracer.png",
     "featured": true
   },
   {
@@ -4591,7 +4591,7 @@
     "originalPrompt": "Create an implementation using Jolt Physics (C++, WebAssembly, JoltPhysics.js) following official documentation patterns.",
     "optimizedPrompt": "Act as a Principal Specialist in Jolt Physics (https://github.com/jrouwe/JoltPhysics). Implement a production-ready module adhering to these verified constraints:\n1. Core Stack & Standards: Use C++, WebAssembly, JoltPhysics.js, Three.js, Rigid/Soft Body with strict type safety and clean resource lifecycle management.\n2. Pattern Fidelity: Apply Jolt Physics's canonical architecture (High-performance multi-core rigid body and soft body physics and collision detection engine (used in Horizon Forbidden West) with official WebAssembly bindings for Three.js and WebGL.) without copying proprietary third-party brand assets.\n3. Accessibility & Performance: Maintain 60fps interaction budgets, keyboard navigability, and deterministic error handling.",
     "codeSnippet": "import initJolt from \"jolt-physics\";\n\nconst Jolt = await initJolt();\nconst settings = new Jolt.JoltSettings();\nconst jolt = new Jolt.JoltInterface(settings);\nconst physicsSystem = jolt.GetPhysicsSystem();",
-    "previewSvg": "/masallahpub/previews/jolt-physics.svg",
+    "previewSvg": "/masallahpub/screenshots/jolt-physics.png",
     "featured": false
   },
   {
@@ -4653,7 +4653,7 @@
     "originalPrompt": "Add bloom post-processing, particle trails, physics collision, and a Tweakpane debug panel to a Three.js scene.",
     "optimizedPrompt": "Integrate the complete creative 3D WebGL toolchain (`jolt-physics`, `three.quarks`, `pmndrs/postprocessing`, and `tweakpane`):\n1. Physics Simulation (`JoltPhysics.js`): Step rigid-body spheres with restitution and attract them toward a central magnetic singularity; detect impulse thresholds on collision contacts.\n2. Batched VFX (`three.quarks`): Attach a single `BatchedRenderer` to the scene; spawn GPU ribbon trails on moving bodies and trigger a radial spark burst emitter whenever collision impulse exceeds threshold.\n3. Consolidated Shader Pipeline (`pmndrs/postprocessing`): Merge `SelectiveBloomEffect({ intensity: 1.8, luminanceThreshold: 0.75, mipmapBlur: true })`, `DepthOfFieldEffect`, and `VignetteEffect` into a single consolidated `EffectPass` inside `EffectComposer`.\n4. Live Parameter Tuning (`Tweakpane`): Bind real-time controls for Bloom Intensity, Chromatic Aberration, Particle Emission Rate, Gravity Vector, and Time Scale, plus an exportable JSON preset button.",
     "codeSnippet": "import { EffectComposer, EffectPass, RenderPass, SelectiveBloomEffect } from \"postprocessing\";\n\nconst composer = new EffectComposer(renderer);\ncomposer.addPass(new RenderPass(scene, camera));\ncomposer.addPass(new EffectPass(camera, new SelectiveBloomEffect(scene, camera, { intensity: 1.5 })));",
-    "previewSvg": "/masallahpub/previews/postprocessing.svg",
+    "previewSvg": "/masallahpub/screenshots/postprocessing.png",
     "featured": true
   },
   {
@@ -4710,7 +4710,7 @@
     "originalPrompt": "Create an implementation using Three.quarks (Three.js, TypeScript, WebGL Instancing) following official documentation patterns.",
     "optimizedPrompt": "Act as a Principal Specialist in Three.quarks (https://github.com/Alchemist0823/three.quarks). Implement a production-ready module adhering to these verified constraints:\n1. Core Stack & Standards: Use Three.js, TypeScript, WebGL Instancing, Particle VFX with strict type safety and clean resource lifecycle management.\n2. Pattern Fidelity: Apply Three.quarks's canonical architecture (Fast, batched GPU particle system and VFX engine for Three.js supporting emitter shapes, ribbon trails, noise force fields, sub-emitters, and mesh particles in a single draw call.) without copying proprietary third-party brand assets.\n3. Accessibility & Performance: Maintain 60fps interaction budgets, keyboard navigability, and deterministic error handling.",
     "codeSnippet": "import { BatchedRenderer, ParticleSystem, ConeEmitter, IntervalValue, ColorRange } from \"three.quarks\";\n\nconst batchRenderer = new BatchedRenderer();\nscene.add(batchRenderer);\nconst sparks = new ParticleSystem({\n  duration: 2,\n  looping: true,\n  startLife: new IntervalValue(0.4, 1.1),\n  shape: new ConeEmitter({ radius: 0.2, angle: 0.4 }),\n});\nbatchRenderer.addSystem(sparks);",
-    "previewSvg": "/masallahpub/previews/three-quarks.svg",
+    "previewSvg": "/masallahpub/screenshots/three-quarks.png",
     "featured": true
   },
   {
@@ -4767,7 +4767,7 @@
     "originalPrompt": "Create an implementation using Tweakpane (TypeScript, Tweakpane, Canvas) following official documentation patterns.",
     "optimizedPrompt": "Act as a Principal Specialist in Tweakpane (https://github.com/cocopon/tweakpane). Implement a production-ready module adhering to these verified constraints:\n1. Core Stack & Standards: Use TypeScript, Tweakpane, Canvas, WebGL Uniforms with strict type safety and clean resource lifecycle management.\n2. Pattern Fidelity: Apply Tweakpane's canonical architecture (Compact, modular GUI panel for fine-tuning creative coding parameters, shader uniforms, spring physics constants, and monitoring real-time frame waveforms.) without copying proprietary third-party brand assets.\n3. Accessibility & Performance: Maintain 60fps interaction budgets, keyboard navigability, and deterministic error handling.",
     "codeSnippet": "import { Pane } from \"tweakpane\";\n\nconst params = { bloomIntensity: 1.4, timeScale: 1.0, wireframe: false };\nconst pane = new Pane({ title: \"Scene Parameters\" });\npane.addBinding(params, \"bloomIntensity\", { min: 0, max: 4, step: 0.05 });\npane.addBinding(params, \"timeScale\", { min: 0, max: 2, step: 0.05 });\npane.addBinding(params, \"wireframe\");",
-    "previewSvg": "/masallahpub/previews/tweakpane.svg",
+    "previewSvg": "/masallahpub/screenshots/tweakpane.png",
     "featured": true
   },
   {
@@ -4825,7 +4825,7 @@
     "originalPrompt": "Create a ComfyUI workflow JSON and Python script to generate consistent style frames for a video.",
     "optimizedPrompt": "Design a reproducible, license-compliant ComfyUI (`github.com/Comfy-Org/ComfyUI`) automation pipeline:\n1. DAG Node Graph Architecture (`workflow_api.json`):\n   - Node 1 (`CheckpointLoaderSimple`): Parameterized model filename input (never hardcode or commit proprietary checkpoint binaries into git).\n   - Node 2 (`ControlNetLoader` + `ControlNetApplyAdvanced`): Lock structural layout using a Blender/Three.js depth pass (`strength: 0.78, start_percent: 0.0, end_percent: 0.85`).\n   - Node 3 (`KSampler`): Fixed seed + Euler Ancestral / Karras scheduler for deterministic keyframe reproducibility.\n   - Node 4 (`LatentUpscaleBy` + secondary `KSampler` denoise `0.35`) → `VAEDecode` → `SaveImage`.\n2. Headless WebSocket Client: Write a clean Python/Node script that connects to `ws://127.0.0.1:8188/ws?clientId=...`, injects dynamic prompt/seed overrides into the API JSON graph, monitors node-by-node execution progress, and retrieves the output PNG frames.",
     "codeSnippet": "# Submit a deterministic API graph to local ComfyUI server (no model weights in git)\ncurl -X POST http://127.0.0.1:8188/prompt \\\n  -H \"Content-Type: application/json\" \\\n  -d @workflow_api.json",
-    "previewSvg": "/masallahpub/previews/comfyui.svg",
+    "previewSvg": "/masallahpub/screenshots/comfyui.png",
     "featured": true
   },
   {
@@ -4885,7 +4885,7 @@
     "originalPrompt": "Generate voiceover audio with CosyVoice and extract word-level timestamps using WhisperX.",
     "optimizedPrompt": "Build an automated narration and word-level subtitle synchronization pipeline chaining `CosyVoice` (`FunAudioLLM/CosyVoice`) and `WhisperX` (`m-bain/whisperX`):\n1. Multilingual Narration Synthesis (`CosyVoice2`):\n   - Segment script by sentence boundaries and apply explicit prosody/breath markers.\n   - Synthesize 24kHz mono WAV segments using `cosyvoice.inference_instruct2()` or zero-shot speaker reference (keeping pretrained model weights in local cache outside git).\n2. Phoneme Forced Alignment (`WhisperX`):\n   - Transcribe synthesized audio with `whisperx.load_model(\"large-v3\", compute_type=\"float16\")`.\n   - Run wav2vec2 phoneme alignment via `whisperx.load_align_model()` and `whisperx.align()` to produce exact `{ word, start, end, score }` millisecond timestamps.\n3. Remotion Export: Convert aligned word timestamps into both `.srt`/`.vtt` and a typed Remotion `captions.json` array.",
     "codeSnippet": "from cosyvoice.cli.cosyvoice import CosyVoice2\nimport torchaudio\n\ncosyvoice = CosyVoice2(\"iic/CosyVoice2-0.5B\", load_jit=False, load_trt=False)\nfor i, chunk in enumerate(cosyvoice.inference_sft(\"Masallah yaratici arsivine hos geldiniz.\", \"Turkish\")):\n    torchaudio.save(f\"narration_{i}.wav\", chunk[\"tts_speech\"], 24000)",
-    "previewSvg": "/masallahpub/previews/cosyvoice.svg",
+    "previewSvg": "/masallahpub/screenshots/cosyvoice.png",
     "featured": false
   },
   {
@@ -4945,7 +4945,7 @@
     "originalPrompt": "Analyze an audio file with librosa to detect beats and export a JSON file for video animation.",
     "optimizedPrompt": "Write a Python audio-analysis script using `librosa` (`github.com/librosa/librosa`) that bridges music signals directly into 60fps web/video animations:\n1. Harmonic-Percussive Source Separation: Split audio via `y_harm, y_perc = librosa.effects.hpss(y)` so beat detection locks onto crisp percussive transients.\n2. Beat & Onset Extraction: Compute `onset_env = librosa.onset.onset_strength(y=y_perc, sr=sr)`, `tempo, beat_frames = librosa.beat.beat_track(onset_envelope=onset_env, sr=sr)`, and convert frames to exact timestamps (`librosa.frames_to_time`).\n3. 60fps Frame Resampling: Interpolate sub-bass (20–120Hz), mid (120–2000Hz), and high-hat (2000–12000Hz) RMS energy onto a deterministic 60fps video frame grid (`frame_0 ... frame_N`) so Remotion or Three.js shaders can read `audioData.frames[currentFrame].bass` in $O(1)$ time.",
     "codeSnippet": "import librosa, json\n\ny, sr = librosa.load(\"soundtrack.wav\", sr=22050)\n_, y_perc = librosa.effects.hpss(y)\ntempo, beat_frames = librosa.beat.beat_track(y=y_perc, sr=sr)\nbeat_times = librosa.frames_to_time(beat_frames, sr=sr).tolist()\nprint(json.dumps({\"bpm\": float(tempo), \"beats\": beat_times[:12]}))",
-    "previewSvg": "/masallahpub/previews/librosa.svg",
+    "previewSvg": "/masallahpub/screenshots/librosa.png",
     "featured": false
   },
   {
@@ -5003,7 +5003,7 @@
     "originalPrompt": "Create an implementation using WhisperX (Python, WhisperX, faster-whisper) following official documentation patterns.",
     "optimizedPrompt": "Act as a Principal Specialist in WhisperX (https://github.com/m-bain/whisperX). Implement a production-ready module adhering to these verified constraints:\n1. Core Stack & Standards: Use Python, WhisperX, faster-whisper, wav2vec2, Pyannote with strict type safety and clean resource lifecycle management.\n2. Pattern Fidelity: Apply WhisperX's canonical architecture (Automatic speech recognition pipeline combining faster-whisper with phoneme-based forced alignment (wav2vec2) and speaker diarization for millisecond-accurate word-level subtitle timing.) without copying proprietary third-party brand assets.\n3. Accessibility & Performance: Maintain 60fps interaction budgets, keyboard navigability, and deterministic error handling.",
     "codeSnippet": "import whisperx\n\nmodel = whisperx.load_model(\"large-v3\", device=\"cuda\", compute_type=\"float16\")\naudio = whisperx.load_audio(\"narration.wav\")\nresult = model.transcribe(audio, batch_size=16)\nmodel_a, metadata = whisperx.load_align_model(language_code=result[\"language\"], device=\"cuda\")\naligned = whisperx.align(result[\"segments\"], model_a, metadata, audio, \"cuda\")",
-    "previewSvg": "/masallahpub/previews/whisperx.svg",
+    "previewSvg": "/masallahpub/screenshots/whisperx.png",
     "featured": false
   },
   {
@@ -5062,7 +5062,7 @@
     "originalPrompt": "Create an implementation using OBS Studio (C/C++, OBS Studio, obs-websocket) following official documentation patterns.",
     "optimizedPrompt": "Act as a Principal Specialist in OBS Studio (https://github.com/obsproject/obs-studio). Implement a production-ready module adhering to these verified constraints:\n1. Core Stack & Standards: Use C/C++, OBS Studio, obs-websocket, NVENC / VideoToolbox with strict type safety and clean resource lifecycle management.\n2. Pattern Fidelity: Apply OBS Studio's canonical architecture (Open-source cross-platform studio for low-overhead GPU screen recording, WebGL Browser Source compositing, and programmatic scene automation via `obs-websocket`.) without copying proprietary third-party brand assets.\n3. Accessibility & Performance: Maintain 60fps interaction budgets, keyboard navigability, and deterministic error handling.",
     "codeSnippet": "# Record lossless MKV segment & trigger scene switch via obs-websocket CLI\nobs-cmd --websocket obsws://localhost:4455 scene switch \"3D_WebGL_Capture\"\nobs-cmd --websocket obsws://localhost:4455 recording start",
-    "previewSvg": "/masallahpub/previews/obs-studio.svg",
+    "previewSvg": "/masallahpub/screenshots/obs-studio.png",
     "featured": true
   },
   {
@@ -5122,7 +5122,7 @@
     "originalPrompt": "Create an implementation using LosslessCut (Electron, TypeScript, FFmpeg Stream Copy) following official documentation patterns.",
     "optimizedPrompt": "Act as a Principal Specialist in LosslessCut (https://github.com/mifi/lossless-cut). Implement a production-ready module adhering to these verified constraints:\n1. Core Stack & Standards: Use Electron, TypeScript, FFmpeg Stream Copy, EDL with strict type safety and clean resource lifecycle management.\n2. Pattern Fidelity: Apply LosslessCut's canonical architecture (Swiss army knife of lossless video and audio trimming—cutting, merging, and extracting segments directly on keyframe boundaries via FFmpeg stream copy without re-encoding.) without copying proprietary third-party brand assets.\n3. Accessibility & Performance: Maintain 60fps interaction budgets, keyboard navigability, and deterministic error handling.",
     "codeSnippet": "# Lossless keyframe stream copy using FFmpeg / LosslessCut project workflow\nffmpeg -ss 00:00:08.000 -to 00:00:26.000 -i raw_capture.mkv -c copy -map 0 clip_lossless.mp4",
-    "previewSvg": "/masallahpub/previews/lossless-cut.svg",
+    "previewSvg": "/masallahpub/screenshots/lossless-cut.png",
     "featured": true
   },
   {
@@ -5185,7 +5185,7 @@
     "originalPrompt": "Give me FFmpeg commands to compress video for the web, normalize audio, and extract clips.",
     "optimizedPrompt": "Provide a defensive, production-tested media engineering toolkit combining OBS Studio (`obs-studio`), LosslessCut (`lossless-cut`), and FFmpeg (`FFmpeg/FFmpeg`):\n1. OBS Capture Configuration: Record MKV container (crash-resilient) at 60fps using hardware CQP/CRF 16 (Color Space: Rec.709, Range: Partial) before remuxing to MP4.\n2. Zero-Reencode Segment Extraction (LosslessCut / FFmpeg Stream Copy):\n   `ffmpeg -ss 00:00:12.500 -to 00:00:42.000 -i input.mkv -c copy -avoid_negative_ts make_zero cut_lossless.mp4`\n3. Dual-Pass EBU R128 Audio Loudness Normalization (-14 LUFS for Web/YouTube, -1.0 dBTP true peak):\n   `ffmpeg -i input.mp4 -af loudnorm=I=-14:TP=-1.0:LRA=11 -c:v copy normalized.mp4`\n4. High-Craft Web Hero Loop Delivery (Muted H.264 MP4 + VP9 WebM + First-Frame WebP Poster):\n   - Fast-start H.264: `ffmpeg -i normalized.mp4 -c:v libx264 -preset slow -crf 20 -pix_fmt yuv420p -movflags +faststart -an hero-loop.mp4`\n   - VP9 WebM: `ffmpeg -i normalized.mp4 -c:v libvpx-vp9 -b:v 0 -crf 28 -row-mt 1 -an hero-loop.webm`",
     "codeSnippet": "# Faststart H.264 + EBU R128 (-14 LUFS) audio normalization for web delivery\nffmpeg -i input.mp4 \\\n  -af \"loudnorm=I=-14:TP=-1.0:LRA=11\" \\\n  -c:v libx264 -preset slow -crf 20 -pix_fmt yuv420p \\\n  -movflags +faststart output_web.mp4",
-    "previewSvg": "/masallahpub/previews/ffmpeg.svg",
+    "previewSvg": "/masallahpub/screenshots/ffmpeg.png",
     "featured": true
   },
   {
@@ -5228,7 +5228,7 @@
     "originalPrompt": "Animate a filterable card grid and detail modal using Motion layoutId and AnimatePresence.",
     "optimizedPrompt": "Using the current `motion/react` SDK (from `motion.dev` / `motiondivision/motion`), implement a filterable archive grid with shared layout projection:\n1. Wrap the card collection in `<LayoutGroup>` and `<AnimatePresence mode=\"popLayout\">`.\n2. Assign deterministic `layoutId={`card-container-${item.id}`}` and `layoutId={`card-title-${item.id}`}` between the grid card and the expanded detail drawer/modal.\n3. Configure physically tuned spring physics: `transition={{ type: \"spring\", stiffness: 380, damping: 32, mass: 0.8 }}`.\n4. Respect accessibility by checking `useReducedMotion()`; when true, set `layout={false}` and use a 120ms opacity crossfade.",
     "codeSnippet": "import { motion, AnimatePresence, useReducedMotion } from \"motion/react\";\n\nexport function SharedLayoutCards({ items, activeId, onSelect, springConfig }) {\n  const prefersReduced = useReducedMotion();\n  const transition = prefersReduced\n    ? { duration: 0.12 }\n    : { type: \"spring\", stiffness: springConfig.stiffness, damping: springConfig.damping, mass: springConfig.mass };\n\n  return (\n    <div className=\"grid grid-cols-3 gap-4\">\n      <AnimatePresence mode=\"popLayout\">\n        {items.map((item) => (\n          <motion.button\n            key={item.id}\n            layout={!prefersReduced}\n            layoutId={`card-${item.id}`}\n            transition={transition}\n            whileHover={prefersReduced ? {} : { y: -3, scale: 1.015 }}\n            whileTap={prefersReduced ? {} : { scale: 0.97 }}\n            onClick={() => onSelect(item.id)}\n          >\n            <motion.span layoutId={`title-${item.id}`}>{item.title}</motion.span>\n          </motion.button>\n        ))}\n      </AnimatePresence>\n    </div>\n  );\n}",
-    "previewSvg": "/masallahpub/previews/motion-dev.svg",
+    "previewSvg": "/masallahpub/screenshots/motion-dev.png",
     "featured": true
   },
   {
@@ -5271,7 +5271,7 @@
     "originalPrompt": "Create a staggered grid wave animation and SVG line drawing using Anime.js.",
     "optimizedPrompt": "Build an interactive motion study using Anime.js (`github.com/juliangarnier/anime`):\n1. 2D Spatial Stagger: Arrange a 12x6 matrix of kinetic cells and compute radial propagation delays from the clicked cell index:\n   `delay: anime.stagger(45, { grid: [12, 6], from: activeIndex })`\n   `scale: [1, 1.35, 1]`, `rotateZ: anime.stagger([-15, 15], { grid: [12, 6], from: activeIndex, axis: 'x' })`.\n2. Multi-Track Timeline: Synchronize an SVG circuit path stroke reveal (`strokeDashoffset: [anime.setDashoffset, 0]`) with numeric counter keyframes and elastic spring easing (`spring(1, 80, 12, 0)`).\n3. Expose interactive Play, Pause, Reverse, Seek scrubber, and Stagger Origin controls.",
     "codeSnippet": "// Euclidean 2D grid stagger calculation inspired by anime.stagger(val, { grid: [cols, rows], from: index })\nexport function computeRadialStagger(index, targetIndex, cols = 10, staggerMs = 38) {\n  const x1 = index % cols;\n  const y1 = Math.floor(index / cols);\n  const x2 = targetIndex % cols;\n  const y2 = Math.floor(targetIndex / cols);\n  const distance = Math.hypot(x2 - x1, y2 - y1);\n  return {\n    delayMs: Math.round(distance * staggerMs),\n    distance,\n    scalePeak: Math.max(1.05, 1.45 - distance * 0.06),\n  };\n}",
-    "previewSvg": "/masallahpub/previews/animejs.svg",
+    "previewSvg": "/masallahpub/screenshots/animejs.png",
     "featured": true
   },
   {
@@ -5314,7 +5314,7 @@
     "originalPrompt": "Make pixel art effects and sprite animations in code with the pixelfx library, which has 244 ready-made ones, acted out by a character who winds up, freezes on contact and recovers... The method is Hugo Duprez's: code is clay, trust your eyes, feed your references. One-shot prompts make mediocre effects. Drafts you render, look at and refine make good ones.",
     "optimizedPrompt": "Act as a Procedural Pixel Art VFX Technical Artist using the PixelFX (`github.com/patch-gg/pixelfx`) dual-buffer architecture and \"draft, render, look, refine\" loop:\n1. Dual-Buffer Rendering: Draw every frame at low native pixel resolution (e.g., 160x90 or 320x180 with `image-rendering: pixelated`) into two buffers:\n   - `color` buffer: indexed palette ramp (darkest shadow to brightest highlight, with 2x2 Bayer dither for transitions).\n   - `light` buffer: additive radial glow composited on top of background and characters.\n2. Acted-Out Timing Curve: Structure the effect across 4 distinct phases:\n   - Wind-up / Anticipation (frames 0–4: inward particle gather & palette warm-up)\n   - Impact / Contact Freeze (frames 5–7: 2-frame hit-stop flash + radial shockwave ring)\n   - Dissipation / Secondary Debris (frames 8–18: rising dithered embers & gravity-affected sparks)\n   - Recovery (frames 19–24: clean fade to transparent).\n3. Expose deterministic runtime knobs: `palette` (5-stop hex ramp), `seed` (PRNG), `light` (0.0–1.5 glow multiplier), and `flip`.",
     "codeSnippet": "// PixelFX dual-buffer composite pattern: color buffer + additive light glow\nexport function compositeDualBuffer(colorBuf, lightBuf, outRgba, paletteHex, glowStrength = 1.0) {\n  for (let i = 0; i < colorBuf.length; i++) {\n    const palIndex = colorBuf[i];\n    const baseRgb = paletteHex[palIndex] ?? [10, 10, 14];\n    const glow = lightBuf[i] * glowStrength;\n    const offset = i * 4;\n    outRgba[offset]     = Math.min(255, baseRgb[0] + glow * 220);\n    outRgba[offset + 1] = Math.min(255, baseRgb[1] + glow * 180);\n    outRgba[offset + 2] = Math.min(255, baseRgb[2] + glow * 255);\n    outRgba[offset + 3] = 255;\n  }\n}",
-    "previewSvg": "/masallahpub/previews/pixelfx.svg",
+    "previewSvg": "/masallahpub/screenshots/pixelfx.png",
     "featured": true
   },
   {
@@ -5361,7 +5361,7 @@
     "originalPrompt": "Create an interactive 3D scene in Three.js with instanced meshes, lights, and custom shaders.",
     "optimizedPrompt": "Build a high-performance 3D scene combining `three` (`mrdoob/three.js`) and `three-gpu-pathtracer` (`gkjohnson/three-gpu-pathtracer`):\n1. Scene & Camera: Initialize `WebGLRenderer({ antialias: true, powerPreference: 'high-performance' })` with `ACESFilmicToneMapping` and clamped `devicePixelRatio (<= 2)`.\n2. Instanced Geometry: Render 120 kinetic crystalline forms via a single `THREE.InstancedMesh` draw call, updating each instance matrix along a curl-noise orbital path in the animation loop.\n3. Realistic Lighting & Path Tracer Mode: Provide a toggle between real-time 60fps PBR (`MeshPhysicalMaterial` with `transmission: 0.92, ior: 1.52, roughness: 0.08, thickness: 1.5`) and progressive BVH GPU Path Tracing (`WebGLPathTracer`) that accumulates global illumination and caustics when the camera is stationary.\n4. Resource Cleanup: Dispose geometries, materials, textures, and renderer context on component unmount.",
     "codeSnippet": "import * as THREE from \"three\";\nimport { EffectComposer, EffectPass, RenderPass, SelectiveBloomEffect } from \"postprocessing\";\n\nexport function createPostProcessedScene(canvas: HTMLCanvasElement) {\n  const renderer = new THREE.WebGLRenderer({ canvas, powerPreference: \"high-performance\", antialias: false });\n  renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));\n  renderer.toneMapping = THREE.ACESFilmicToneMapping;\n\n  const scene = new THREE.Scene();\n  const camera = new THREE.PerspectiveCamera(45, canvas.clientWidth / canvas.clientHeight, 0.1, 100);\n  camera.position.set(0, 1.5, 5.5);\n\n  const composer = new EffectComposer(renderer, { frameBufferType: THREE.HalfFloatType });\n  composer.addPass(new RenderPass(scene, camera));\n  const bloom = new SelectiveBloomEffect(scene, camera, { intensity: 1.6, mipmapBlur: true, luminanceThreshold: 0.7 });\n  composer.addPass(new EffectPass(camera, bloom));\n\n  return { renderer, scene, camera, composer, bloom };\n}",
-    "previewSvg": "/masallahpub/previews/threejs.svg",
+    "previewSvg": "/masallahpub/screenshots/threejs.png",
     "featured": true
   },
   {
@@ -5404,7 +5404,7 @@
     "originalPrompt": "Create a SpotlightCard and SplitText animation component like React Bits.",
     "optimizedPrompt": "Create two composable, zero-bloat React components inspired by React Bits (`reactbits.dev`):\n1. `<SpotlightCard>`: Tracks relative pointer coordinates `(x, y)` via a single `onPointerMove` handler and updates CSS custom properties `--spot-x` and `--spot-y` directly on the DOM ref (zero React re-renders on mouse move). Renders a `radial-gradient(420px circle at var(--spot-x) var(--spot-y), rgba(232,93,63,0.18), transparent 70%)` overlay.\n2. `<KineticHeading>`: Splits text by word and character while keeping a full `aria-label` on the parent heading for screen readers (`aria-hidden=\"true\"` on split spans), staggering each character upward with `cubic-bezier(0.16, 1, 0.3, 1)`.",
     "codeSnippet": "export function handleSpotlightPointerMove(e: React.PointerEvent<HTMLElement>) {\n  const rect = e.currentTarget.getBoundingClientRect();\n  e.currentTarget.style.setProperty(\"--spot-x\", `${e.clientX - rect.left}px`);\n  e.currentTarget.style.setProperty(\"--spot-y\", `${e.clientY - rect.top}px`);\n}",
-    "previewSvg": "/masallahpub/previews/react-bits.svg",
+    "previewSvg": "/masallahpub/screenshots/react-bits.png",
     "featured": true
   },
   {
@@ -5447,7 +5447,7 @@
     "originalPrompt": "Write a Manim Python script that animates a Fourier series or calculus derivative graph with LaTeX equations.",
     "optimizedPrompt": "Write a production-ready Manim Community (`github.com/ManimCommunity/manim`) Python script covering four educational explainer patterns:\n1. Equation Morphing: Use `MathTex` with explicit double-brace token isolation and `TransformMatchingTex` to smoothly morph the Fourier series / Euler identity step by step without jarring alpha fades.\n2. Dynamic ValueTracker Graph: Construct `Axes`, plot $f(x) = \\sin(x) \\cdot e^{-0.2x}$, attach a `ValueTracker(t)`, and use `always_redraw` to render the moving secant/tangent line and area Riemann rectangles in real time.\n3. System Architecture Diagram: Animate directed data flow packets along `CurvedArrow` edges between labeled rounded nodes.\n4. Output both the executable `manim -pqh explainer.py ExplainerScene` Python code and a synchronized browser Canvas preview of the exact mathematical curve and tangent animation.",
     "codeSnippet": "from manim import *\nimport numpy as np\n\nclass FourierEpicycleExplainer(Scene):\n    def construct(self):\n        axes = Axes(x_range=[0, 2 * PI, PI / 2], y_range=[-1.5, 1.5, 0.5], x_length=7, y_length=3.5)\n        formula = MathTex(r\"f(t) = \\sum_{k=1}^{N} \\frac{4}{\\pi(2k-1)} \\sin((2k-1)\\omega t)\").to_edge(UP)\n        tracker = ValueTracker(0.0)\n        wave = always_redraw(lambda: axes.plot(\n            lambda x: sum((4 / ( np.pi * (2*k - 1))) * np.sin((2*k - 1) * (x + tracker.get_value())) for k in range(1, 6)),\n            color=TEAL_C\n        ))\n        self.play(Write(formula), Create(axes), Create(wave))\n        self.play(tracker.animate.set_value(2 * PI), run_time=6, rate_func=linear)",
-    "previewSvg": "/masallahpub/previews/manim.svg",
+    "previewSvg": "/masallahpub/screenshots/manim.png",
     "featured": true
   },
   {
@@ -5492,7 +5492,7 @@
     "originalPrompt": "Create a Remotion video composition with animated text and spring transitions.",
     "optimizedPrompt": "Create a deterministic 60fps programmatic video composition using Remotion (`github.com/remotion-dev/remotion`):\n1. Strict Frame Determinism: Drive EVERY animation exclusively from `const frame = useCurrentFrame()` and `const { fps, width, height } = useVideoConfig()`. Never use CSS `transition` or `requestAnimationFrame`, which cause non-deterministic frame flicker during headless rendering.\n2. Choreography via `<Series>` and `<Sequence>`:\n   - Frames 0–45: Kinetic brand intro using `spring({ frame, fps, config: { damping: 14, stiffness: 160 } })`.\n   - Frames 35–120: 3-card feature showcase staggered by 12 frames each (`frame - index * 12`).\n   - Frames 110–180: Audio-synced waveform + call-to-action outro using `interpolate(frame, [110, 140], [0, 1], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' })`.\n3. Define a Zod schema for `defaultProps` so titles, theme colors, and metrics can be customized live in Remotion Studio or rendered via CLI.",
     "codeSnippet": "import { AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig } from \"remotion\";\n\nexport const SyncedCaptionComposition: React.FC<{ words: AlignedWord[]; beats: number[] }> = ({ words, beats }) => {\n  const frame = useCurrentFrame();\n  const { fps } = useVideoConfig();\n  const currentTimeMs = (frame / fps) * 1000;\n  const energy = beats[frame % beats.length] ?? 0.25;\n\n  return (\n    <AbsoluteFill style={{ backgroundColor: \"#090A0F\", justifyContent: \"center\", alignItems: \"center\" }}>\n      <div style={{ display: \"flex\", gap: 12, transform: `scale(${1 + energy * 0.08})` }}>\n        {words.map((w, i) => {\n          const active = currentTimeMs >= w.startMs && currentTimeMs <= w.endMs;\n          return (\n            <span key={i} style={{ color: active ? \"#E85D3F\" : \"#F4F3EF\", fontWeight: active ? 700 : 400 }}>\n              {w.text}\n            </span>\n          );\n        })}\n      </div>\n    </AbsoluteFill>\n  );\n};",
-    "previewSvg": "/masallahpub/previews/remotion.svg",
+    "previewSvg": "/masallahpub/screenshots/remotion.png",
     "featured": true
   },
   {
@@ -5536,7 +5536,7 @@
     "originalPrompt": "Create an accessible modal dialog and toolbar with keyboard navigation like Radix UI.",
     "optimizedPrompt": "Implement a headless, WAI-ARIA compliant UI primitive inspired by Radix UI (`radix-ui/primitives`):\n1. Roving Tabindex Toolbar: Maintain a single tab stop (`tabIndex={0}` on active item, `tabIndex={-1}` on peers). ArrowLeft/ArrowRight (or ArrowUp/ArrowDown) moves focus cyclically with `Home` and `End` support.\n2. Modal Dialog Focus Management: Record `document.activeElement` on open, trap `Tab` / `Shift+Tab` inside the dialog boundary, lock background document scroll, dismiss on `Escape`, and restore focus to the trigger element on unmount.\n3. Expose data attributes (`data-state=\"open\" | \"closed\"`, `data-highlighted`, `data-disabled`) for zero-JS-overhead CSS styling.",
     "codeSnippet": "export function handleRovingKeyDown(\n  e: React.KeyboardEvent,\n  currentIndex: number,\n  itemCount: number,\n  onSelectIndex: (next: number) => void\n) {\n  if (e.key === \"ArrowRight\" || e.key === \"ArrowDown\") {\n    e.preventDefault();\n    onSelectIndex((currentIndex + 1) % itemCount);\n  } else if (e.key === \"ArrowLeft\" || e.key === \"ArrowUp\") {\n    e.preventDefault();\n    onSelectIndex((currentIndex - 1 + itemCount) % itemCount);\n  } else if (e.key === \"Home\") {\n    e.preventDefault();\n    onSelectIndex(0);\n  } else if (e.key === \"End\") {\n    e.preventDefault();\n    onSelectIndex(itemCount - 1);\n  }\n}",
-    "previewSvg": "/masallahpub/previews/radix-ui.svg",
+    "previewSvg": "/masallahpub/screenshots/radix-ui.png",
     "featured": true
   },
   {
@@ -5578,7 +5578,7 @@
     "originalPrompt": "Improve this interface using Fitts Law and Hick Law from lawsofux.com.",
     "optimizedPrompt": "Refactor the target interface component by applying 5 quantitative laws from Laws of UX (lawsofux.com):\n1. Fitts’s Law ($T = a + b \\log_2(2D/W)$): Enforce minimum 44x44px touch targets (48x48px on mobile), eliminate dead gaps between adjacent clickable filter pills, and place primary actions along natural thumb/cursor vectors.\n2. Hick’s Law ($RT = a + b \\log_2(n)$): Reduce top-level simultaneous choices to $\\le 7$ grouped categories; move secondary parameters into progressive disclosure drawers.\n3. Doherty Threshold (<400ms): Ensure every filter, search, or copy action yields visual feedback in <100ms via optimistic UI or instant local state transitions.\n4. Jakob’s Law: Preserve standard keyboard conventions (`/` or `Cmd+K` for search, `Escape` to close, URL query sync for filters).\n5. Von Restorff Effect: Visually isolate at most ONE primary CTA per viewport region.",
     "codeSnippet": "// Quantitative Fitts's Law Index of Difficulty (bits) & Hick's Law Reaction Time (ms)\nexport function computeErgonomicMetrics(distancePx: number, widthPx: number, choiceCount: number) {\n  const indexOfDifficultyBits = Math.log2((2 * Math.max(1, distancePx)) / Math.max(1, widthPx));\n  const movementTimeMs = Math.round(120 + 145 * indexOfDifficultyBits);\n  const decisionTimeMs = Math.round(180 + 155 * Math.log2(Math.max(1, choiceCount) + 1));\n  return { indexOfDifficultyBits: Number(indexOfDifficultyBits.toFixed(2)), movementTimeMs, decisionTimeMs };\n}",
-    "previewSvg": "/masallahpub/previews/laws-of-ux.svg",
+    "previewSvg": "/masallahpub/screenshots/laws-of-ux.png",
     "featured": true
   },
   {
@@ -5621,7 +5621,7 @@
     "originalPrompt": "Audit this web application for security vulnerabilities using OWASP Cheat Sheets.",
     "optimizedPrompt": "Conduct a comprehensive security audit and remediation pass modeled on the OWASP Cheat Sheet Series (`cheatsheetseries.owasp.org`):\n1. DOM-Based XSS Prevention: Verify zero unvalidated usage of `dangerouslySetInnerHTML`, `eval()`, or `javascript:` URLs. Enforce strict URL protocol allowlisting (`https:` / `http:` only) on all external source/demo/repo links.\n2. Safe External Navigation: Ensure every external `<a target=\"_blank\">` includes `rel=\"noopener noreferrer\"`.\n3. HTTP Security Headers & CSP: Configure `X-Content-Type-Options: nosniff`, `Referrer-Policy: strict-origin-when-cross-origin`, `Permissions-Policy: camera=(), microphone=(), geolocation=()`, and `X-Frame-Options: SAMEORIGIN`.\n4. Pre-Commit Secret Scanning: Scan all tracked files against high-entropy patterns (API keys, `ghp_`, `gho_`, `sk-`, `AIza`, private keys, `.env` files) and block commit if any match is found.",
     "codeSnippet": "const ALLOWED_PROTOCOLS = new Set([\"https:\", \"http:\"]);\n\nexport function sanitizeExternalUrl(rawUrl: string): { safe: boolean; href: string; reason: string } {\n  try {\n    const parsed = new URL(rawUrl.trim());\n    if (!ALLOWED_PROTOCOLS.has(parsed.protocol)) {\n      return { safe: false, href: \"#blocked-unsafe-protocol\", reason: `Blocked protocol: ${parsed.protocol}` };\n    }\n    return { safe: true, href: parsed.toString(), reason: \"Verified HTTPS/HTTP origin\" };\n  } catch {\n    return { safe: false, href: \"#invalid-url\", reason: \"Malformed URL rejected\" };\n  }\n}",
-    "previewSvg": "/masallahpub/previews/owasp-cheatsheets.svg",
+    "previewSvg": "/masallahpub/screenshots/owasp-cheatsheets.png",
     "featured": true
   },
   {
@@ -5787,7 +5787,7 @@
       }
     ],
     "codeSnippet": "[\n  {\n    \"step\": 1,\n    \"title\": \"Fikir / Storyboard & Agent Skills\",\n    \"tool\": \"Remotion Skills\",\n    \"sourceId\": \"remotion-skills\",\n    \"input\": \"Creative brief & script Markdown\",\n    \"output\": \"Typed Composition schema & scene timing sheet\",\n    \"detail\": \"Use /remotion-best-practices and /remotion-create to structure sequences and preview in Studio.\"\n  },\n  {\n    \"step\": 2,\n    \"title\": \"Programmatic Video Timeline\",\n    \"tool\": \"Remotion\",\n    \"sourceId\": \"remotion\",\n    \"input\": \"Scene timing sheet & React components\",\n    \"output\": \"Deterministic 60fps <Composition>\",\n    \"detail\": \"Compose <Series> and <Sequence> layers driven strictly by useCurrentFrame().\"\n  },\n  {\n    \"step\": 3,\n    \"title\": \"2D Choreography & Layout Motion\",\n    \"tool\": \"Anime.js / Motion\",\n    \"sourceId\": \"animejs\",\n    \"input\": \"DOM/SVG layers & frame progress\",\n    \"output\": \"Choreographed kinetic typography & vector reveals\",\n    \"detail\": \"Synchronize SVG stroke-dashoffset and spring layout projections to frame timestamps.\"\n  },\n  {\n    \"step\": 4,\n    \"title\": \"3D Spatial Scene & Camera Rig\",\n    \"tool\": \"Three.js\",\n    \"sourceId\": \"threejs\",\n    \"input\": \"Camera spline & PBR materials\",\n    \"output\": \"WebGL 3D stage inside video frame\",\n    \"detail\": \"Render instanced 3D geometry and physically based materials per frame.\"\n  },\n  {\n    \"step\": 5,\n    \"title\": \"Bloom, DoF & Color Grading\",\n    \"tool\": \"postprocessing\",\n    \"sourceId\": \"postprocessing\",\n    \"input\": \"Raw Three.js render buffer\",\n    \"output\": \"Merged EffectPass (Bloom + DoF + LUT)\",\n    \"detail\": \"Combine SelectiveBloomEffect and Vignette into a single consolidated shader pass.\"\n  },\n  {\n    \"step\": 6,\n    \"title\": \"Particle Trails & VFX Bursts\",\n    \"tool\": \"Three.quarks\",\n    \"sourceId\": \"three-quarks\",\n    \"input\": \"Beat triggers & emitter transforms\",\n    \"output\": \"Single-draw-call batched GPU particles\",\n    \"detail\": \"Step BatchedRenderer deterministically per frame to emit trails and sparks.\"\n  },\n  {\n    \"step\": 7,\n    \"title\": \"Multilingual Narration Synthesis\",\n    \"tool\": \"CosyVoice\",\n    \"sourceId\": \"cosyvoice\",\n    \"input\": \"Annotated narration script\",\n    \"output\": \"24kHz mono WAV voice-over stems\",\n    \"detail\": \"Synthesize natural zero-shot or instruct-controlled speech without committing model weights.\"\n  },\n  {\n    \"step\": 8,\n    \"title\": \"Beat Detection & Spectral Sync\",\n    \"tool\": \"librosa\",\n    \"sourceId\": \"librosa\",\n    \"input\": \"Background music stem (.wav)\",\n    \"output\": \"60fps beat & 3-band RMS JSON envelope\",\n    \"detail\": \"Perform HPSS separation and resample onset strength onto the 60fps frame grid.\"\n  },\n  {\n    \"step\": 9,\n    \"title\": \"Word-Level Subtitle Alignment\",\n    \"tool\": \"WhisperX\",\n    \"sourceId\": \"whisperx\",\n    \"input\": \"Narration WAV stem\",\n    \"output\": \"Millisecond word-aligned captions.json & .srt\",\n    \"detail\": \"Run wav2vec2 phoneme alignment for frame-accurate active word highlighting.\"\n  },\n  {\n    \"step\": 10,\n    \"title\": \"Encoding, Loudness & Muxing\",\n    \"tool\": \"FFmpeg\",\n    \"sourceId\": \"ffmpeg\",\n    \"input\": \"Rendered video + audio stems + subtitles\",\n    \"output\": \"-14 LUFS mastered MP4 / WebM / HLS\",\n    \"detail\": \"Apply loudnorm=I=-14:TP=-1.0 and encode faststart H.264 and VP9 web deliverables.\"\n  },\n  {\n    \"step\": 11,\n    \"title\": \"Lossless Chapter & Clip Cutting\",\n    \"tool\": \"LosslessCut\",\n    \"sourceId\": \"lossless-cut\",\n    \"input\": \"Master MP4 + chapter markers\",\n    \"output\": \"Zero-reencode social & documentation clips\",\n    \"detail\": \"Extract keyframe-aligned highlights instantaneously without generation loss.\"\n  }\n]",
-    "previewSvg": "/masallahpub/previews/remotion.svg",
+    "previewSvg": "/masallahpub/screenshots/remotion.png",
     "featured": true
   },
   {
@@ -5897,7 +5897,7 @@
       }
     ],
     "codeSnippet": "[\n  {\n    \"step\": 1,\n    \"title\": \"Scene Graph, Camera & PBR Meshes\",\n    \"tool\": \"Three.js\",\n    \"sourceId\": \"threejs\",\n    \"input\": \"GLTF assets / procedural geometry\",\n    \"output\": \"WebGL2 scene graph & InstancedMesh buffers\",\n    \"detail\": \"Initialize renderer, camera controls, and physically based materials.\"\n  },\n  {\n    \"step\": 2,\n    \"title\": \"BVH Global Illumination & Caustics\",\n    \"tool\": \"Three GPU Pathtracer\",\n    \"sourceId\": \"three-gpu-pathtracer\",\n    \"input\": \"Three.js scene & environment HDR\",\n    \"output\": \"Progressively converged path-traced beauty pass\",\n    \"detail\": \"Accelerate ray queries with MeshBVH for realistic dielectric refraction and soft shadows.\"\n  },\n  {\n    \"step\": 3,\n    \"title\": \"Rigid & Soft Body Collision Dynamics\",\n    \"tool\": \"Jolt Physics\",\n    \"sourceId\": \"jolt-physics\",\n    \"input\": \"Collider shapes & force impulses\",\n    \"output\": \"60Hz deterministic body transforms & contact events\",\n    \"detail\": \"Run JoltPhysics WASM stepping and emit impulse callbacks on high-velocity impacts.\"\n  },\n  {\n    \"step\": 4,\n    \"title\": \"Merged Shader Pass Pipeline\",\n    \"tool\": \"postprocessing\",\n    \"sourceId\": \"postprocessing\",\n    \"input\": \"HDR scene render target\",\n    \"output\": \"Bloom, Depth of Field & ACES/LUT graded frame\",\n    \"detail\": \"Automatically merge fragment effects into minimal fullscreen quad passes.\"\n  },\n  {\n    \"step\": 5,\n    \"title\": \"Batched GPU Particle Trails & VFX\",\n    \"tool\": \"Three.quarks\",\n    \"sourceId\": \"three-quarks\",\n    \"input\": \"Physics contact points & velocity vectors\",\n    \"output\": \"Instanced particle emitters & ribbon trails\",\n    \"detail\": \"Update BatchedRenderer in the main loop for zero-overhead spark and trail VFX.\"\n  },\n  {\n    \"step\": 6,\n    \"title\": \"Real-Time Uniform & Physics Tuning\",\n    \"tool\": \"Tweakpane\",\n    \"sourceId\": \"tweakpane\",\n    \"input\": \"Scene config object & FPS telemetry\",\n    \"output\": \"Interactive debug GUI & exportable JSON preset\",\n    \"detail\": \"Bind two-way controls for immediate visual art direction and performance monitoring.\"\n  }\n]",
-    "previewSvg": "/masallahpub/previews/threejs.svg",
+    "previewSvg": "/masallahpub/screenshots/threejs.png",
     "featured": true
   },
   {
@@ -6052,7 +6052,7 @@
       }
     ],
     "codeSnippet": "[\n  {\n    \"step\": 1,\n    \"title\": \"Usability Research & Heuristic Model\",\n    \"tool\": \"Nielsen Norman Group\",\n    \"sourceId\": \"nngroup\",\n    \"input\": \"User problem & task flow\",\n    \"output\": \"Heuristic checklist & error-recovery spec\",\n    \"detail\": \"Ensure visibility of system status, error prevention, and user freedom.\"\n  },\n  {\n    \"step\": 2,\n    \"title\": \"Cognitive Load & Motor Ergonomics\",\n    \"tool\": \"Laws of UX\",\n    \"sourceId\": \"laws-of-ux\",\n    \"input\": \"Wireframe & action hierarchy\",\n    \"output\": \"Fitts/Hick/Doherty validated layout\",\n    \"detail\": \"Enforce >=44px touch targets, progressive disclosure, and <100ms UI feedback.\"\n  },\n  {\n    \"step\": 3,\n    \"title\": \"Component Anatomy & Slot Contract\",\n    \"tool\": \"Component Gallery\",\n    \"sourceId\": \"component-gallery\",\n    \"input\": \"UI component requirements\",\n    \"output\": \"Canonical slot & state specification\",\n    \"detail\": \"Benchmark component API against 60+ production design systems.\"\n  },\n  {\n    \"step\": 4,\n    \"title\": \"WAI-ARIA Headless Primitives\",\n    \"tool\": \"Radix UI\",\n    \"sourceId\": \"radix-ui\",\n    \"input\": \"Slot specification\",\n    \"output\": \"Keyboard-navigable, focus-trapped primitives\",\n    \"detail\": \"Guarantee roving tabindex, ARIA attributes, and screen-reader announcements.\"\n  },\n  {\n    \"step\": 5,\n    \"title\": \"Composable Open-Code UI Layer\",\n    \"tool\": \"shadcn/ui\",\n    \"sourceId\": \"shadcn-ui\",\n    \"input\": \"Headless primitives + design tokens\",\n    \"output\": \"Themed, copy-pasteable React components\",\n    \"detail\": \"Combine semantic CSS variables with clean variant composition.\"\n  },\n  {\n    \"step\": 6,\n    \"title\": \"Spring Choreography & Layout Motion\",\n    \"tool\": \"Motion\",\n    \"sourceId\": \"motion-dev\",\n    \"input\": \"Interactive UI components\",\n    \"output\": \"Reduced-motion-safe FLIP & spring transitions\",\n    \"detail\": \"Use layoutId and AnimatePresence while honoring useReducedMotion().\"\n  },\n  {\n    \"step\": 7,\n    \"title\": \"Accessible Behavior Unit Tests\",\n    \"tool\": \"Testing Library\",\n    \"sourceId\": \"testing-library\",\n    \"input\": \"Rendered React components\",\n    \"output\": \"Role-driven behavior test suite\",\n    \"detail\": \"Query strictly by getByRole/getByLabelText to verify real user interactions.\"\n  },\n  {\n    \"step\": 8,\n    \"title\": \"Cross-Viewport E2E & Deep-Link QA\",\n    \"tool\": \"Playwright\",\n    \"sourceId\": \"playwright\",\n    \"input\": \"Built web application\",\n    \"output\": \"Verified E2E traces & viewport screenshots\",\n    \"detail\": \"Test navigation, search, URL query filters, clipboard copy, and zero console errors.\"\n  },\n  {\n    \"step\": 9,\n    \"title\": \"Isolated Visual State Documentation\",\n    \"tool\": \"Storybook\",\n    \"sourceId\": \"storybook\",\n    \"input\": \"Component library\",\n    \"output\": \"CSF3 interactive stories & play() tests\",\n    \"detail\": \"Document empty, loading, error, and edge-case states in isolation.\"\n  },\n  {\n    \"step\": 10,\n    \"title\": \"XSS, Header & Secret Security Gate\",\n    \"tool\": \"OWASP Cheat Sheets\",\n    \"sourceId\": \"owasp-cheatsheets\",\n    \"input\": \"Source repository & HTTP config\",\n    \"output\": \"Hardened production build & clean secret scan\",\n    \"detail\": \"Enforce safe URL protocols, CSP/security headers, and zero leaked credentials.\"\n  }\n]",
-    "previewSvg": "/masallahpub/previews/nngroup.svg",
+    "previewSvg": "/masallahpub/screenshots/nngroup.png",
     "featured": true
   },
   {
@@ -6138,7 +6138,7 @@
       }
     ],
     "codeSnippet": "[\n  {\n    \"step\": 1,\n    \"title\": \"Draft Effect & Acting Curve\",\n    \"tool\": \"PixelFX Agent Skill\",\n    \"sourceId\": \"pixelfx\",\n    \"input\": \"VFX prompt (\\\"Frost Nova\\\" / \\\"Arcane Slash\\\")\",\n    \"output\": \"Procedural JS effect module\",\n    \"detail\": \"Structure wind-up anticipation, 2-frame contact freeze, and dithered dissipation.\"\n  },\n  {\n    \"step\": 2,\n    \"title\": \"Dual-Buffer Simulation (Color + Light)\",\n    \"tool\": \"PixelFX Core\",\n    \"sourceId\": \"pixelfx\",\n    \"input\": \"Frame delta dt & palette ramp\",\n    \"output\": \"Composited ImageData pixel buffer\",\n    \"detail\": \"Composite opaque/dithered color pixels with additive radial light glow.\"\n  },\n  {\n    \"step\": 3,\n    \"title\": \"Real-Time Palette & Seed Tuning\",\n    \"tool\": \"Tweakpane\",\n    \"sourceId\": \"tweakpane\",\n    \"input\": \"Effect meta.options\",\n    \"output\": \"Tuned palette, seed, angle & glow preset\",\n    \"detail\": \"Interactively test palette swaps and seeds at 60fps in the browser.\"\n  },\n  {\n    \"step\": 4,\n    \"title\": \"Contact Sheet & Pixel-Crisp Export\",\n    \"tool\": \"FFmpeg\",\n    \"sourceId\": \"ffmpeg\",\n    \"input\": \"Rendered PNG frame sequence\",\n    \"output\": \"Sprite sheet PNG & nearest-neighbor MP4/GIF\",\n    \"detail\": \"Scale with -vf scale=iw*4:ih*4:flags=neighbor to preserve razor-sharp pixels.\"\n  }\n]",
-    "previewSvg": "/masallahpub/previews/pixelfx.svg",
+    "previewSvg": "/masallahpub/screenshots/pixelfx.png",
     "featured": true
   }
 ]
