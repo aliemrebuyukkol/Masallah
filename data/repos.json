@@ -1,0 +1,1350 @@
+[
+  {
+    "id": "repo-laws-of-ux",
+    "sourceId": "laws-of-ux",
+    "num": 7,
+    "name": "Laws of UX",
+    "displayName": "Laws of UX",
+    "description": "Collection of psychological heuristics and laws—including Fitts’s Law, Hick’s Law, Jakob’s Law, and the Doherty Threshold—that govern human perception in interface design.",
+    "githubUrl": "https://github.com/jonnyablonski/lawsofux.com",
+    "homepageUrl": "https://lawsofux.com",
+    "documentationUrl": "https://lawsofux.com/articles/",
+    "license": "CC-BY-NC-ND-4.0 / MIT (Site Code)",
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "framework": "HTML / CSS / Cognitive Psychology",
+    "topics": [
+      "UX",
+      "Psychology",
+      "Interaction",
+      "Heuristics",
+      "Cognitive Load",
+      "Design"
+    ],
+    "installation": "git clone https://github.com/jonnyablonski/lawsofux.com",
+    "keyFeatures": [
+      "Primary domain: UX (B. UI / UX)",
+      "Core stack: HTML, CSS, Cognitive Psychology, Interaction Design",
+      "License verified: CC-BY-NC-ND-4.0 / MIT (Site Code)",
+      "Referenced cleanly via metadata and minimal educational code without vendor bloat."
+    ],
+    "codeExample": "// Minimal Laws of UX usage pattern\n// See: https://lawsofux.com/articles/",
+    "relatedPromptIds": [
+      "prompt-laws-of-ux-optimization"
+    ],
+    "canonicalProductId": "laws-of-ux",
+    "isSecondaryMirror": false,
+    "updatedAt": "2026-10-31T21:09:00.744Z"
+  },
+  {
+    "id": "repo-tympanus-codrops",
+    "sourceId": "tympanus-codrops",
+    "num": 9,
+    "name": "Tympanus / Codrops",
+    "displayName": "Tympanus / Codrops",
+    "description": "Pioneering creative frontend lab publishing experimental WebGL shaders, GLSL page transitions, scroll-driven 3D carousels, and open-source interactive demos.",
+    "githubUrl": "https://github.com/codrops/ImageGridMotionEffect",
+    "homepageUrl": "https://tympanus.net/Demos/LookbookHoverEffects/",
+    "documentationUrl": "https://tympanus.net/codrops/",
+    "license": "MIT (Codrops GitHub Demos)",
+    "stars": 0,
+    "forks": 0,
+    "language": "WebGL",
+    "framework": "WebGL / GLSL / Three.js",
+    "topics": [
+      "Creative Coding",
+      "WebGL",
+      "Shader",
+      "Motion",
+      "Interaction",
+      "Three.js",
+      "GSAP"
+    ],
+    "installation": "git clone https://github.com/codrops/ImageGridMotionEffect && npm install",
+    "keyFeatures": [
+      "Primary domain: Creative Coding (C. Motion / Interaction)",
+      "Core stack: WebGL, GLSL, Three.js, GSAP, CSS 3D Transforms, Lenis",
+      "License verified: MIT (Codrops GitHub Demos)",
+      "Referenced cleanly via metadata and minimal educational code without vendor bloat."
+    ],
+    "codeExample": "// Minimal Tympanus / Codrops usage pattern\n// See: https://tympanus.net/codrops/",
+    "relatedPromptIds": [
+      "prompt-codrops-webgl-grid-hover"
+    ],
+    "canonicalProductId": "tympanus-codrops",
+    "isSecondaryMirror": false,
+    "updatedAt": "2026-10-31T21:09:00.744Z"
+  },
+  {
+    "id": "repo-motion-dev",
+    "sourceId": "motion-dev",
+    "num": 10,
+    "name": "motiondivision/motion",
+    "displayName": "Motion (motion.dev)",
+    "description": "Official documentation, interactive examples, and motion design playground for Motion (formerly Framer Motion)—covering layout animations, spring physics, scroll-linked timelines, and gestures.",
+    "githubUrl": "https://github.com/motiondivision/motion",
+    "homepageUrl": "https://motion.dev/examples",
+    "documentationUrl": "https://motion.dev/docs",
+    "license": "MIT",
+    "stars": 34721,
+    "forks": 1488,
+    "language": "TypeScript",
+    "framework": "Motion / React / TypeScript",
+    "topics": [
+      "animation",
+      "animation-js",
+      "motion",
+      "react",
+      "reactanimations",
+      "spring"
+    ],
+    "installation": "npm install motion",
+    "keyFeatures": [
+      "Primary domain: Motion (C. Motion / Interaction)",
+      "Core stack: Motion, React, TypeScript, WAAPI, CSS Scroll Timeline",
+      "License verified: MIT",
+      "Referenced cleanly via metadata and minimal educational code without vendor bloat."
+    ],
+    "codeExample": "// Minimal Motion (motion.dev) usage pattern\n// See: https://motion.dev/docs",
+    "relatedPromptIds": [
+      "prompt-motion-shared-layout-transition",
+      "prompt-motion-repo-specialist"
+    ],
+    "canonicalProductId": "motion",
+    "isSecondaryMirror": false,
+    "updatedAt": "2026-10-31T20:49:00Z"
+  },
+  {
+    "id": "repo-react-bits",
+    "sourceId": "react-bits",
+    "num": 11,
+    "name": "DavidHDev/react-bits",
+    "displayName": "React Bits",
+    "description": "Open-source collection of 110+ animated React components, split-text kinetic typography, spotlight cards, fluid cursors, and WebGL shader backgrounds ready to drop into modern interfaces.",
+    "githubUrl": "https://github.com/DavidHDev/react-bits",
+    "homepageUrl": "https://reactbits.dev",
+    "documentationUrl": "https://reactbits.dev/text-animations/split-text",
+    "license": "MIT + Commons Clause",
+    "stars": 50847,
+    "forks": 2526,
+    "language": "JavaScript",
+    "framework": "React / TypeScript / Tailwind CSS",
+    "topics": [
+      "3d",
+      "animations",
+      "component-library",
+      "components",
+      "components-library",
+      "components-react",
+      "css-animations",
+      "javascript"
+    ],
+    "installation": "npx jsrepo add https://reactbits.dev/default/TextAnimations/SplitText",
+    "keyFeatures": [
+      "Primary domain: Component (C. Motion / Interaction)",
+      "Core stack: React, TypeScript, Tailwind CSS, Motion, WebGL",
+      "License verified: MIT + Commons Clause",
+      "Referenced cleanly via metadata and minimal educational code without vendor bloat."
+    ],
+    "codeExample": "// Minimal React Bits usage pattern\n// See: https://reactbits.dev/text-animations/split-text",
+    "relatedPromptIds": [
+      "prompt-react-bits-spotlight-kinetic"
+    ],
+    "canonicalProductId": "react-bits",
+    "isSecondaryMirror": false,
+    "updatedAt": "2026-10-31T20:51:00Z"
+  },
+  {
+    "id": "repo-shadcn-ui",
+    "sourceId": "shadcn-ui",
+    "num": 15,
+    "name": "shadcn-ui/ui",
+    "displayName": "shadcn/ui",
+    "description": "Open-code component distribution system built on Radix UI and Tailwind CSS—giving developers full ownership of accessible, customizable source code directly in their codebase.",
+    "githubUrl": "https://github.com/shadcn-ui/ui",
+    "homepageUrl": "https://ui.shadcn.com/examples/dashboard",
+    "documentationUrl": "https://ui.shadcn.com/docs",
+    "license": "MIT",
+    "stars": 127052,
+    "forks": 12588,
+    "language": "TypeScript",
+    "framework": "React / TypeScript / Tailwind CSS",
+    "topics": [
+      "ai",
+      "base-ui",
+      "components",
+      "gen-ui",
+      "generative-ai",
+      "generative-ui",
+      "laravel",
+      "nextjs"
+    ],
+    "installation": "npx shadcn@latest init",
+    "keyFeatures": [
+      "Primary domain: Component (D. Components / Design System)",
+      "Core stack: React, TypeScript, Tailwind CSS, Radix UI, class-variance-authority",
+      "License verified: MIT",
+      "Referenced cleanly via metadata and minimal educational code without vendor bloat."
+    ],
+    "codeExample": "// Minimal shadcn/ui usage pattern\n// See: https://ui.shadcn.com/docs",
+    "relatedPromptIds": [
+      "prompt-shadcn-composable-primitive"
+    ],
+    "canonicalProductId": "shadcn-ui",
+    "isSecondaryMirror": false,
+    "updatedAt": "2026-10-31T20:47:45Z"
+  },
+  {
+    "id": "repo-radix-ui",
+    "sourceId": "radix-ui",
+    "num": 16,
+    "name": "radix-ui/primitives",
+    "displayName": "Radix UI",
+    "description": "Low-level unstyled, accessible React UI primitives providing WAI-ARIA compliance, keyboard navigation, focus trapping, and portal rendering out of the box.",
+    "githubUrl": "https://github.com/radix-ui/primitives",
+    "homepageUrl": "https://www.radix-ui.com/primitives",
+    "documentationUrl": "https://www.radix-ui.com/primitives/docs/overview/introduction",
+    "license": "MIT",
+    "stars": 19457,
+    "forks": 1294,
+    "language": "TypeScript",
+    "framework": "React / TypeScript / WAI-ARIA",
+    "topics": [
+      "accessibility",
+      "colors",
+      "component-library",
+      "design-systems",
+      "radix-ui",
+      "react",
+      "ui",
+      "ui-components"
+    ],
+    "installation": "npm install @radix-ui/react-dialog @radix-ui/react-tabs",
+    "keyFeatures": [
+      "Primary domain: Component (D. Components / Design System)",
+      "Core stack: React, TypeScript, WAI-ARIA, DOM Focus Management",
+      "License verified: MIT",
+      "Referenced cleanly via metadata and minimal educational code without vendor bloat."
+    ],
+    "codeExample": "// Minimal Radix UI usage pattern\n// See: https://www.radix-ui.com/primitives/docs/overview/introduction",
+    "relatedPromptIds": [
+      "prompt-radix-roving-focus-primitive"
+    ],
+    "canonicalProductId": "radix-ui",
+    "isSecondaryMirror": false,
+    "updatedAt": "2026-10-31T15:54:13Z"
+  },
+  {
+    "id": "repo-mdn-web-docs",
+    "sourceId": "mdn-web-docs",
+    "num": 17,
+    "name": "mdn/content",
+    "displayName": "MDN Web Docs",
+    "description": "Definitive open documentation for Web standards—HTML, CSS, JavaScript, WebGL, Web Audio API, View Transitions, and browser security specifications.",
+    "githubUrl": "https://github.com/mdn/content",
+    "homepageUrl": "https://developer.mozilla.org/en-US/play",
+    "documentationUrl": "https://developer.mozilla.org/en-US/docs/Web",
+    "license": "CC-BY-SA-2.5 (Docs) / CC0 (Code Examples)",
+    "stars": 11114,
+    "forks": 23276,
+    "language": "Markdown",
+    "framework": "HTML5 / CSS3 / JavaScript",
+    "topics": [
+      "css",
+      "documentation",
+      "html",
+      "http",
+      "javascript",
+      "learning",
+      "mdn",
+      "reference"
+    ],
+    "installation": "git clone https://github.com/mdn/content",
+    "keyFeatures": [
+      "Primary domain: Frontend (E. Frontend Craft)",
+      "Core stack: HTML5, CSS3, JavaScript, Web APIs, WebGL, Service Workers",
+      "License verified: CC-BY-SA-2.5 (Docs) / CC0 (Code Examples)",
+      "Referenced cleanly via metadata and minimal educational code without vendor bloat."
+    ],
+    "codeExample": "// Minimal MDN Web Docs usage pattern\n// See: https://developer.mozilla.org/en-US/docs/Web",
+    "relatedPromptIds": [
+      "prompt-mdn-view-transitions-web-api"
+    ],
+    "canonicalProductId": "mdn-web-docs",
+    "isSecondaryMirror": false,
+    "updatedAt": "2026-10-31T06:58:09Z"
+  },
+  {
+    "id": "repo-patterns-dev",
+    "sourceId": "patterns-dev",
+    "num": 19,
+    "name": "BuilderIO/gpt-crawler",
+    "displayName": "Patterns.dev",
+    "description": "Modern web engineering textbook detailing design patterns, rendering architectures (SSR, SSG, ISR, Islands, React Server Components), and bundle performance.",
+    "githubUrl": "https://github.com/LydiaHallie/javascript-questions",
+    "homepageUrl": "https://www.patterns.dev/react",
+    "documentationUrl": "https://www.patterns.dev",
+    "license": "ISC",
+    "stars": 22407,
+    "forks": 2350,
+    "language": "TypeScript",
+    "framework": "JavaScript / React / Next.js",
+    "topics": [
+      "ai"
+    ],
+    "installation": "git clone https://github.com/LydiaHallie/javascript-questions",
+    "keyFeatures": [
+      "Primary domain: Architecture (F. Architecture / Kod Kalitesi)",
+      "Core stack: JavaScript, React, Next.js, Web Vitals, Bundle Splitting",
+      "License verified: ISC",
+      "Referenced cleanly via metadata and minimal educational code without vendor bloat."
+    ],
+    "codeExample": "// Minimal Patterns.dev usage pattern\n// See: https://www.patterns.dev",
+    "relatedPromptIds": [
+      "prompt-patterns-dev-rendering-architecture"
+    ],
+    "canonicalProductId": "patterns-dev",
+    "isSecondaryMirror": false,
+    "updatedAt": "2026-10-31T20:06:50Z"
+  },
+  {
+    "id": "repo-google-github-io",
+    "sourceId": "google-github-io",
+    "num": 20,
+    "name": "google/styleguide",
+    "displayName": "Google GitHub Pages",
+    "description": "Curated engineering style guides, architectural specifications, and open-source technical references maintained by Google engineering teams.",
+    "githubUrl": "https://github.com/google/styleguide",
+    "homepageUrl": "https://google.github.io/styleguide/tsguide.html",
+    "documentationUrl": "https://google.github.io/styleguide/",
+    "license": "CC-BY-3.0 / Apache-2.0",
+    "stars": 39782,
+    "forks": 12924,
+    "language": "Emacs Lisp",
+    "framework": "TypeScript / JavaScript / HTML/CSS",
+    "topics": [
+      "cpplint",
+      "style-guide",
+      "styleguide"
+    ],
+    "installation": "git clone https://github.com/google/styleguide",
+    "keyFeatures": [
+      "Primary domain: Architecture (F. Architecture / Kod Kalitesi)",
+      "Core stack: TypeScript, JavaScript, HTML/CSS, C++, Engineering Standards",
+      "License verified: CC-BY-3.0 / Apache-2.0",
+      "Referenced cleanly via metadata and minimal educational code without vendor bloat."
+    ],
+    "codeExample": "// Minimal Google GitHub Pages usage pattern\n// See: https://google.github.io/styleguide/",
+    "relatedPromptIds": [
+      "prompt-google-github-io-specialist"
+    ],
+    "canonicalProductId": "google-github-io",
+    "isSecondaryMirror": false,
+    "updatedAt": "2026-10-31T20:26:02Z"
+  },
+  {
+    "id": "repo-typescript",
+    "sourceId": "typescript",
+    "num": 21,
+    "name": "microsoft/TypeScript",
+    "displayName": "TypeScript",
+    "description": "Typed superset of JavaScript powering scalable frontend and full-stack architectures through compile-time type safety, discriminated unions, and inferred generics.",
+    "githubUrl": "https://github.com/microsoft/TypeScript",
+    "homepageUrl": "https://www.typescriptlang.org/play",
+    "documentationUrl": "https://www.typescriptlang.org/docs/handbook/intro.html",
+    "license": "Apache-2.0",
+    "stars": 111701,
+    "forks": 16078,
+    "language": "Go",
+    "framework": "TypeScript / AST / Static Analysis",
+    "topics": [
+      "javascript",
+      "language",
+      "typechecker",
+      "typescript"
+    ],
+    "installation": "npm install -D typescript",
+    "keyFeatures": [
+      "Primary domain: Architecture (F. Architecture / Kod Kalitesi)",
+      "Core stack: TypeScript, AST, Static Analysis, ECMAScript",
+      "License verified: Apache-2.0",
+      "Referenced cleanly via metadata and minimal educational code without vendor bloat."
+    ],
+    "codeExample": "// Minimal TypeScript usage pattern\n// See: https://www.typescriptlang.org/docs/handbook/intro.html",
+    "relatedPromptIds": [
+      "prompt-typescript-strict-catalog-schema"
+    ],
+    "canonicalProductId": "typescript",
+    "isSecondaryMirror": false,
+    "updatedAt": "2026-10-31T20:13:55Z"
+  },
+  {
+    "id": "repo-testing-library",
+    "sourceId": "testing-library",
+    "num": 22,
+    "name": "testing-library/react-testing-library",
+    "displayName": "Testing Library",
+    "description": "Lightweight family of testing utilities that encourage testing UI components through accessible DOM roles and real user interactions rather than implementation details.",
+    "githubUrl": "https://github.com/testing-library/react-testing-library",
+    "homepageUrl": "https://testing-playground.com",
+    "documentationUrl": "https://testing-library.com/docs/queries/about",
+    "license": "MIT",
+    "stars": 19675,
+    "forks": 1172,
+    "language": "JavaScript",
+    "framework": "Testing Library / Vitest / Jest",
+    "topics": [
+      "javascript",
+      "reactjs",
+      "testing"
+    ],
+    "installation": "npm install -D @testing-library/react @testing-library/jest-dom @testing-library/user-event",
+    "keyFeatures": [
+      "Primary domain: Testing (G. Test / QA)",
+      "Core stack: Testing Library, Vitest, Jest, React, DOM",
+      "License verified: MIT",
+      "Referenced cleanly via metadata and minimal educational code without vendor bloat."
+    ],
+    "codeExample": "// Minimal Testing Library usage pattern\n// See: https://testing-library.com/docs/queries/about",
+    "relatedPromptIds": [
+      "prompt-testing-library-behavior-suite"
+    ],
+    "canonicalProductId": "testing-library",
+    "isSecondaryMirror": false,
+    "updatedAt": "2026-10-29T14:11:49Z"
+  },
+  {
+    "id": "repo-playwright",
+    "sourceId": "playwright",
+    "num": 23,
+    "name": "microsoft/playwright",
+    "displayName": "Playwright",
+    "description": "Resilient cross-browser end-to-end testing and browser automation framework supporting Chromium, WebKit, and Firefox with auto-waiting, trace viewer, and visual regression snapshots.",
+    "githubUrl": "https://github.com/microsoft/playwright",
+    "homepageUrl": "https://trace.playwright.dev",
+    "documentationUrl": "https://playwright.dev/docs/intro",
+    "license": "Apache-2.0",
+    "stars": 98973,
+    "forks": 6760,
+    "language": "TypeScript",
+    "framework": "Playwright / TypeScript / Node.js",
+    "topics": [
+      "automation",
+      "chrome",
+      "chromium",
+      "e2e-testing",
+      "electron",
+      "end-to-end-testing",
+      "firefox",
+      "javascript"
+    ],
+    "installation": "npm init playwright@latest",
+    "keyFeatures": [
+      "Primary domain: Testing (G. Test / QA)",
+      "Core stack: Playwright, TypeScript, Node.js, Chromium, WebKit",
+      "License verified: Apache-2.0",
+      "Referenced cleanly via metadata and minimal educational code without vendor bloat."
+    ],
+    "codeExample": "// Minimal Playwright usage pattern\n// See: https://playwright.dev/docs/intro",
+    "relatedPromptIds": [
+      "prompt-playwright-e2e-subpath-suite"
+    ],
+    "canonicalProductId": "playwright",
+    "isSecondaryMirror": false,
+    "updatedAt": "2026-10-31T20:15:13Z"
+  },
+  {
+    "id": "repo-storybook",
+    "sourceId": "storybook",
+    "num": 24,
+    "name": "storybookjs/storybook",
+    "displayName": "Storybook",
+    "description": "Frontend workshop for building, documenting, and testing UI components in isolation across every state, edge case, viewport, and theme.",
+    "githubUrl": "https://github.com/storybookjs/storybook",
+    "homepageUrl": "https://storybook.js.org/showcase",
+    "documentationUrl": "https://storybook.js.org/docs",
+    "license": "MIT",
+    "stars": 91417,
+    "forks": 10493,
+    "language": "TypeScript",
+    "framework": "Storybook / CSF3 / React",
+    "topics": [
+      "angular",
+      "components",
+      "design-systems",
+      "documentation",
+      "html",
+      "javascript",
+      "react",
+      "react-native"
+    ],
+    "installation": "npx storybook@latest init",
+    "keyFeatures": [
+      "Primary domain: Testing (G. Test / QA)",
+      "Core stack: Storybook, CSF3, React, Playwright, Addon A11y",
+      "License verified: MIT",
+      "Referenced cleanly via metadata and minimal educational code without vendor bloat."
+    ],
+    "codeExample": "// Minimal Storybook usage pattern\n// See: https://storybook.js.org/docs",
+    "relatedPromptIds": [
+      "prompt-storybook-csf3-component-matrix"
+    ],
+    "canonicalProductId": "storybook",
+    "isSecondaryMirror": false,
+    "updatedAt": "2026-10-31T20:35:19Z"
+  },
+  {
+    "id": "repo-owasp-cheatsheets",
+    "sourceId": "owasp-cheatsheets",
+    "num": 25,
+    "name": "OWASP/CheatSheetSeries",
+    "displayName": "OWASP Cheat Sheet Series",
+    "description": "Peer-reviewed encyclopedia of actionable application security checklists covering XSS prevention, Content Security Policy (CSP), CSRF defense, secret management, and secure headers.",
+    "githubUrl": "https://github.com/OWASP/CheatSheetSeries",
+    "homepageUrl": "https://cheatsheetseries.owasp.org/IndexTopTen.html",
+    "documentationUrl": "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html",
+    "license": "CC-BY-SA-4.0",
+    "stars": 33820,
+    "forks": 4707,
+    "language": "JavaScript",
+    "framework": "CSP / HTTP Security Headers / OAuth2/OIDC",
+    "topics": [
+      "application-security",
+      "appsec",
+      "best-practices",
+      "cheatsheets",
+      "code",
+      "owasp",
+      "security"
+    ],
+    "installation": "git clone https://github.com/OWASP/CheatSheetSeries",
+    "keyFeatures": [
+      "Primary domain: Security (H. Security)",
+      "Core stack: CSP, HTTP Security Headers, OAuth2/OIDC, DOMPurify, Secret Scanning",
+      "License verified: CC-BY-SA-4.0",
+      "Referenced cleanly via metadata and minimal educational code without vendor bloat."
+    ],
+    "codeExample": "// Minimal OWASP Cheat Sheet Series usage pattern\n// See: https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html",
+    "relatedPromptIds": [
+      "prompt-owasp-security-audit-gate"
+    ],
+    "canonicalProductId": "owasp-cheatsheets",
+    "isSecondaryMirror": false,
+    "updatedAt": "2026-10-31T19:35:03Z"
+  },
+  {
+    "id": "repo-pixelfx",
+    "sourceId": "pixelfx",
+    "num": 26,
+    "name": "patch-gg/pixelfx",
+    "displayName": "PixelFX",
+    "description": "244 procedural pixel art VFX and acted-out character animations in pure zero-dependency JavaScript (fire, explosions, water, ice, lightning, sci-fi, melee, arcane, weather, UI, critters) plus a \"draft, render, look, refine\" AI agent skill.",
+    "githubUrl": "https://github.com/patch-gg/pixelfx",
+    "homepageUrl": "https://patch-gg.github.io/pixelfx/",
+    "documentationUrl": "https://github.com/patch-gg/pixelfx/blob/main/docs/CATALOG.md",
+    "license": "MIT",
+    "stars": 1310,
+    "forks": 155,
+    "language": "JavaScript",
+    "framework": "JavaScript / HTML5 Canvas / ImageData",
+    "topics": [
+      "agent-skills",
+      "animation",
+      "canvas",
+      "claude-code-plugin",
+      "gamedev",
+      "pixel-art",
+      "sprite-sheet",
+      "vfx"
+    ],
+    "installation": "npm install github:patch-gg/pixelfx",
+    "keyFeatures": [
+      "Primary domain: VFX (I. Creative Development / Pixel Effects)",
+      "Core stack: JavaScript, HTML5 Canvas, ImageData, Procedural Generation, Sprite Sheets",
+      "License verified: MIT",
+      "Referenced cleanly via metadata and minimal educational code without vendor bloat."
+    ],
+    "codeExample": "import { createFrame, clearFrame, createFx, composite } from \"pixelfx\";\nimport * as frostNova from \"pixelfx/fx/ice/frost-nova\";\n\nconst frame = createFrame(320, 180);\nconst fx = createFx(frostNova, { x: 160, y: 140, light: 1.1 });\nfx.update(1 / 60);\nclearFrame(frame);\nfx.draw(frame, \"front\");",
+    "relatedPromptIds": [
+      "prompt-pixelfx-procedural-vfx-skill"
+    ],
+    "canonicalProductId": "pixelfx",
+    "isSecondaryMirror": false,
+    "updatedAt": "2026-10-31T21:06:54Z"
+  },
+  {
+    "id": "repo-remotion",
+    "sourceId": "remotion",
+    "num": 27,
+    "name": "remotion-dev/remotion",
+    "displayName": "Remotion",
+    "description": "Programmatic video creation engine in React—allowing developers to compose frame-accurate MP4/WebM videos using React components, CSS, Canvas, Three.js, and deterministic frame timelines.",
+    "githubUrl": "https://github.com/remotion-dev/remotion",
+    "homepageUrl": "https://www.remotion.dev/showcase",
+    "documentationUrl": "https://www.remotion.dev/docs",
+    "license": "Remotion License (Free for individuals & small teams)",
+    "stars": 69425,
+    "forks": 5695,
+    "language": "TypeScript",
+    "framework": "React / TypeScript / Remotion",
+    "topics": [
+      "javascript",
+      "react",
+      "video"
+    ],
+    "installation": "npx create-video@latest",
+    "keyFeatures": [
+      "Primary domain: Video (J. Video / Motion / Generative Toolchain)",
+      "Core stack: React, TypeScript, Remotion, FFmpeg, Chromium",
+      "License verified: Remotion License (Free for individuals & small teams)",
+      "Referenced cleanly via metadata and minimal educational code without vendor bloat."
+    ],
+    "codeExample": "import { AbsoluteFill, spring, useCurrentFrame, useVideoConfig } from \"remotion\";\n\nexport const IntroCard: React.FC<{ title: string }> = ({ title }) => {\n  const frame = useCurrentFrame();\n  const { fps } = useVideoConfig();\n  const scale = spring({ frame, fps, config: { damping: 14, stiffness: 160 } });\n  return <AbsoluteFill style={{ transform: `scale(${scale})` }}>{title}</AbsoluteFill>;\n};",
+    "relatedPromptIds": [
+      "prompt-remotion-programmatic-video",
+      "prompt-master-creative-pipeline-orchestrator"
+    ],
+    "canonicalProductId": "remotion",
+    "isSecondaryMirror": false,
+    "updatedAt": "2026-10-31T21:05:36Z"
+  },
+  {
+    "id": "repo-remotion-skills",
+    "sourceId": "remotion-skills",
+    "num": 28,
+    "name": "remotion-dev/skills",
+    "displayName": "Remotion Skills",
+    "description": "Official Agent Skills repository equipping AI coding agents with structured instruction trees, reference markdowns, and composition patterns for authoring and rendering Remotion videos.",
+    "githubUrl": "https://github.com/remotion-dev/skills",
+    "homepageUrl": "https://www.remotion.dev/docs/ai/skills",
+    "documentationUrl": "https://github.com/remotion-dev/skills/blob/main/skills/remotion-best-practices/SKILL.md",
+    "license": "Custom/See Repo",
+    "stars": 5973,
+    "forks": 664,
+    "language": "TypeScript",
+    "framework": "SKILL.md / Remotion / TypeScript",
+    "topics": [
+      "Agent Skill",
+      "Prompt",
+      "Video",
+      "Remotion",
+      "Generative AI",
+      "Workflow"
+    ],
+    "installation": "npx skills add remotion-dev/skills",
+    "keyFeatures": [
+      "Primary domain: Agent Skill (J. Video / Motion / Generative Toolchain)",
+      "Core stack: SKILL.md, Remotion, TypeScript, CesiumJS, Tailwind CSS",
+      "License verified: Custom/See Repo",
+      "Referenced cleanly via metadata and minimal educational code without vendor bloat."
+    ],
+    "codeExample": "# Install official Remotion coding agent skills into your workspace\nnpx skills add remotion-dev/skills\n# Available slash skills:\n# /remotion-best-practices | /remotion-create | /remotion-markup | /remotion-captions | /remotion-maps",
+    "relatedPromptIds": [
+      "prompt-remotion-agent-skills-workflow"
+    ],
+    "canonicalProductId": "remotion-skills",
+    "isSecondaryMirror": false,
+    "updatedAt": "2026-10-31T20:43:08Z"
+  },
+  {
+    "id": "repo-animejs",
+    "sourceId": "animejs",
+    "num": 29,
+    "name": "juliangarnier/anime",
+    "displayName": "Anime.js",
+    "description": "Lightweight, expressive JavaScript animation engine featuring multi-track timelines, 2D grid staggering, SVG path morphing, line drawing, and spring physics.",
+    "githubUrl": "https://github.com/juliangarnier/anime",
+    "homepageUrl": "https://animejs.com",
+    "documentationUrl": "https://animejs.com/documentation",
+    "license": "MIT",
+    "stars": 74120,
+    "forks": 5024,
+    "language": "JavaScript",
+    "framework": "JavaScript / Anime.js / SVG",
+    "topics": [
+      "animation",
+      "anime",
+      "canvas",
+      "css",
+      "javascript",
+      "javascript-library",
+      "svg"
+    ],
+    "installation": "npm install animejs",
+    "keyFeatures": [
+      "Primary domain: Motion (J. Video / Motion / Generative Toolchain)",
+      "Core stack: JavaScript, Anime.js, SVG, CSS Transforms, DOM",
+      "License verified: MIT",
+      "Referenced cleanly via metadata and minimal educational code without vendor bloat."
+    ],
+    "codeExample": "import anime from \"animejs\";\n\nanime.timeline({ easing: \"spring(1, 80, 12, 0)\" })\n  .add({\n    targets: \".grid-cell\",\n    scale: [0.85, 1],\n    delay: anime.stagger(35, { grid: [10, 5], from: \"center\" }),\n  });",
+    "relatedPromptIds": [
+      "prompt-animejs-grid-stagger-timeline"
+    ],
+    "canonicalProductId": "animejs",
+    "isSecondaryMirror": false,
+    "updatedAt": "2026-10-31T20:09:34Z"
+  },
+  {
+    "id": "repo-motion-repo",
+    "sourceId": "motion-repo",
+    "num": 30,
+    "name": "motiondivision/motion",
+    "displayName": "Motion (GitHub Repository)",
+    "description": "Open-source repository for Motion (formerly Framer Motion)—implementing hardware-accelerated hybrid WAAPI + JS spring animations, FLIP layout projection, and gesture recognizers.",
+    "githubUrl": "https://github.com/motiondivision/motion",
+    "homepageUrl": "https://motion.dev",
+    "documentationUrl": "https://motion.dev/docs",
+    "license": "MIT",
+    "stars": 34721,
+    "forks": 1488,
+    "language": "TypeScript",
+    "framework": "TypeScript / React / Web Animations API",
+    "topics": [
+      "animation",
+      "animation-js",
+      "motion",
+      "react",
+      "reactanimations",
+      "spring"
+    ],
+    "installation": "npm install motion",
+    "keyFeatures": [
+      "Primary domain: Motion (J. Video / Motion / Generative Toolchain)",
+      "Core stack: TypeScript, React, Web Animations API, Spring Physics",
+      "License verified: MIT",
+      "Canonical product link: unified with motion-dev to prevent duplicate vendor indexing."
+    ],
+    "codeExample": "import { motion, AnimatePresence } from \"motion/react\";\n\nexport const AnimatedPill = ({ label }: { label: string }) => (\n  <motion.div layout initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ type: \"spring\", stiffness: 400, damping: 30 }}>\n    {label}\n  </motion.div>\n);",
+    "relatedPromptIds": [
+      "prompt-motion-shared-layout-transition",
+      "prompt-motion-repo-specialist"
+    ],
+    "canonicalProductId": "motion",
+    "isSecondaryMirror": true,
+    "updatedAt": "2026-10-31T20:49:00Z"
+  },
+  {
+    "id": "repo-manim",
+    "sourceId": "manim",
+    "num": 31,
+    "name": "ManimCommunity/manim",
+    "displayName": "Manim Community",
+    "description": "Community-maintained Python animation engine for explanatory mathematics, algorithmic diagrams, LaTeX equation morphing, and precision technical storytelling (originally created by Grant Sanderson / 3Blue1Brown).",
+    "githubUrl": "https://github.com/ManimCommunity/manim",
+    "homepageUrl": "https://docs.manim.community/en/stable/examples.html",
+    "documentationUrl": "https://docs.manim.community/",
+    "license": "MIT",
+    "stars": 42069,
+    "forks": 3258,
+    "language": "Python",
+    "framework": "Python / Manim / LaTeX",
+    "topics": [
+      "animations",
+      "hacktoberfest",
+      "manim",
+      "math",
+      "python"
+    ],
+    "installation": "pip install manim",
+    "keyFeatures": [
+      "Primary domain: Video (J. Video / Motion / Generative Toolchain)",
+      "Core stack: Python, Manim, LaTeX, Cairo, OpenGL, FFmpeg",
+      "License verified: MIT",
+      "Referenced cleanly via metadata and minimal educational code without vendor bloat."
+    ],
+    "codeExample": "from manim import *\n\nclass EulerIdentityScene(Scene):\n    def construct(self):\n        eq = MathTex(r\"e^{i\\pi} + 1 = 0\", font_size=72)\n        self.play(Write(eq), run_time=2)\n        self.wait(1)",
+    "relatedPromptIds": [
+      "prompt-manim-mathematical-explainer"
+    ],
+    "canonicalProductId": "manim",
+    "isSecondaryMirror": false,
+    "updatedAt": "2026-10-31T20:42:47Z"
+  },
+  {
+    "id": "repo-lottie-web",
+    "sourceId": "lottie-web",
+    "num": 32,
+    "name": "airbnb/lottie-web",
+    "displayName": "Lottie Web",
+    "description": "Airbnb’s native web runtime for parsing and rendering Adobe After Effects animations exported as Bodymovin JSON natively on SVG, Canvas, or HTML.",
+    "githubUrl": "https://github.com/airbnb/lottie-web",
+    "homepageUrl": "https://airbnb.io/lottie/",
+    "documentationUrl": "https://github.com/airbnb/lottie-web/wiki",
+    "license": "MIT",
+    "stars": 32309,
+    "forks": 2955,
+    "language": "JavaScript",
+    "framework": "JavaScript / Lottie JSON / SVG",
+    "topics": [
+      "Motion",
+      "Vector Animation",
+      "SVG",
+      "Canvas",
+      "Performance",
+      "UI"
+    ],
+    "installation": "npm install lottie-web",
+    "keyFeatures": [
+      "Primary domain: Motion (J. Video / Motion / Generative Toolchain)",
+      "Core stack: JavaScript, Lottie JSON, SVG, HTML5 Canvas",
+      "License verified: MIT",
+      "Referenced cleanly via metadata and minimal educational code without vendor bloat."
+    ],
+    "codeExample": "import lottie from \"lottie-web\";\n\nconst anim = lottie.loadAnimation({\n  container: document.getElementById(\"lottie-stage\")!,\n  renderer: \"svg\",\n  loop: false,\n  autoplay: false,\n  path: \"/animations/vector-rig.json\",\n});\nanim.goToAndStop(45, true);",
+    "relatedPromptIds": [
+      "prompt-lottie-web-scroll-scrubber"
+    ],
+    "canonicalProductId": "lottie-web",
+    "isSecondaryMirror": false,
+    "updatedAt": "2026-10-31T20:01:19Z"
+  },
+  {
+    "id": "repo-mcp-for-blender",
+    "sourceId": "mcp-for-blender",
+    "num": 33,
+    "name": "ahujasid/mcp-for-blender",
+    "displayName": "MCP for Blender",
+    "description": "Model Context Protocol (MCP) integration connecting AI coding and creative agents directly to Blender via a TCP socket addon—enabling prompt-driven 3D modeling, procedural materials, lighting, and camera animation.",
+    "githubUrl": "https://github.com/ahujasid/mcp-for-blender",
+    "homepageUrl": "https://github.com/ahujasid/mcp-for-blender",
+    "documentationUrl": "https://github.com/ahujasid/mcp-for-blender#readme",
+    "license": "MIT",
+    "stars": 32913,
+    "forks": 2981,
+    "language": "Python",
+    "framework": "Python / Blender bpy / Model Context Protocol (MCP)",
+    "topics": [
+      "3d-modeling",
+      "ai",
+      "blender",
+      "blender-addon",
+      "blender-mcp",
+      "claude",
+      "generative-ai",
+      "llm"
+    ],
+    "installation": "uvx blender-mcp",
+    "keyFeatures": [
+      "Primary domain: 3D (J. Video / Motion / Generative Toolchain)",
+      "Core stack: Python, Blender bpy, Model Context Protocol (MCP), JSON-RPC",
+      "License verified: MIT",
+      "Referenced cleanly via metadata and minimal educational code without vendor bloat."
+    ],
+    "codeExample": "// Claude Desktop / Cursor MCP configuration for Blender\n{\n  \"mcpServers\": {\n    \"blender\": {\n      \"command\": \"uvx\",\n      \"args\": [\"blender-mcp\"]\n    }\n  }\n}",
+    "relatedPromptIds": [
+      "prompt-mcp-blender-procedural-studio"
+    ],
+    "canonicalProductId": "mcp-for-blender",
+    "isSecondaryMirror": false,
+    "updatedAt": "2026-10-31T20:03:32Z"
+  },
+  {
+    "id": "repo-threejs",
+    "sourceId": "threejs",
+    "num": 34,
+    "name": "mrdoob/three.js",
+    "displayName": "Three.js",
+    "description": "Foundational 3D WebGL and WebGPU graphics library for the web—powering interactive 3D scenes, physically based rendering (PBR), custom GLSL shaders, skeletal animations, and spatial experiences.",
+    "githubUrl": "https://github.com/mrdoob/three.js",
+    "homepageUrl": "https://threejs.org/examples/",
+    "documentationUrl": "https://threejs.org/docs/",
+    "license": "MIT",
+    "stars": 117304,
+    "forks": 36846,
+    "language": "JavaScript",
+    "framework": "Three.js / WebGL2 / WebGPU",
+    "topics": [
+      "3d",
+      "augmented-reality",
+      "canvas",
+      "html5",
+      "javascript",
+      "svg",
+      "virtual-reality",
+      "webaudio"
+    ],
+    "installation": "npm install three @types/three",
+    "keyFeatures": [
+      "Primary domain: 3D (J. Video / Motion / Generative Toolchain)",
+      "Core stack: Three.js, WebGL2, WebGPU, GLSL, JavaScript, TypeScript",
+      "License verified: MIT",
+      "Referenced cleanly via metadata and minimal educational code without vendor bloat."
+    ],
+    "codeExample": "import * as THREE from \"three\";\n\nconst scene = new THREE.Scene();\nconst camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.1, 100);\nconst mesh = new THREE.Mesh(\n  new THREE.IcosahedronGeometry(1.2, 3),\n  new THREE.MeshPhysicalMaterial({ roughness: 0.1, transmission: 0.9, thickness: 1.2 })\n);\nscene.add(mesh);",
+    "relatedPromptIds": [
+      "prompt-threejs-pbr-pathtraced-scene"
+    ],
+    "canonicalProductId": "threejs",
+    "isSecondaryMirror": false,
+    "updatedAt": "2026-10-31T20:24:15Z"
+  },
+  {
+    "id": "repo-three-gpu-pathtracer",
+    "sourceId": "three-gpu-pathtracer",
+    "num": 35,
+    "name": "gkjohnson/three-gpu-pathtracer",
+    "displayName": "Three GPU Pathtracer",
+    "description": "Real-time and progressive GPU path tracer for Three.js built on `three-mesh-bvh`—delivering physically accurate global illumination, soft area shadows, dispersion, and mirror/dielectric reflections in the browser.",
+    "githubUrl": "https://github.com/gkjohnson/three-gpu-pathtracer",
+    "homepageUrl": "https://gkjohnson.github.io/three-gpu-pathtracer/",
+    "documentationUrl": "https://github.com/gkjohnson/three-gpu-pathtracer#readme",
+    "license": "MIT",
+    "stars": 1950,
+    "forks": 190,
+    "language": "JavaScript",
+    "framework": "Three.js / WebGL2 / BVH",
+    "topics": [
+      "bvh",
+      "geometry",
+      "graphics",
+      "mesh",
+      "path",
+      "path-tracer",
+      "path-tracing",
+      "performance"
+    ],
+    "installation": "npm install three-gpu-pathtracer three-mesh-bvh",
+    "keyFeatures": [
+      "Primary domain: 3D (J. Video / Motion / Generative Toolchain)",
+      "Core stack: Three.js, WebGL2, BVH, GLSL Path Tracing",
+      "License verified: MIT",
+      "Referenced cleanly via metadata and minimal educational code without vendor bloat."
+    ],
+    "codeExample": "import { WebGLPathTracer } from \"three-gpu-pathtracer\";\n\nconst pathTracer = new WebGLPathTracer(renderer);\npathTracer.setScene(scene, camera);\n// In render loop:\npathTracer.renderSample();",
+    "relatedPromptIds": [
+      "prompt-three-gpu-pathtracer-specialist"
+    ],
+    "canonicalProductId": "three-gpu-pathtracer",
+    "isSecondaryMirror": false,
+    "updatedAt": "2026-10-31T20:15:24Z"
+  },
+  {
+    "id": "repo-jolt-physics",
+    "sourceId": "jolt-physics",
+    "num": 36,
+    "name": "jrouwe/JoltPhysics",
+    "displayName": "Jolt Physics",
+    "description": "High-performance multi-core rigid body and soft body physics and collision detection engine (used in Horizon Forbidden West) with official WebAssembly bindings for Three.js and WebGL.",
+    "githubUrl": "https://github.com/jrouwe/JoltPhysics",
+    "homepageUrl": "https://jrouwe.github.io/JoltPhysics.js/",
+    "documentationUrl": "https://jrouwe.github.io/JoltPhysics/",
+    "license": "MIT",
+    "stars": 12046,
+    "forks": 990,
+    "language": "C++",
+    "framework": "C++ / WebAssembly / JoltPhysics.js",
+    "topics": [
+      "c-plus-plus",
+      "cpp",
+      "game-development",
+      "game-engine",
+      "physics",
+      "physics-engine",
+      "physics-simulation",
+      "simulation"
+    ],
+    "installation": "npm install jolt-physics",
+    "keyFeatures": [
+      "Primary domain: 3D (J. Video / Motion / Generative Toolchain)",
+      "Core stack: C++, WebAssembly, JoltPhysics.js, Three.js, Rigid/Soft Body",
+      "License verified: MIT",
+      "Referenced cleanly via metadata and minimal educational code without vendor bloat."
+    ],
+    "codeExample": "import initJolt from \"jolt-physics\";\n\nconst Jolt = await initJolt();\nconst settings = new Jolt.JoltSettings();\nconst jolt = new Jolt.JoltInterface(settings);\nconst physicsSystem = jolt.GetPhysicsSystem();",
+    "relatedPromptIds": [
+      "prompt-jolt-physics-specialist"
+    ],
+    "canonicalProductId": "jolt-physics",
+    "isSecondaryMirror": false,
+    "updatedAt": "2026-10-31T20:58:05Z"
+  },
+  {
+    "id": "repo-postprocessing",
+    "sourceId": "postprocessing",
+    "num": 37,
+    "name": "pmndrs/postprocessing",
+    "displayName": "postprocessing (pmndrs)",
+    "description": "High-performance post-processing library for Three.js that automatically merges multiple shader effects (Bloom, Depth of Field, Chromatic Aberration, Vignette, 3D LUT Color Grading) into consolidated render passes.",
+    "githubUrl": "https://github.com/pmndrs/postprocessing",
+    "homepageUrl": "https://pmndrs.github.io/postprocessing/public/demo/",
+    "documentationUrl": "https://pmndrs.github.io/postprocessing/public/docs/",
+    "license": "Zlib",
+    "stars": 2916,
+    "forks": 253,
+    "language": "JavaScript",
+    "framework": "Three.js / WebGL2 / GLSL",
+    "topics": [
+      "2d-filter-effects",
+      "composer",
+      "effects",
+      "image-effects",
+      "image-processing",
+      "post-processing",
+      "real-time",
+      "three-js"
+    ],
+    "installation": "npm install postprocessing three",
+    "keyFeatures": [
+      "Primary domain: WebGL (J. Video / Motion / Generative Toolchain)",
+      "Core stack: Three.js, WebGL2, GLSL, EffectComposer, React Three Fiber",
+      "License verified: Zlib",
+      "Referenced cleanly via metadata and minimal educational code without vendor bloat."
+    ],
+    "codeExample": "import { EffectComposer, EffectPass, RenderPass, SelectiveBloomEffect } from \"postprocessing\";\n\nconst composer = new EffectComposer(renderer);\ncomposer.addPass(new RenderPass(scene, camera));\ncomposer.addPass(new EffectPass(camera, new SelectiveBloomEffect(scene, camera, { intensity: 1.5 })));",
+    "relatedPromptIds": [
+      "prompt-webgl-postprocessing-quarks-tweakpane"
+    ],
+    "canonicalProductId": "postprocessing",
+    "isSecondaryMirror": false,
+    "updatedAt": "2026-10-31T20:04:12Z"
+  },
+  {
+    "id": "repo-three-quarks",
+    "sourceId": "three-quarks",
+    "num": 38,
+    "name": "Alchemist0823/three.quarks",
+    "displayName": "Three.quarks",
+    "description": "Fast, batched GPU particle system and VFX engine for Three.js supporting emitter shapes, ribbon trails, noise force fields, sub-emitters, and mesh particles in a single draw call.",
+    "githubUrl": "https://github.com/Alchemist0823/three.quarks",
+    "homepageUrl": "https://quarks.art/",
+    "documentationUrl": "https://github.com/Alchemist0823/three.quarks#readme",
+    "license": "MIT",
+    "stars": 1145,
+    "forks": 74,
+    "language": "TypeScript",
+    "framework": "Three.js / TypeScript / WebGL Instancing",
+    "topics": [
+      "animation",
+      "devtools",
+      "particles",
+      "threejs",
+      "webgl"
+    ],
+    "installation": "npm install three.quarks three",
+    "keyFeatures": [
+      "Primary domain: VFX (J. Video / Motion / Generative Toolchain)",
+      "Core stack: Three.js, TypeScript, WebGL Instancing, Particle VFX",
+      "License verified: MIT",
+      "Referenced cleanly via metadata and minimal educational code without vendor bloat."
+    ],
+    "codeExample": "import { BatchedRenderer, ParticleSystem, ConeEmitter, IntervalValue, ColorRange } from \"three.quarks\";\n\nconst batchRenderer = new BatchedRenderer();\nscene.add(batchRenderer);\nconst sparks = new ParticleSystem({\n  duration: 2,\n  looping: true,\n  startLife: new IntervalValue(0.4, 1.1),\n  shape: new ConeEmitter({ radius: 0.2, angle: 0.4 }),\n});\nbatchRenderer.addSystem(sparks);",
+    "relatedPromptIds": [
+      "prompt-three-quarks-specialist"
+    ],
+    "canonicalProductId": "three-quarks",
+    "isSecondaryMirror": false,
+    "updatedAt": "2026-10-31T20:11:03Z"
+  },
+  {
+    "id": "repo-tweakpane",
+    "sourceId": "tweakpane",
+    "num": 39,
+    "name": "cocopon/tweakpane",
+    "displayName": "Tweakpane",
+    "description": "Compact, modular GUI panel for fine-tuning creative coding parameters, shader uniforms, spring physics constants, and monitoring real-time frame waveforms.",
+    "githubUrl": "https://github.com/cocopon/tweakpane",
+    "homepageUrl": "https://tweakpane.github.io/docs/",
+    "documentationUrl": "https://tweakpane.github.io/docs/getting-started/",
+    "license": "MIT",
+    "stars": 4628,
+    "forks": 131,
+    "language": "TypeScript",
+    "framework": "TypeScript / Tweakpane / Canvas",
+    "topics": [
+      "creative-coding",
+      "gui",
+      "tweakpane",
+      "tweaks",
+      "zero-dependency"
+    ],
+    "installation": "npm install tweakpane",
+    "keyFeatures": [
+      "Primary domain: Tool (J. Video / Motion / Generative Toolchain)",
+      "Core stack: TypeScript, Tweakpane, Canvas, WebGL Uniforms",
+      "License verified: MIT",
+      "Referenced cleanly via metadata and minimal educational code without vendor bloat."
+    ],
+    "codeExample": "import { Pane } from \"tweakpane\";\n\nconst params = { bloomIntensity: 1.4, timeScale: 1.0, wireframe: false };\nconst pane = new Pane({ title: \"Scene Parameters\" });\npane.addBinding(params, \"bloomIntensity\", { min: 0, max: 4, step: 0.05 });\npane.addBinding(params, \"timeScale\", { min: 0, max: 2, step: 0.05 });\npane.addBinding(params, \"wireframe\");",
+    "relatedPromptIds": [
+      "prompt-tweakpane-specialist"
+    ],
+    "canonicalProductId": "tweakpane",
+    "isSecondaryMirror": false,
+    "updatedAt": "2026-10-31T20:13:37Z"
+  },
+  {
+    "id": "repo-comfyui",
+    "sourceId": "comfyui",
+    "num": 40,
+    "name": "Comfy-Org/ComfyUI",
+    "displayName": "ComfyUI",
+    "description": "Modular node-based DAG workflow engine for diffusion models, ControlNet, video generation, and procedural image synthesis via reusable JSON graphs and headless WebSocket API execution.",
+    "githubUrl": "https://github.com/Comfy-Org/ComfyUI",
+    "homepageUrl": "https://comfyanonymous.github.io/ComfyUI_examples/",
+    "documentationUrl": "https://docs.comfy.org/",
+    "license": "GPL-3.0",
+    "stars": 144345,
+    "forks": 17161,
+    "language": "Python",
+    "framework": "Python / PyTorch / ComfyUI API",
+    "topics": [
+      "ai",
+      "comfy",
+      "comfyui",
+      "python",
+      "pytorch",
+      "stable-diffusion"
+    ],
+    "installation": "pip install comfy-cli && comfy install",
+    "keyFeatures": [
+      "Primary domain: Generative AI (J. Video / Motion / Generative Toolchain)",
+      "Core stack: Python, PyTorch, ComfyUI API, DAG JSON Workflows",
+      "License verified: GPL-3.0",
+      "Referenced cleanly via metadata and minimal educational code without vendor bloat."
+    ],
+    "codeExample": "# Submit a deterministic API graph to local ComfyUI server (no model weights in git)\ncurl -X POST http://127.0.0.1:8188/prompt \\\n  -H \"Content-Type: application/json\" \\\n  -d @workflow_api.json",
+    "relatedPromptIds": [
+      "prompt-comfyui-reproducible-workflow-api"
+    ],
+    "canonicalProductId": "comfyui",
+    "isSecondaryMirror": false,
+    "updatedAt": "2026-10-31T21:07:19Z"
+  },
+  {
+    "id": "repo-cosyvoice",
+    "sourceId": "cosyvoice",
+    "num": 41,
+    "name": "QwenAudio/CosyVoice",
+    "displayName": "CosyVoice",
+    "description": "Multilingual speech generation and zero-shot voice synthesis system supporting fine-grained emotional prosody, paralinguistic markers, and streaming narration for automated video pipelines.",
+    "githubUrl": "https://github.com/FunAudioLLM/CosyVoice",
+    "homepageUrl": "https://funaudiollm.github.io/cosyvoice2/",
+    "documentationUrl": "https://github.com/FunAudioLLM/CosyVoice#readme",
+    "license": "Apache-2.0",
+    "stars": 24214,
+    "forks": 2766,
+    "language": "Python",
+    "framework": "Python / PyTorch / CosyVoice",
+    "topics": [
+      "audio-generation",
+      "cantonese",
+      "chatbot",
+      "chatgpt",
+      "chinese",
+      "cosyvoice",
+      "cross-lingual",
+      "english"
+    ],
+    "installation": "git clone --recursive https://github.com/FunAudioLLM/CosyVoice.git",
+    "keyFeatures": [
+      "Primary domain: Audio (J. Video / Motion / Generative Toolchain)",
+      "Core stack: Python, PyTorch, CosyVoice, Audio Synthesis",
+      "License verified: Apache-2.0",
+      "Referenced cleanly via metadata and minimal educational code without vendor bloat."
+    ],
+    "codeExample": "from cosyvoice.cli.cosyvoice import CosyVoice2\nimport torchaudio\n\ncosyvoice = CosyVoice2(\"iic/CosyVoice2-0.5B\", load_jit=False, load_trt=False)\nfor i, chunk in enumerate(cosyvoice.inference_sft(\"Masallah yaratici arsivine hos geldiniz.\", \"Turkish\")):\n    torchaudio.save(f\"narration_{i}.wav\", chunk[\"tts_speech\"], 24000)",
+    "relatedPromptIds": [
+      "prompt-cosyvoice-whisperx-narration-pipeline"
+    ],
+    "canonicalProductId": "cosyvoice",
+    "isSecondaryMirror": false,
+    "updatedAt": "2026-10-31T20:14:41Z"
+  },
+  {
+    "id": "repo-librosa",
+    "sourceId": "librosa",
+    "num": 42,
+    "name": "librosa/librosa",
+    "displayName": "librosa",
+    "description": "Industry-standard Python library for music and audio analysis—providing beat tracking, tempo estimation, onset detection, harmonic-percussive separation, and spectral feature extraction for audio-reactive visuals.",
+    "githubUrl": "https://github.com/librosa/librosa",
+    "homepageUrl": "https://librosa.org/doc/latest/auto_examples/index.html",
+    "documentationUrl": "https://librosa.org/doc/latest/index.html",
+    "license": "ISC",
+    "stars": 8740,
+    "forks": 1095,
+    "language": "Python",
+    "framework": "Python / librosa / NumPy",
+    "topics": [
+      "audio",
+      "dsp",
+      "librosa",
+      "music",
+      "python",
+      "scipy"
+    ],
+    "installation": "pip install librosa",
+    "keyFeatures": [
+      "Primary domain: Audio (J. Video / Motion / Generative Toolchain)",
+      "Core stack: Python, librosa, NumPy, SciPy, FFT / Spectrogram",
+      "License verified: ISC",
+      "Referenced cleanly via metadata and minimal educational code without vendor bloat."
+    ],
+    "codeExample": "import librosa, json\n\ny, sr = librosa.load(\"soundtrack.wav\", sr=22050)\n_, y_perc = librosa.effects.hpss(y)\ntempo, beat_frames = librosa.beat.beat_track(y=y_perc, sr=sr)\nbeat_times = librosa.frames_to_time(beat_frames, sr=sr).tolist()\nprint(json.dumps({\"bpm\": float(tempo), \"beats\": beat_times[:12]}))",
+    "relatedPromptIds": [
+      "prompt-librosa-audio-reactive-sync"
+    ],
+    "canonicalProductId": "librosa",
+    "isSecondaryMirror": false,
+    "updatedAt": "2026-10-31T20:41:20Z"
+  },
+  {
+    "id": "repo-whisperx",
+    "sourceId": "whisperx",
+    "num": 43,
+    "name": "m-bain/whisperX",
+    "displayName": "WhisperX",
+    "description": "Automatic speech recognition pipeline combining faster-whisper with phoneme-based forced alignment (wav2vec2) and speaker diarization for millisecond-accurate word-level subtitle timing.",
+    "githubUrl": "https://github.com/m-bain/whisperX",
+    "homepageUrl": "https://github.com/m-bain/whisperX",
+    "documentationUrl": "https://github.com/m-bain/whisperX#readme",
+    "license": "BSD-2-Clause",
+    "stars": 24980,
+    "forks": 2515,
+    "language": "Python",
+    "framework": "Python / WhisperX / faster-whisper",
+    "topics": [
+      "asr",
+      "speech",
+      "speech-recognition",
+      "speech-to-text",
+      "whisper"
+    ],
+    "installation": "pip install whisperx",
+    "keyFeatures": [
+      "Primary domain: Audio (J. Video / Motion / Generative Toolchain)",
+      "Core stack: Python, WhisperX, faster-whisper, wav2vec2, Pyannote",
+      "License verified: BSD-2-Clause",
+      "Referenced cleanly via metadata and minimal educational code without vendor bloat."
+    ],
+    "codeExample": "import whisperx\n\nmodel = whisperx.load_model(\"large-v3\", device=\"cuda\", compute_type=\"float16\")\naudio = whisperx.load_audio(\"narration.wav\")\nresult = model.transcribe(audio, batch_size=16)\nmodel_a, metadata = whisperx.load_align_model(language_code=result[\"language\"], device=\"cuda\")\naligned = whisperx.align(result[\"segments\"], model_a, metadata, audio, \"cuda\")",
+    "relatedPromptIds": [
+      "prompt-whisperx-specialist"
+    ],
+    "canonicalProductId": "whisperx",
+    "isSecondaryMirror": false,
+    "updatedAt": "2026-10-31T20:15:04Z"
+  },
+  {
+    "id": "repo-obs-studio",
+    "sourceId": "obs-studio",
+    "num": 44,
+    "name": "obsproject/obs-studio",
+    "displayName": "OBS Studio",
+    "description": "Open-source cross-platform studio for low-overhead GPU screen recording, WebGL Browser Source compositing, and programmatic scene automation via `obs-websocket`.",
+    "githubUrl": "https://github.com/obsproject/obs-studio",
+    "homepageUrl": "https://obsproject.com",
+    "documentationUrl": "https://obsproject.com/kb",
+    "license": "GPL-2.0",
+    "stars": 78708,
+    "forks": 10988,
+    "language": "C",
+    "framework": "C/C++ / OBS Studio / obs-websocket",
+    "topics": [
+      "c",
+      "c-plus-plus",
+      "directshow",
+      "facebook-live",
+      "ffmpeg",
+      "game-capture",
+      "live-streaming",
+      "screen-capture"
+    ],
+    "installation": "brew install --cask obs",
+    "keyFeatures": [
+      "Primary domain: Video (J. Video / Motion / Generative Toolchain)",
+      "Core stack: C/C++, OBS Studio, obs-websocket, NVENC / VideoToolbox",
+      "License verified: GPL-2.0",
+      "Referenced cleanly via metadata and minimal educational code without vendor bloat."
+    ],
+    "codeExample": "# Record lossless MKV segment & trigger scene switch via obs-websocket CLI\nobs-cmd --websocket obsws://localhost:4455 scene switch \"3D_WebGL_Capture\"\nobs-cmd --websocket obsws://localhost:4455 recording start",
+    "relatedPromptIds": [
+      "prompt-obs-studio-specialist"
+    ],
+    "canonicalProductId": "obs-studio",
+    "isSecondaryMirror": false,
+    "updatedAt": "2026-10-31T20:15:19Z"
+  },
+  {
+    "id": "repo-lossless-cut",
+    "sourceId": "lossless-cut",
+    "num": 45,
+    "name": "mifi/lossless-cut",
+    "displayName": "LosslessCut",
+    "description": "Swiss army knife of lossless video and audio trimming—cutting, merging, and extracting segments directly on keyframe boundaries via FFmpeg stream copy without re-encoding.",
+    "githubUrl": "https://github.com/mifi/lossless-cut",
+    "homepageUrl": "https://mifi.no/losslesscut/",
+    "documentationUrl": "https://github.com/mifi/lossless-cut/blob/master/doc/cli.md",
+    "license": "GPL-2.0",
+    "stars": 45529,
+    "forks": 2297,
+    "language": "TypeScript",
+    "framework": "Electron / TypeScript / FFmpeg Stream Copy",
+    "topics": [
+      "codec",
+      "cut",
+      "editor",
+      "ffmpeg",
+      "lossless",
+      "losslesscut",
+      "player",
+      "video"
+    ],
+    "installation": "brew install --cask losslesscut",
+    "keyFeatures": [
+      "Primary domain: Video (J. Video / Motion / Generative Toolchain)",
+      "Core stack: Electron, TypeScript, FFmpeg Stream Copy, EDL",
+      "License verified: GPL-2.0",
+      "Referenced cleanly via metadata and minimal educational code without vendor bloat."
+    ],
+    "codeExample": "# Lossless keyframe stream copy using FFmpeg / LosslessCut project workflow\nffmpeg -ss 00:00:08.000 -to 00:00:26.000 -i raw_capture.mkv -c copy -map 0 clip_lossless.mp4",
+    "relatedPromptIds": [
+      "prompt-lossless-cut-specialist"
+    ],
+    "canonicalProductId": "lossless-cut",
+    "isSecondaryMirror": false,
+    "updatedAt": "2026-10-31T20:21:09Z"
+  },
+  {
+    "id": "repo-ffmpeg",
+    "sourceId": "ffmpeg",
+    "num": 46,
+    "name": "FFmpeg/FFmpeg",
+    "displayName": "FFmpeg",
+    "description": "Universal multimedia framework for decoding, encoding, transcoding, muxing, filtering, and streaming audio/video across every production pipeline.",
+    "githubUrl": "https://github.com/FFmpeg/FFmpeg",
+    "homepageUrl": "https://ffmpeg.org",
+    "documentationUrl": "https://ffmpeg.org/documentation.html",
+    "license": "LGPL-2.1+ / GPL-2.0+",
+    "stars": 66157,
+    "forks": 14479,
+    "language": "C",
+    "framework": "C / FFmpeg / libx264",
+    "topics": [
+      "audio",
+      "c",
+      "ffmpeg",
+      "fft",
+      "hevc",
+      "hls",
+      "matroska",
+      "mp4"
+    ],
+    "installation": "brew install ffmpeg",
+    "keyFeatures": [
+      "Primary domain: Video (J. Video / Motion / Generative Toolchain)",
+      "Core stack: C, FFmpeg, libx264, libsvtav1, libvpx-vp9, Filtergraphs",
+      "License verified: LGPL-2.1+ / GPL-2.0+",
+      "Referenced cleanly via metadata and minimal educational code without vendor bloat."
+    ],
+    "codeExample": "# Faststart H.264 + EBU R128 (-14 LUFS) audio normalization for web delivery\nffmpeg -i input.mp4 \\\n  -af \"loudnorm=I=-14:TP=-1.0:LRA=11\" \\\n  -c:v libx264 -preset slow -crf 20 -pix_fmt yuv420p \\\n  -movflags +faststart output_web.mp4",
+    "relatedPromptIds": [
+      "prompt-ffmpeg-lossless-mastering-pipeline"
+    ],
+    "canonicalProductId": "ffmpeg",
+    "isSecondaryMirror": false,
+    "updatedAt": "2026-10-31T21:07:35Z"
+  }
+]

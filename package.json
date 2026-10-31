@@ -1,0 +1,22 @@
+{
+  "name": "masallah-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A curated archive of designs, prompts, experiments, repositories, motion, creative coding and visual references.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aliemrebuyukkol/Masallah.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "collect": "node scripts/collect/discover-sources.mjs",
+    "normalize": "node scripts/normalize/build-catalog.mjs",
+    "validate": "node scripts/normalize/validate-catalog.mjs",
+    "security:scan": "node scripts/collect/security-scan.mjs",
+    "dev": "npm --prefix apps/web run dev",
+    "build": "node scripts/normalize/build-catalog.mjs && node scripts/normalize/validate-catalog.mjs && node scripts/collect/security-scan.mjs && npm --prefix apps/web run build",
+    "test": "npm --prefix apps/web run test",
+    "test:e2e": "npm --prefix apps/web run test:e2e",
+    "typecheck": "npm --prefix apps/web run typecheck"
+  }
+}

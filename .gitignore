@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+**/node_modules/
+.pnp
+.pnp.js
+
+# Next.js build / export
+.next/
+**/out/
+**/.next/
+build/
+dist/
+
+# Testing
+coverage/
+playwright-report/
+test-results/
+
+# Secrets & Environment (NEVER COMMIT)
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.mobileprovision
+credentials.json
+service-account*.json
+
+# OS / Editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
+*.tsbuildinfo
+next-env.d.ts

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg-mcp-for-blender" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#08151F" />
+      <stop offset="100%" stop-color="#08080A" />
+    </linearGradient>
+    <radialGradient id="glow-mcp-for-blender" cx="78%" cy="24%" r="55%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.34" />
+      <stop offset="55%" stop-color="#3B82F6" stop-opacity="0.10" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid-mcp-for-blender" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.045)" stroke-width="1" />
+    </pattern>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg-mcp-for-blender)" />
+  <rect width="800" height="500" fill="url(#grid-mcp-for-blender)" />
+  <rect width="800" height="500" fill="url(#glow-mcp-for-blender)" />
+  <g stroke="rgba(255,255,255,0.12)" fill="none">
+    <rect x="32" y="32" width="736" height="436" rx="16" />
+    <line x1="32" y1="104" x2="768" y2="104" />
+    <line x1="32" y1="396" x2="768" y2="396" />
+    <circle cx="620" cy="250" r="96" stroke="#06B6D4" stroke-opacity="0.45" stroke-width="1.5" />
+    <circle cx="620" cy="250" r="56" stroke="#3B82F6" stroke-opacity="0.55" stroke-dasharray="6 6" />
+    <path d="M 524 250 L 716 250 M 620 154 L 620 346" stroke="rgba(255,255,255,0.08)" />
+  </g>
+  <text x="64" y="76" fill="#06B6D4" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" font-weight="600" letter-spacing="2">SOURCE #33 // 3D</text>
+  <text x="736" y="76" text-anchor="end" fill="#F4F3EF" opacity="0.75" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">★ 32.9k</text>
+  <text x="64" y="232" fill="#F4F3EF" font-family="-apple-system, BlinkMacSystemFont, Inter, sans-serif" font-size="44" font-weight="700" letter-spacing="-1">MCP for Blender</text>
+  <text x="64" y="276" fill="#A1A1AA" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">Python · Blender bpy · Model Context Protocol (MCP)</text>
+  <rect x="64" y="310" width="140" height="6" rx="3" fill="#06B6D4" />
+  <rect x="214" y="310" width="68" height="6" rx="3" fill="#3B82F6" opacity="0.65" />
+  <text x="64" y="438" fill="#A1A1AA" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">github.com/ahujasid/mcp-for-blender</text>
+  <text x="736" y="438" text-anchor="end" fill="#F4F3EF" opacity="0.6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">MASALLAH ARCHIVE</text>
+</svg>
